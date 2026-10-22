@@ -1,0 +1,2137 @@
+{
+  "schemaVersion": "1.0",
+  "examId": "upsssc-pet-2021-shift-2-gamma21-a",
+  "title": "UPSSSC Preliminary Eligibility Test (PET) 2021 - Shift 2 (GAMMA21 Series A)",
+  "examDate": null,
+  "shift": "Shift 2 (द्वितीय पाली)",
+  "paperSet": "A (GAMMA21)",
+  "durationMinutes": 120,
+  "totalQuestions": 100,
+  "markingScheme": {
+    "marksPerCorrect": 1.0,
+    "marksPerIncorrect": -0.25,
+    "marksPerUnattempted": 0.0
+  },
+  "questions": [
+    {
+      "id": "Q001",
+      "originalQuestionNumber": "1",
+      "subject": "Indian History",
+      "question": {
+        "en": "In which order did the following come to India?\nI. Thomas Roe\nII. Fa-hien\nIII. Hiuen-Tsang",
+        "hi": "निम्नलिखित किस क्रम में भारत आए ?\nI. टामस रो\nII. फाह्यान\nIII. ह्वेनसांग"
+      },
+      "options": [
+        { "id": "A", "en": "I, II, III", "hi": "I, II, III" },
+        { "id": "B", "en": "II, I, III", "hi": "II, I, III" },
+        { "id": "C", "en": "II, III, I", "hi": "II, III, I" },
+        { "id": "D", "en": "III, I, II", "hi": "III, I, II" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "Fa-hien visited India during the reign of Chandragupta II (c. 399–414 CE), Hiuen-Tsang visited during the reign of Harshavardhana (c. 629–645 CE), and Sir Thomas Roe arrived at the court of Mughal Emperor Jahangir in 1615 CE. Correct chronological order: II, III, I.",
+      "sourcePage": 2,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q002",
+      "originalQuestionNumber": "2",
+      "subject": "Indian History",
+      "question": {
+        "en": "Siraj-ud-daula was defeated by British in the battle of :",
+        "hi": "सिराज़-उद्-दौला किस युद्ध में अंग्रेजों से पराजित हुआ था ?"
+      },
+      "options": [
+        { "id": "A", "en": "Buxar", "hi": "बक्सर" },
+        { "id": "B", "en": "Plassey", "hi": "प्लासी" },
+        { "id": "C", "en": "Wandiwash", "hi": "वाण्डिवाश" },
+        { "id": "D", "en": "None of these", "hi": "इनमें से कोई नहीं" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Nawab Siraj-ud-daula of Bengal was defeated by the British East India Company Forces led by Robert Clive in the Battle of Plassey on 23 June 1757.",
+      "sourcePage": 2,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q003",
+      "originalQuestionNumber": "3",
+      "subject": "Indian History",
+      "question": {
+        "en": "Who among the following was the great protagonist of the 'Doctrine of Lapse'?",
+        "hi": "इनमें से कौन 'हड़प नीति' का कट्टर समर्थक था ?"
+      },
+      "options": [
+        { "id": "A", "en": "Lord Wellesley", "hi": "लॉर्ड वेलेज़ली" },
+        { "id": "B", "en": "Lord Dalhousie", "hi": "लॉर्ड डलहौजी" },
+        { "id": "C", "en": "Lord Minto", "hi": "लॉर्ड मिंटो" },
+        { "id": "D", "en": "Lord Hastings", "hi": "लॉर्ड हेस्टिंग्स" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Lord Dalhousie (Governor-General of India from 1848 to 1856) extensively implemented the Doctrine of Lapse to annex Indian princely states.",
+      "sourcePage": 2,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q004",
+      "originalQuestionNumber": "4",
+      "subject": "Indian History",
+      "question": {
+        "en": "In Indian History who was Dhanvantari?",
+        "hi": "भारतीय इतिहास में धनवन्तरी कौन थे ?"
+      },
+      "options": [
+        { "id": "A", "en": "A famous general of Chandragupta Maurya", "hi": "चंद्रगुप्त मौर्य के प्रसिद्ध सेनापति" },
+        { "id": "B", "en": "A noted physician who adorned the court of Chandragupta Vikramaditya", "hi": "चंद्रगुप्त विक्रमादित्य की सभा को सुशोभित करने वाले प्रसिद्ध चिकित्सक" },
+        { "id": "C", "en": "A famous dramatist who lived during the time of Harsha", "hi": "हर्ष के समय के एक प्रसिद्ध नाटककार" },
+        { "id": "D", "en": "None of these", "hi": "इनमें से कोई नहीं" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Dhanvantari was a renowned physician and one of the Navratnas (nine gems) in the court of Gupta ruler Chandragupta II (Vikramaditya).",
+      "sourcePage": 2,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q005",
+      "originalQuestionNumber": "5",
+      "subject": "Indian History",
+      "question": {
+        "en": "\"Indica\" which is an account of Mauryan India was authored by",
+        "hi": "मौर्यकालीन भारत के विवरण वाली \"इंडिका\" के लेखक थे -"
+      },
+      "options": [
+        { "id": "A", "en": "Megasthenes", "hi": "मेगस्थनीज" },
+        { "id": "B", "en": "Fa-hien", "hi": "फाह्यान" },
+        { "id": "C", "en": "Hiuen-Tsang", "hi": "ह्वेनसांग" },
+        { "id": "D", "en": "None of these", "hi": "इनमें से कोई नहीं" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "independently_verified",
+      "explanation": "Megasthenes, the Greek ambassador of Seleucus I Nicator to the court of Chandragupta Maurya, authored 'Indica'. Note: Entry #5 was omitted in the printed answer key table on page 14 of the answer document.",
+      "sourcePage": 2,
+      "verificationStatus": "verified",
+      "issues": [
+        "Question 5 is missing from the printed answer key table in 'paper1 asnwer.pdf' (page 14 jumps from 4 to 6); independently verified as A (Megasthenes)."
+      ]
+    },
+    {
+      "id": "Q006",
+      "originalQuestionNumber": "6",
+      "subject": "Indian National Movement",
+      "question": {
+        "en": "The Simon Commission first visited India in the year",
+        "hi": "साइमन कमीशन किस वर्ष भारत में प्रथम बार आया ?"
+      },
+      "options": [
+        { "id": "A", "en": "1925", "hi": "1925" },
+        { "id": "B", "en": "1926", "hi": "1926" },
+        { "id": "C", "en": "1919", "hi": "1919" },
+        { "id": "D", "en": "1928", "hi": "1928" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "Constituted in November 1927, the Simon Commission first arrived in Bombay, India on 3 February 1928.",
+      "sourcePage": 2,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q007",
+      "originalQuestionNumber": "7",
+      "subject": "Indian National Movement",
+      "question": {
+        "en": "In which session, the Indian National Congress passed the historic \"Poorna Swaraj\" (complete independence) resolution?",
+        "hi": "भारतीय राष्ट्रीय कांग्रेस द्वारा किस अधिवेशन में ऐतिहासिक \"पूर्ण स्वराज्य\" (पूर्ण स्वतंत्रता) का प्रस्ताव पारित किया गया ?"
+      },
+      "options": [
+        { "id": "A", "en": "Bombay", "hi": "बम्बई" },
+        { "id": "B", "en": "Lahore", "hi": "लाहौर" },
+        { "id": "C", "en": "Karachi", "hi": "कराची" },
+        { "id": "D", "en": "Lucknow", "hi": "लखनऊ" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "The Indian National Congress passed the 'Poorna Swaraj' resolution in December 1929 at its Lahore session, presided over by Jawaharlal Nehru.",
+      "sourcePage": 2,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q008",
+      "originalQuestionNumber": "8",
+      "subject": "Indian National Movement",
+      "question": {
+        "en": "Match the following:\na. Indian National Army - 1. Lala Hardayal\nb. Ghadar Party - 2. Subhash Chandra Bose\nc. Mitra Mela - 3. V.D. Savarkar\nd. Home Rule League - 4. Annie Besant\n(a b c d)",
+        "hi": "निम्न का मिलान करें :\na. इंडियन नेशनल आर्मी - 1. लाला हरदयाल\nb. गदर पार्टी - 2. सुभाषचन्द्र बोस\nc. मित्र मेला - 3. वी.डी. सावरकर\nd. होम रूल लीग - 4. एनी बेसेन्ट\n(a b c d)"
+      },
+      "options": [
+        { "id": "A", "en": "1 2 3 4", "hi": "1 2 3 4" },
+        { "id": "B", "en": "2 1 3 4", "hi": "2 1 3 4" },
+        { "id": "C", "en": "3 4 1 2", "hi": "3 4 1 2" },
+        { "id": "D", "en": "4 2 1 3", "hi": "4 2 1 3" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Indian National Army -> Subhash Chandra Bose (2); Ghadar Party -> Lala Hardayal (1); Mitra Mela -> V.D. Savarkar (3); Home Rule League -> Annie Besant (4).",
+      "sourcePage": 2,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q009",
+      "originalQuestionNumber": "9",
+      "subject": "Indian National Movement",
+      "question": {
+        "en": "Who among the following opposed Mahatma Gandhi's association with the Khilafat movement ?",
+        "hi": "निम्न में से किसने महात्मा गांधी के खिलाफत आन्दोलन से जुड़ने का विरोध किया ?"
+      },
+      "options": [
+        { "id": "A", "en": "Khan Abdul Ghaffar Khan", "hi": "खान अब्दुल गफ्फार खान" },
+        { "id": "B", "en": "Fazlul Haque", "hi": "फ़जलुल हक" },
+        { "id": "C", "en": "Mohammed Ali Jinnah", "hi": "मोहम्मद अली जिन्ना" },
+        { "id": "D", "en": "Abul Kalam Azad", "hi": "अबुल कलाम आजाद" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "Mohammed Ali Jinnah opposed Mahatma Gandhi's decision to link the Khilafat issue with the nationalist political movement, warning against bringing religious zealotry into politics.",
+      "sourcePage": 3,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q010",
+      "originalQuestionNumber": "10",
+      "subject": "Indian National Movement",
+      "question": {
+        "en": "Which of the following revolutionary groups was involved in Kakori Conspiracy Case?",
+        "hi": "इनमें से कौन सा क्रांतिकारी संगठन काकोरी षड्यंत्र केस में शामिल था ?"
+      },
+      "options": [
+        { "id": "A", "en": "Ghadar Party", "hi": "गदर पार्टी" },
+        { "id": "B", "en": "Anushilan Samiti", "hi": "अनुशीलन समिति" },
+        { "id": "C", "en": "Abhinav Bharat Group", "hi": "अभिनव भारत ग्रुप" },
+        { "id": "D", "en": "Hindustan Republican Association", "hi": "हिन्दुस्तान रिपब्लिकन एसोसिएशन" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "The Kakori train action (9 August 1925) was executed by members of the Hindustan Republican Association (HRA), including Ram Prasad Bismil, Ashfaqulla Khan, and Chandrashekhar Azad.",
+      "sourcePage": 3,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q011",
+      "originalQuestionNumber": "11",
+      "subject": "Geography",
+      "question": {
+        "en": "The Nagarjunasagar Dam has been built across the river",
+        "hi": "नागार्जुन सागर बाँध किस नदी पर बना है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Godavari", "hi": "गोदावरी" },
+        { "id": "B", "en": "Krishna", "hi": "कृष्णा" },
+        { "id": "C", "en": "Ganga", "hi": "गंगा" },
+        { "id": "D", "en": "Cauvery", "hi": "कावेरी" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Nagarjuna Sagar Dam is built across the Krishna River on the border between Telangana and Andhra Pradesh.",
+      "sourcePage": 3,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q012",
+      "originalQuestionNumber": "12",
+      "subject": "Geography",
+      "question": {
+        "en": "The Mt. Everest was first scaled in the year",
+        "hi": "माउण्ट एवरेस्ट पर प्रथम बार चढ़ाई किस वर्ष की गई ?"
+      },
+      "options": [
+        { "id": "A", "en": "1951", "hi": "1951" },
+        { "id": "B", "en": "1953", "hi": "1953" },
+        { "id": "C", "en": "1955", "hi": "1955" },
+        { "id": "D", "en": "1958", "hi": "1958" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Edmund Hillary and Tenzing Norgay first reached the summit of Mount Everest on 29 May 1953.",
+      "sourcePage": 3,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q013",
+      "originalQuestionNumber": "13",
+      "subject": "Geography",
+      "question": {
+        "en": "The name of the bird sanctuary/national park at Bharatpur is",
+        "hi": "भरतपुर में स्थित पक्षी अभयारण्य / राष्ट्रीय उद्यान का नाम है"
+      },
+      "options": [
+        { "id": "A", "en": "Bhensroadgarh Sanctuary", "hi": "भैंसरोड़गढ़ अभयारण्य" },
+        { "id": "B", "en": "Darrah Sanctuary", "hi": "दर्रा अभयारण्य" },
+        { "id": "C", "en": "Keoladeo Ghana National Parks", "hi": "केवलादेव घाना राष्ट्रीय उद्यान" },
+        { "id": "D", "en": "Ghatprabha Sanctuary", "hi": "घाटप्रभा अभयारण्य" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "Keoladeo Ghana National Park (formerly Bharatpur Bird Sanctuary) is located in Bharatpur, Rajasthan.",
+      "sourcePage": 3,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q014",
+      "originalQuestionNumber": "14",
+      "subject": "Geography",
+      "question": {
+        "en": "The source of iron ore for Bhilai Steel Plant is",
+        "hi": "भिलाई इस्पात संयंत्र के लौह अयस्क का स्रोत है"
+      },
+      "options": [
+        { "id": "A", "en": "Dalli-Rajhara", "hi": "दल्ली-राजहरा" },
+        { "id": "B", "en": "Korba", "hi": "कोरबा" },
+        { "id": "C", "en": "Umaria", "hi": "उमरिया" },
+        { "id": "D", "en": "Rajnandgaon", "hi": "राजनांदगाँव" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "The Dalli-Rajhara mines in Chhattisgarh have historically supplied iron ore to the Bhilai Steel Plant.",
+      "sourcePage": 3,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q015",
+      "originalQuestionNumber": "15",
+      "subject": "Geography",
+      "question": {
+        "en": "Which of the following passes and locations is/are wrongly matched ?\n1. Zojila and Burzil - Jammu and Kashmir\n2. Bara Lapcha La and Shipki La - Uttar Pradesh\n3. Thaga La, Niti Pass and Lipu Lekh - Himachal Pradesh\n4. Nathu La and Jelep La - Sikkim",
+        "hi": "दिए गए दरों और उनके स्थानों का कौन सा जोड़ सही नहीं है ?\n1. जोजिला और बुरजिल - जम्मू और कश्मीर\n2. बारा लापचा ला और शिपकी ला - उत्तर प्रदेश\n3. थागा ला, नीति पास और लिपु लेख - हिमाचल प्रदेश\n4. नाथु ला और जेलेप ला - सिक्किम"
+      },
+      "options": [
+        { "id": "A", "en": "1 and 2", "hi": "1 और 2" },
+        { "id": "B", "en": "2 and 3", "hi": "2 और 3" },
+        { "id": "C", "en": "3 and 4", "hi": "3 और 4" },
+        { "id": "D", "en": "1, 2 and 3", "hi": "1, 2 और 3" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "independently_verified",
+      "explanation": "Pair 2 (Bara Lacha La and Shipki La) is located in Himachal Pradesh, not Uttar Pradesh. Pair 3 (Thaga La, Niti Pass, and Lipu Lekh) is located in Uttarakhand, not Himachal Pradesh. Thus, 2 and 3 (Option B) are wrongly matched. Note: The printed answer key in 'paper1 asnwer.pdf' lists (d) '1, 2 and 3', which is only arguable if accounting for the 2019 bifurcation of J&K into J&K and Ladakh UTs (since Zojila is on the Ladakh/J&K border), whereas traditionally in Indian Geography textbooks, 2 and 3 were swapped.",
+      "sourcePage": 3,
+      "verificationStatus": "needs_review",
+      "issues": [
+        "Discrepancy: Provided key gives (D) '1, 2 and 3', whereas official UPSSSC Master Answer Key and standard geographical matching identify (B) '2 and 3' because Pairs 2 and 3 have their states swapped."
+      ]
+    },
+    {
+      "id": "Q016",
+      "originalQuestionNumber": "16",
+      "subject": "Indian Economy",
+      "question": {
+        "en": "Private investment will be most likely to be increased as a result of a rise in",
+        "hi": "किसके बढ़ने के फलस्वरूप निजी निवेश में वृद्धि की अधिक संभावना होगी ?"
+      },
+      "options": [
+        { "id": "A", "en": "The rate of interest", "hi": "ब्याज दर" },
+        { "id": "B", "en": "The price of shares", "hi": "शेयरों की कीमत" },
+        { "id": "C", "en": "Expected yield on new capital", "hi": "नई पूँजी पर अनुमानित प्राप्ति" },
+        { "id": "D", "en": "Personal taxation", "hi": "व्यक्तिगत कर" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "A higher expected yield (marginal efficiency of capital) on new capital directly incentivizes businesses to increase private investment.",
+      "sourcePage": 4,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q017",
+      "originalQuestionNumber": "17",
+      "subject": "Indian Economy",
+      "question": {
+        "en": "The agency estimating the National Income of India is",
+        "hi": "भारत की राष्ट्रीय आय का आकलन करने वाली संस्था है"
+      },
+      "options": [
+        { "id": "A", "en": "RBI", "hi": "आर.बी.आई." },
+        { "id": "B", "en": "NITI Aayog", "hi": "नीति आयोग" },
+        { "id": "C", "en": "Ministry of Finance", "hi": "वित्त मंत्रालय" },
+        { "id": "D", "en": "Central Statistical Organization", "hi": "केन्द्रीय सांख्यिकी संगठन" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "The Central Statistical Organization (CSO, now merged into the National Statistical Office - NSO under MoSPI) is responsible for estimating National Income in India.",
+      "sourcePage": 4,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q018",
+      "originalQuestionNumber": "18",
+      "subject": "Indian Economy",
+      "question": {
+        "en": "What is another name for the Service Sector?",
+        "hi": "सेवा क्षेत्र का दूसरा नाम क्या है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Tertiary", "hi": "तृतीयक" },
+        { "id": "B", "en": "Primary", "hi": "प्राथमिक" },
+        { "id": "C", "en": "Secondary", "hi": "द्वितीयक" },
+        { "id": "D", "en": "Agriculture", "hi": "कृषि" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "In economics, the service sector is known as the tertiary sector.",
+      "sourcePage": 4,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q019",
+      "originalQuestionNumber": "19",
+      "subject": "Indian Economy",
+      "question": {
+        "en": "Who is known as father of White Revolution in India?",
+        "hi": "भारत में श्वेत क्रांति के जनक के रूप में कौन जाना जाता है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Balwant Rai Mehta", "hi": "बलवंतराय मेहता" },
+        { "id": "B", "en": "Dr. Verghese Kurian", "hi": "डॉ. वर्गीस कुरियन" },
+        { "id": "C", "en": "M.S. Swaminathan", "hi": "एम.एस. स्वामीनाथन" },
+        { "id": "D", "en": "Norman Edburg", "hi": "नॉर्मन एडबर्ग" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Dr. Verghese Kurian, the architect of 'Operation Flood', is known as the Father of the White Revolution in India.",
+      "sourcePage": 4,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q020",
+      "originalQuestionNumber": "20",
+      "subject": "Indian Economy",
+      "question": {
+        "en": "Who was the Prime Minister during economic reforms 1991 in India?",
+        "hi": "भारत में आर्थिक सुधार 1991 के दौरान प्रधानमंत्री कौन थे ?"
+      },
+      "options": [
+        { "id": "A", "en": "P.V. Narsimha Rao", "hi": "पी.वी. नरसिम्हा राव" },
+        { "id": "B", "en": "Atal Bihari Vajpayee", "hi": "अटल बिहारी वाजपेयी" },
+        { "id": "C", "en": "Dr. Manmohan Singh", "hi": "डॉ. मनमोहन सिंह" },
+        { "id": "D", "en": "None of these", "hi": "इनमें से कोई नहीं" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "P.V. Narasimha Rao was the Prime Minister of India during the 1991 LPG economic reforms (while Dr. Manmohan Singh was the Finance Minister).",
+      "sourcePage": 4,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q021",
+      "originalQuestionNumber": "21",
+      "subject": "Indian Constitution & Public Administration",
+      "question": {
+        "en": "Which one of the following is not included in the state list in the Constitution of India?",
+        "hi": "भारत के संविधान में इनमें से क्या राज्य सूची में सम्मिलित नहीं है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Police", "hi": "पुलिस" },
+        { "id": "B", "en": "Law and Order", "hi": "कानून और व्यवस्था" },
+        { "id": "C", "en": "Prison", "hi": "जेल" },
+        { "id": "D", "en": "Criminal Procedure Code", "hi": "दण्ड प्रक्रिया संहिता" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "Criminal Procedure Code (CrPC) is Entry 2 of the Concurrent List (Seventh Schedule), whereas Police, Public Order, and Prisons are in the State List.",
+      "sourcePage": 4,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q022",
+      "originalQuestionNumber": "22",
+      "subject": "Indian Constitution & Public Administration",
+      "question": {
+        "en": "Which one of the following is not a salient feature of the Constitution of India?",
+        "hi": "निम्नलिखित में से क्या भारतीय संविधान की मुख्य विशेषता नहीं है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Quasi federal structure", "hi": "अर्ध संघीय संरचना" },
+        { "id": "B", "en": "Committed judiciary", "hi": "प्रतिबद्ध न्यायतंत्र" },
+        { "id": "C", "en": "Distribution of powers", "hi": "शक्तियों का वितरण" },
+        { "id": "D", "en": "Written Constitution and Supremacy of the Constitution", "hi": "लिखित संविधान और संविधान की सर्वोच्चता" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "The Indian Constitution establishes an independent and impartial judiciary, not a 'committed judiciary' (which implies allegiance to the ruling government/policies).",
+      "sourcePage": 4,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q023",
+      "originalQuestionNumber": "23",
+      "subject": "Indian Constitution & Public Administration",
+      "question": {
+        "en": "What ensures economic justice to Indian citizens?",
+        "hi": "निम्न में से क्या भारतीय नागरिकों को आर्थिक न्याय प्रदान करता है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Fundamental Rights", "hi": "मौलिक अधिकार" },
+        { "id": "B", "en": "Fundamental Duties", "hi": "मौलिक कर्त्तव्य" },
+        { "id": "C", "en": "Directive Principles of State Policy", "hi": "राज्य नीति के निदेशक सिद्धांत" },
+        { "id": "D", "en": "None of these", "hi": "इनमें से कोई नहीं" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "The Directive Principles of State Policy (Part IV, especially Articles 38 and 39) aim to establish social and economic democracy and ensure economic justice.",
+      "sourcePage": 5,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q024",
+      "originalQuestionNumber": "24",
+      "subject": "Indian Constitution & Public Administration",
+      "question": {
+        "en": "Which Article of the Indian Constitution directs the state governments to organize village panchayats ?",
+        "hi": "भारतीय संविधान का कौन सा अनुच्छेद राज्य सरकारों को ग्राम पंचायतों के आयोजन के लिए निर्देशित करता है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Article 38", "hi": "अनुच्छेद 38" },
+        { "id": "B", "en": "Article 40", "hi": "अनुच्छेद 40" },
+        { "id": "C", "en": "Article 44", "hi": "अनुच्छेद 44" },
+        { "id": "D", "en": "Article 46", "hi": "अनुच्छेद 46" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Article 40 of the Constitution directs the State to take steps to organize village panchayats and endow them with powers to function as units of self-government.",
+      "sourcePage": 5,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q025",
+      "originalQuestionNumber": "25",
+      "subject": "Indian Constitution & Public Administration",
+      "question": {
+        "en": "Who had proposed the idea of three tier Panchayati Raj System?",
+        "hi": "त्रि-स्तरीय पंचायती राज व्यवस्था का विचार किसने रखा था ?"
+      },
+      "options": [
+        { "id": "A", "en": "Balwant Rai Mehta Committee", "hi": "बलवंत राय मेहता कमेटी" },
+        { "id": "B", "en": "Ashok Mehta Committee", "hi": "अशोक मेहता कमेटी" },
+        { "id": "C", "en": "Royal Commission", "hi": "रॉयल कमीशन" },
+        { "id": "D", "en": "None of these", "hi": "इनमें से कोई नहीं" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "The Balwant Rai Mehta Committee (1957) recommended the establishment of a three-tier Panchayati Raj system (Gram Panchayat, Panchayat Samiti, and Zila Parishad).",
+      "sourcePage": 5,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q026",
+      "originalQuestionNumber": "26",
+      "subject": "General Science",
+      "question": {
+        "en": "Current flows in a circuit when",
+        "hi": "बिजली का प्रवाह सर्किट में कब होता है ?"
+      },
+      "options": [
+        { "id": "A", "en": "A switch is opened.", "hi": "स्विच चालू होने पर" },
+        { "id": "B", "en": "A switch is closed.", "hi": "स्विच बंद होने पर" },
+        { "id": "C", "en": "The switch is either opened or closed.", "hi": "स्विच बंद या चालू होने पर" },
+        { "id": "D", "en": "There is no voltage.", "hi": "इसमें कोई वोल्टेज नहीं होता" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "independently_verified",
+      "explanation": "In physics, electric current flows when a circuit is complete, i.e., when the switch is 'closed' (Option B in English). However, in colloquial Hindi, 'स्विच चालू होने पर' (Option A) means 'when the switch is turned ON' and 'स्विच बंद होने पर' (Option B) can mean 'turned OFF'. Due to this Hindi-English translation ambiguity, UPSSSC awarded full marks (*) to all candidates in the revised answer key.",
+      "sourcePage": 5,
+      "verificationStatus": "needs_review",
+      "issues": [
+        "Marked with '*' in the provided answer key ('आयोग द्वारा सभी को समान अंक दिए गए') due to translation conflict between English Option B ('switch is closed') and Hindi Option A ('स्विच चालू होने पर')."
+      ]
+    },
+    {
+      "id": "Q027",
+      "originalQuestionNumber": "27",
+      "subject": "General Science",
+      "question": {
+        "en": "What is the S.I. Unit of resistance ?",
+        "hi": "प्रतिरोध की S.I. इकाई क्या है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Faraday", "hi": "फैराडे" },
+        { "id": "B", "en": "Ohm", "hi": "ओह्म" },
+        { "id": "C", "en": "Volt", "hi": "बोल्ट" },
+        { "id": "D", "en": "Ampere", "hi": "ऐम्पियर" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "The SI unit of electrical resistance is the Ohm (Ω).",
+      "sourcePage": 5,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q028",
+      "originalQuestionNumber": "28",
+      "subject": "General Science",
+      "question": {
+        "en": "Sour taste of lemon is due to the presence of which of the following?",
+        "hi": "नींबू का खट्टा स्वाद इनमें से किसकी उपस्थिति के कारण होता है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Citric acid", "hi": "साइट्रिक अम्ल" },
+        { "id": "B", "en": "Acetic acid", "hi": "एसीटिक अम्ल" },
+        { "id": "C", "en": "Oxalic acid", "hi": "ऑक्सेलिक अम्ल" },
+        { "id": "D", "en": "Formic acid", "hi": "फॉर्मिक अम्ल" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "Lemons and other citrus fruits owe their sour taste primarily to citric acid.",
+      "sourcePage": 5,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q029",
+      "originalQuestionNumber": "29",
+      "subject": "General Science",
+      "question": {
+        "en": "Carcinogenic chemicals cause",
+        "hi": "कर्कटजनक रसायन से होता है"
+      },
+      "options": [
+        { "id": "A", "en": "Heart diseases", "hi": "हृदय रोग" },
+        { "id": "B", "en": "Diabetes", "hi": "मधुमेह" },
+        { "id": "C", "en": "Cancer", "hi": "कैन्सर" },
+        { "id": "D", "en": "Asthma", "hi": "दमा (अस्थमा)" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "A carcinogen (कर्कटजनक) is any substance, radionuclide, or radiation that promotes carcinogenesis, the formation of cancer.",
+      "sourcePage": 5,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q030",
+      "originalQuestionNumber": "30",
+      "subject": "General Science",
+      "question": {
+        "en": "Name the upper layer of the skin :",
+        "hi": "त्वचा की ऊपरी सतह क्या कहलाती है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Endodermis", "hi": "अंतश्चर्म (एंडोडर्मिस)" },
+        { "id": "B", "en": "Epidermis", "hi": "अधिचर्म (एपिडर्मिस)" },
+        { "id": "C", "en": "Dermis", "hi": "चर्म (डर्मिस)" },
+        { "id": "D", "en": "Special Dermis", "hi": "विशिष्ट चर्म (स्पेशियल डर्मिस)" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "The epidermis (अधिचर्म) is the outermost/upper layer of the skin.",
+      "sourcePage": 5,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q031",
+      "originalQuestionNumber": "31",
+      "subject": "Elementary Arithmetic",
+      "question": {
+        "en": "If √(1 + 27/169) = (1 + x/13), then the value of x is:",
+        "hi": "यदि √(1 + 27/169) = (1 + x/13), तो x का मान है :"
+      },
+      "options": [
+        { "id": "A", "en": "1", "hi": "1" },
+        { "id": "B", "en": "3", "hi": "3" },
+        { "id": "C", "en": "5", "hi": "5" },
+        { "id": "D", "en": "7", "hi": "7" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "√(1 + 27/169) = √(196/169) = 14/13 = 1 + 1/13. Comparing with 1 + x/13 gives x = 1.",
+      "sourcePage": 6,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q032",
+      "originalQuestionNumber": "32",
+      "subject": "Elementary Arithmetic",
+      "question": {
+        "en": "How many 1/8's are there in 37 1/2?",
+        "hi": "37 1/2 में कुल कितने 1/8 हैं?"
+      },
+      "options": [
+        { "id": "A", "en": "300", "hi": "300" },
+        { "id": "B", "en": "400", "hi": "400" },
+        { "id": "C", "en": "500", "hi": "500" },
+        { "id": "D", "en": "cannot be determined", "hi": "निर्धारित नहीं कर सकते" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "37 1/2 = 75/2. Dividing by 1/8: (75/2) ÷ (1/8) = (75/2) × 8 = 75 × 4 = 300.",
+      "sourcePage": 6,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q033",
+      "originalQuestionNumber": "33",
+      "subject": "Elementary Arithmetic",
+      "question": {
+        "en": "√(36.1 / 102.4) = ?",
+        "hi": "√(36.1 / 102.4) = ?"
+      },
+      "options": [
+        { "id": "A", "en": "29/32", "hi": "29/32" },
+        { "id": "B", "en": "19/72", "hi": "19/72" },
+        { "id": "C", "en": "19/32", "hi": "19/32" },
+        { "id": "D", "en": "29/62", "hi": "29/62" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "√(36.1 / 102.4) = √(361 / 1024) = 19 / 32.",
+      "sourcePage": 6,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q034",
+      "originalQuestionNumber": "34",
+      "subject": "Elementary Arithmetic",
+      "question": {
+        "en": "The population of a town increases 4% annually but is decreased by migration annually to the extent of 1/2%. What will be the increase percent in three years?",
+        "hi": "एक शहर की जनसंख्या में 4% की वार्षिक वृद्धि होती है परन्तु स्थानांतरण के कारण 1/2% वार्षिक तक घट भी जाती है। तीन वर्षों में वृद्धि का प्रतिशत क्या होगा ?"
+      },
+      "options": [
+        { "id": "A", "en": "9.8", "hi": "9.8" },
+        { "id": "B", "en": "10", "hi": "10" },
+        { "id": "C", "en": "10.5", "hi": "10.5" },
+        { "id": "D", "en": "10.8", "hi": "10.8" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "Net annual percentage increase = 4% - 0.5% = 3.5%. Over 3 years with compound growth: ((1.035)^3 - 1) × 100 = (1.108717875 - 1) × 100 ≈ 10.87%, which corresponds to 10.8%.",
+      "sourcePage": 6,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q035",
+      "originalQuestionNumber": "35",
+      "subject": "Elementary Arithmetic",
+      "question": {
+        "en": "The average of 13 results is 68. The average of first seven is 63 and that of the last seven is 70, the seventh result is:",
+        "hi": "13 परिणामों का औसत 68 है। पहले सात का औसत 63 है और आखिरी सात का औसत 70 है, तो सातवें का परिणाम है -"
+      },
+      "options": [
+        { "id": "A", "en": "47", "hi": "47" },
+        { "id": "B", "en": "65.5", "hi": "65.5" },
+        { "id": "C", "en": "73.5", "hi": "73.5" },
+        { "id": "D", "en": "94", "hi": "94" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "independently_verified",
+      "explanation": "Sum of 13 results = 13 × 68 = 884. Sum of first 7 results = 7 × 63 = 441. Sum of last 7 results = 7 × 70 = 490. Seventh result = (441 + 490) - 884 = 931 - 884 = 47. Note: The printed answer key in 'paper1 asnwer.pdf' had a blank '( )' for Q35.",
+      "sourcePage": 6,
+      "verificationStatus": "verified",
+      "issues": [
+        "Answer key entry for Q35 in 'paper1 asnwer.pdf' is blank '( )'; solved independently as 47 (Option A)."
+      ]
+    },
+    {
+      "id": "Q036",
+      "originalQuestionNumber": "36",
+      "subject": "General Hindi",
+      "question": {
+        "en": null,
+        "hi": "निम्न में से 'तीक्ष्ण' का विलोम शब्द क्या है ?"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "तीव्र" },
+        { "id": "B", "en": null, "hi": "तृष्णा" },
+        { "id": "C", "en": null, "hi": "त्यागी" },
+        { "id": "D", "en": null, "hi": "कुण्ठित" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "independently_verified",
+      "explanation": "'तीक्ष्ण' (sharp/acute) का विलोम शब्द 'कुण्ठित' (blunt/dull) या 'मंद' होता है। Note: The printed answer key in 'paper1 asnwer.pdf' is blank for Q36.",
+      "sourcePage": 6,
+      "verificationStatus": "verified",
+      "issues": [
+        "Answer key entry for Q36 in 'paper1 asnwer.pdf' is blank; independently verified as D (कुण्ठित)."
+      ]
+    },
+    {
+      "id": "Q037",
+      "originalQuestionNumber": "37",
+      "subject": "General Hindi",
+      "question": {
+        "en": null,
+        "hi": "'गजवदन' का पर्यायवाची है"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "गर्जन" },
+        { "id": "B", "en": null, "hi": "मेघनाद" },
+        { "id": "C", "en": null, "hi": "गणपति" },
+        { "id": "D", "en": null, "hi": "विष्णु" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "'गजवदन' (हाथी के समान मुख वाले) भगवान गणेश / गणपति का पर्यायवाची है।",
+      "sourcePage": 6,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q038",
+      "originalQuestionNumber": "38",
+      "subject": "General Hindi",
+      "question": {
+        "en": null,
+        "hi": "'काँटों से भरा हुआ' वाक्य के लिए नीचे दिए गए विकल्प में से एक शब्द चुनिये :"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "कंटक" },
+        { "id": "B", "en": null, "hi": "विकीर्ण" },
+        { "id": "C", "en": null, "hi": "कुचैला" },
+        { "id": "D", "en": null, "hi": "कंटकाकीर्ण" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "'काँटों से भरा हुआ' वाक्यांश के लिए एक शब्द 'कंटकाकीर्ण' (कंटक + आकीर्ण) होता है।",
+      "sourcePage": 6,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q039",
+      "originalQuestionNumber": "39",
+      "subject": "General Hindi",
+      "question": {
+        "en": null,
+        "hi": "'दूध का दूध और पानी का पानी करना' मुहावरे का अर्थ है :"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "दुग्ध इन्सपेक्टर होना" },
+        { "id": "B", "en": null, "hi": "मिल-जुलकर रहना" },
+        { "id": "C", "en": null, "hi": "पक्षपातपूर्ण निर्णय करना" },
+        { "id": "D", "en": null, "hi": "उचित निर्णय करना" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "'दूध का दूध और पानी का पानी करना' मुहावरे का अर्थ निरपेक्ष या उचित न्याय/निर्णय करना है।",
+      "sourcePage": 6,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q040",
+      "originalQuestionNumber": "40",
+      "subject": "General Hindi",
+      "question": {
+        "en": null,
+        "hi": "शुद्ध वर्तनी का चयन कीजिए ।"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "बहीष्कार" },
+        { "id": "B", "en": null, "hi": "बाहिष्कार" },
+        { "id": "C", "en": null, "hi": "बहिष्कार" },
+        { "id": "D", "en": null, "hi": "बइष्कार" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "शुद्ध वर्तनी 'बहिष्कार' (बहिः + कार) है।",
+      "sourcePage": 6,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q041",
+      "originalQuestionNumber": "41",
+      "subject": "General English",
+      "question": {
+        "en": "Directions: Read the passage carefully and answer the corresponding questions: (41-43)\nI climbed into bed and rolled myself in my blankets, first extinguishing the light that burned steadily near the door. I lay still trying to get to sleep but my fear made that impossible and soon I sat up in bed peering into the darkness and occasionally glancing at the round window in the side of the ship which seemed like a plate suspended in the darkness. For an hour I must have sat like this, and then I was suddenly roused, by a drought of cold air. I jumped out of bed; not having allowed for the motion of the ship, I was instantly thrown violently across the room.\n\nThe author sat peering into the darkness because",
+        "hi": null
+      },
+      "options": [
+        { "id": "A", "en": "he had put out the light.", "hi": null },
+        { "id": "B", "en": "he wished to see the window.", "hi": null },
+        { "id": "C", "en": "the window had looked like a plate", "hi": null },
+        { "id": "D", "en": "he was afraid.", "hi": null }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "The passage explicitly states: 'I lay still trying to get to sleep but my fear made that impossible and soon I sat up in bed peering into the darkness'.",
+      "sourcePage": 7,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q042",
+      "originalQuestionNumber": "42",
+      "subject": "General English",
+      "question": {
+        "en": "The author jumped out of bed because",
+        "hi": null
+      },
+      "options": [
+        { "id": "A", "en": "he heard a faint sound.", "hi": null },
+        { "id": "B", "en": "he saw someone coming towards him.", "hi": null },
+        { "id": "C", "en": "a cold breeze blew past his face.", "hi": null },
+        { "id": "D", "en": "he was pushed by someone.", "hi": null }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "The passage states: '...and then I was suddenly roused, by a drought [draught] of cold air. I jumped out of bed'.",
+      "sourcePage": 7,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q043",
+      "originalQuestionNumber": "43",
+      "subject": "General English",
+      "question": {
+        "en": "Which one of the following did the author do first?",
+        "hi": null
+      },
+      "options": [
+        { "id": "A", "en": "Closing the door.", "hi": null },
+        { "id": "B", "en": "Climbing into bed.", "hi": null },
+        { "id": "C", "en": "Rolling himself into blankets.", "hi": null },
+        { "id": "D", "en": "None of these", "hi": null }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "According to the official UPSSSC answer key and provided key, Option B ('Climbing into bed') is marked as the answer based on the opening clause 'I climbed into bed...'. Note: Grammatically, 'first extinguishing the light' indicates extinguishing the light happened first (which would be D 'None of these'), but the official key accepted B.",
+      "sourcePage": 7,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q044",
+      "originalQuestionNumber": "44",
+      "subject": "General English",
+      "question": {
+        "en": "Give Synonym for the following word:\nPride",
+        "hi": null
+      },
+      "options": [
+        { "id": "A", "en": "Humour", "hi": null },
+        { "id": "B", "en": "Hate", "hi": null },
+        { "id": "C", "en": "Dignity", "hi": null },
+        { "id": "D", "en": "Cowardice", "hi": null }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "'Dignity' (self-respect/honor) is the closest synonym for 'Pride' among the given options.",
+      "sourcePage": 7,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q045",
+      "originalQuestionNumber": "45",
+      "subject": "General English",
+      "question": {
+        "en": "Give Antonym for the following word:\nKeen",
+        "hi": null
+      },
+      "options": [
+        { "id": "A", "en": "Dull", "hi": null },
+        { "id": "B", "en": "Alert", "hi": null },
+        { "id": "C", "en": "Humble", "hi": null },
+        { "id": "D", "en": "Eager", "hi": null }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "independently_verified",
+      "explanation": "'Keen' means sharp, eager, or perceptive; its direct antonym is 'Dull' (Option A). Note: Entry 45 is missing from the printed answer key table on page 14 of 'paper1 asnwer.pdf'.",
+      "sourcePage": 7,
+      "verificationStatus": "verified",
+      "issues": [
+        "Question 45 is omitted/garbled in the printed answer key table on page 14 of 'paper1 asnwer.pdf'; independently verified as A (Dull)."
+      ]
+    },
+    {
+      "id": "Q046",
+      "originalQuestionNumber": "46",
+      "subject": "Logic & Reasoning",
+      "question": {
+        "en": "Select the related word from the given alternatives:\nDog : Rabbies : : Mosquito : ?",
+        "hi": "दिए गए विकल्पों में से संबंधित शब्द का चयन कीजिए :\nकुत्ता : रेबीज़ : : मच्छर : ?"
+      },
+      "options": [
+        { "id": "A", "en": "Plague", "hi": "प्लेग" },
+        { "id": "B", "en": "Death", "hi": "मृत्यु" },
+        { "id": "C", "en": "Malaria", "hi": "मलेरिया" },
+        { "id": "D", "en": "Stings", "hi": "डसना" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "A dog bite transmits Rabies; similarly, a mosquito bite transmits Malaria.",
+      "sourcePage": 7,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q047",
+      "originalQuestionNumber": "47",
+      "subject": "Logic & Reasoning",
+      "question": {
+        "en": "Choose the word which is least like the other words in the group",
+        "hi": "उस शब्द का चयन कीजिए जो समूह के बाकी शब्दों से मेल नहीं रखता ।"
+      },
+      "options": [
+        { "id": "A", "en": "Nun", "hi": "नन (धर्मसंधिनी)" },
+        { "id": "B", "en": "Knight", "hi": "शूरवीर" },
+        { "id": "C", "en": "Monk", "hi": "मुनि" },
+        { "id": "D", "en": "Priest", "hi": "पादरी" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Nun, Monk, and Priest are religious/ecclesiastical vocations, whereas a Knight (शूरवीर) is a warrior.",
+      "sourcePage": 7,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q048",
+      "originalQuestionNumber": "48",
+      "subject": "Logic & Reasoning",
+      "question": {
+        "en": "In a certain code language, COMPUTRONE is written as PMOCTUENOR. How is ADVANTAGES written in that code?",
+        "hi": "किसी निश्चित कूट भाषा में COMPUTRONE को लिखा जाता है PMOCTUENOR । इसी कूट भाषा में ADVANTAGES को क्या लिखा जाएगा ?"
+      },
+      "options": [
+        { "id": "A", "en": "SEGATNAVAD", "hi": "SEGATNAVAD" },
+        { "id": "B", "en": "AVDATNSEGA", "hi": "AVDATNSEGA" },
+        { "id": "C", "en": "AVDATASEGN", "hi": "AVDATASEGN" },
+        { "id": "D", "en": "NAVDASEGAT", "hi": "NAVDASEGAT" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "The 10-letter word is split into blocks of 4, 2, and 4 letters, and each block is reversed: COMP -> PMOC, UT -> TU, RONE -> ENOR. Applying the same rule to ADVANTAGES: ADVA -> AVDA, NT -> TN, AGES -> SEGA, giving AVDATNSEGA.",
+      "sourcePage": 7,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q049",
+      "originalQuestionNumber": "49",
+      "subject": "Logic & Reasoning",
+      "question": {
+        "en": "A man said to a lady, \"Your mother's husband's sister is my aunt (Bua).\" How is the lady related to the man?",
+        "hi": "एक आदमी ने एक महिला से कहा, \"तुम्हारी माँ के पति की बहन मेरी बुआ है।\" वह महिला उस आदमी से किस प्रकार संबंधित है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Daughter", "hi": "पुत्री" },
+        { "id": "B", "en": "Grand daughter", "hi": "पोती" },
+        { "id": "C", "en": "Mother", "hi": "माँ" },
+        { "id": "D", "en": "Sister", "hi": "बहन" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "The lady's mother's husband is the lady's father. His sister is the lady's paternal aunt (Bua), who is also the man's paternal aunt (Bua). Therefore, the lady is the man's sister.",
+      "sourcePage": 7,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q050",
+      "originalQuestionNumber": "50",
+      "subject": "Logic & Reasoning",
+      "question": {
+        "en": "If 18th February, 2005 falls on Friday then what will be the day on 18th February, 2007?",
+        "hi": "यदि 18 फरवरी, 2005 को शुक्रवार है, तो 18 फरवरी, 2007 को कौन सा दिन होगा ?"
+      },
+      "options": [
+        { "id": "A", "en": "Sunday", "hi": "रविवार" },
+        { "id": "B", "en": "Monday", "hi": "सोमवार" },
+        { "id": "C", "en": "Tuesday", "hi": "मंगलवार" },
+        { "id": "D", "en": "Wednesday", "hi": "बुधवार" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "Both 2005 and 2006 are non-leap (ordinary) years, each adding 1 odd day. Total odd days = 1 + 1 = 2. Friday + 2 days = Sunday.",
+      "sourcePage": 8,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q051",
+      "originalQuestionNumber": "51",
+      "subject": "Current Affairs",
+      "question": {
+        "en": "Name the state of India which became the first state to provide health insurance for all its residents.",
+        "hi": "भारत के उस प्रथम राज्य का नाम क्या है जिसने अपने सभी निवासियों को स्वास्थ्य बीमा प्रदान किया है?"
+      },
+      "options": [
+        { "id": "A", "en": "Gujarat", "hi": "गुजरात" },
+        { "id": "B", "en": "Telangana", "hi": "तेलंगाना" },
+        { "id": "C", "en": "Rajasthan", "hi": "राजस्थान" },
+        { "id": "D", "en": "Karnataka", "hi": "कर्नाटक" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "In 2021, Rajasthan launched the Mukhyamantri Chiranjeevi Swasthya Bima Yojana, becoming the first state in India to provide universal health insurance coverage to all its residents.",
+      "sourcePage": 8,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q052",
+      "originalQuestionNumber": "52",
+      "subject": "Current Affairs",
+      "question": {
+        "en": "Which payment system has been barred by RBI from issuing new cards from 22 July, 2021?",
+        "hi": "आर.बी.आई. ने 22 जुलाई, 2021 से किस भुगतान तंत्र को नए कार्ड जारी करने पर प्रतिबंध लगा दिया है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Mastercard", "hi": "मास्टरकार्ड" },
+        { "id": "B", "en": "Visa", "hi": "विज़ा" },
+        { "id": "C", "en": "Rupay", "hi": "रूपे" },
+        { "id": "D", "en": "None of these", "hi": "इनमें से कोई नहीं" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "The Reserve Bank of India (RBI) barred Mastercard from onboarding new domestic customers onto its card network from 22 July 2021 due to non-compliance with data localization norms.",
+      "sourcePage": 8,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q053",
+      "originalQuestionNumber": "53",
+      "subject": "Current Affairs",
+      "question": {
+        "en": "To raise awareness about Yoga, Mobile app \"Namaste Yoga\" launched by whom in India?",
+        "hi": "योग के बारे में जागरूकता बढ़ाने के उद्देश्य से भारत में किसके द्वारा मोबाइल एप \"नमस्ते योग\" शुरू किया गया ?"
+      },
+      "options": [
+        { "id": "A", "en": "Ministry of Health and Family Welfare", "hi": "स्वास्थ्य एवं परिवार कल्याण मंत्रालय" },
+        { "id": "B", "en": "Ministry of Home Affairs", "hi": "गृह मंत्रालय" },
+        { "id": "C", "en": "Ministry of Ayush", "hi": "आयुष मंत्रालय" },
+        { "id": "D", "en": "None of these", "hi": "इनमें से कोई नहीं" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "The Ministry of AYUSH launched the 'Namaste Yoga' mobile application in June 2021 ahead of the 7th International Day of Yoga.",
+      "sourcePage": 8,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q054",
+      "originalQuestionNumber": "54",
+      "subject": "Current Affairs",
+      "question": {
+        "en": "Who has been named the flag-bearer of the Indian contingent in the Tokyo Paralympics 2021?",
+        "hi": "टोक्यो पैरालिम्पिक्स 2021 में किसको भारतीय दल के ध्वज वाहक के लिए नामित किया गया ?"
+      },
+      "options": [
+        { "id": "A", "en": "Kashish Lakra", "hi": "कशिश लाकड़ा" },
+        { "id": "B", "en": "Mariyappan Thangavelu", "hi": "मरियप्पन थंगवेलू" },
+        { "id": "C", "en": "Devendra Jhajharia", "hi": "देवेन्द्र झाझरिया" },
+        { "id": "D", "en": "Ajeet Singh", "hi": "अजीत सिंह" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "independently_verified",
+      "explanation": "Mariyappan Thangavelu (Option B) was originally named the flag-bearer of the Indian contingent for the Tokyo 2020 (held in Aug 2021) Paralympics. However, on 24 August 2021 (the day of the exam), Tek Chand replaced him as the actual flag-bearer at the opening ceremony after Mariyappan was placed in quarantine due to COVID-19 exposure on his flight. Consequently, UPSSSC awarded full marks (*) to all candidates in the revised answer key.",
+      "sourcePage": 8,
+      "verificationStatus": "needs_review",
+      "issues": [
+        "Marked with '*' in the provided answer key ('आयोग द्वारा सभी को समान अंक दिए गए') because Mariyappan Thangavelu (B) was nominated initially, but Tek Chand replaced him at the opening ceremony due to COVID-19 quarantine."
+      ]
+    },
+    {
+      "id": "Q055",
+      "originalQuestionNumber": "55",
+      "subject": "Current Affairs",
+      "question": {
+        "en": "What is the interest rate on Sukanya Samriddhi Accounts for second quarter (July-Sept) of 2021-22?",
+        "hi": "2021-22 के दूसरे क्वार्टर (जुलाई-सितंबर) के लिए सुकन्या समृद्धि खाते की ब्याज दर क्या है ?"
+      },
+      "options": [
+        { "id": "A", "en": "7.6%", "hi": "7.6%" },
+        { "id": "B", "en": "6.6%", "hi": "6.6%" },
+        { "id": "C", "en": "8.6%", "hi": "8.6%" },
+        { "id": "D", "en": "9.6%", "hi": "9.6%" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "independently_verified",
+      "explanation": "For Q2 (July–September) of FY 2021-22, the interest rate on the Sukanya Samriddhi Account scheme was maintained at 7.6% per annum by the Ministry of Finance. Note: Entry 55 is blank '( )' in the printed answer key table of 'paper1 asnwer.pdf'.",
+      "sourcePage": 8,
+      "verificationStatus": "verified",
+      "issues": [
+        "Answer key entry for Q55 in 'paper1 asnwer.pdf' is blank '( )'; independently verified as A (7.6%)."
+      ]
+    },
+    {
+      "id": "Q056",
+      "originalQuestionNumber": "56",
+      "subject": "Current Affairs",
+      "question": {
+        "en": "The Indian Army has named one of its firing ranges in Kashmir after Bollywood actress ________.",
+        "hi": "भारतीय सेना ने कश्मीर में अपनी एक फायरिंग रेंज का नाम बॉलीवुड अभिनेत्री ________ के नाम पर रखा है।"
+      },
+      "options": [
+        { "id": "A", "en": "Aishwarya Rai Bachchan", "hi": "ऐश्वर्या राय बच्चन" },
+        { "id": "B", "en": "Priyanka Chopra", "hi": "प्रियंका चोपड़ा" },
+        { "id": "C", "en": "Deepika Padukone", "hi": "दीपिका पादुकोण" },
+        { "id": "D", "en": "Vidya Balan", "hi": "विद्या बालन" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "In 2021, the Indian Army named one of its firing ranges in Gulmarg, Jammu & Kashmir, after actress Vidya Balan.",
+      "sourcePage": 8,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q057",
+      "originalQuestionNumber": "57",
+      "subject": "Current Affairs",
+      "question": {
+        "en": "Which country's passport has topped in the most powerful passport in the world for the year 2021?",
+        "hi": "वर्ष 2021 के लिए किस देश का पासपोर्ट विश्व में सबसे शक्तिशाली पासपोर्ट की श्रेणी में सबसे ऊपर है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Russia", "hi": "रूस" },
+        { "id": "B", "en": "U.S.", "hi": "यू.एस." },
+        { "id": "C", "en": "India", "hi": "भारत" },
+        { "id": "D", "en": "Japan", "hi": "जापान" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "Japan topped the Henley Passport Index 2021 as the world's most powerful passport.",
+      "sourcePage": 8,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q058",
+      "originalQuestionNumber": "58",
+      "subject": "Current Affairs",
+      "question": {
+        "en": "Tamil Nadu Assembly Election 2021 was won by which political party?",
+        "hi": "तमिलनाडु विधान सभा 2021 का चुनाव किस राजनीतिक दल ने जीता ?"
+      },
+      "options": [
+        { "id": "A", "en": "DMK", "hi": "डी.एम.के." },
+        { "id": "B", "en": "BJP", "hi": "बी.जे.पी." },
+        { "id": "C", "en": "AIADMK", "hi": "ए.आई.ए.डी.एम.के." },
+        { "id": "D", "en": "PMK", "hi": "पी.एम.के" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "The Dravida Munnetra Kazhagam (DMK), led by M.K. Stalin, won the 2021 Tamil Nadu Legislative Assembly election.",
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q059",
+      "originalQuestionNumber": "59",
+      "subject": "Current Affairs",
+      "question": {
+        "en": "Global Peace Index 2021 topped by which country?",
+        "hi": "वैश्विक शांति सूचकांक 2021 में कौन सा देश शीर्ष पर है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Denmark", "hi": "डेनमार्क" },
+        { "id": "B", "en": "New Zealand", "hi": "न्यूजीलैण्ड" },
+        { "id": "C", "en": "Iceland", "hi": "आइसलैण्ड" },
+        { "id": "D", "en": "Portugal", "hi": "पुर्तगाल" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "Iceland ranked first in the Global Peace Index 2021 published by the Institute for Economics and Peace (IEP).",
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q060",
+      "originalQuestionNumber": "60",
+      "subject": "Current Affairs",
+      "question": {
+        "en": "Which state government implements Chief Minister Dalit Empowerment Programme ?",
+        "hi": "कौन सी राज्य सरकार ने मुख्यमंत्री दलित सशक्तीकरण योजना को लागू किया है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Telangana", "hi": "तेलंगाना" },
+        { "id": "B", "en": "Andhra Pradesh", "hi": "आन्ध्र प्रदेश" },
+        { "id": "C", "en": "Tamil Nadu", "hi": "तमिलनाडु" },
+        { "id": "D", "en": "Bihar", "hi": "बिहार" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "The Telangana government launched the Chief Minister Dalit Empowerment Programme (later named Dalit Bandhu) in 2021.",
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q061",
+      "originalQuestionNumber": "61",
+      "subject": "General Awareness",
+      "question": {
+        "en": "Which of the following countries is known as the land of \"Thunder Dragon\"?",
+        "hi": "निम्न में से किस देश को \"थंडर ड्रेगन\" की भूमि के नाम से जाना जाता है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Japan", "hi": "जापान" },
+        { "id": "B", "en": "Bhutan", "hi": "भूटान" },
+        { "id": "C", "en": "Nepal", "hi": "नेपाल" },
+        { "id": "D", "en": "Srilanka", "hi": "श्रीलंका" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Bhutan is traditionally called 'Druk Yul', meaning the 'Land of the Thunder Dragon'.",
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q062",
+      "originalQuestionNumber": "62",
+      "subject": "General Awareness",
+      "question": {
+        "en": "Riyadh is the capital of which country?",
+        "hi": "रियाद किस देश की राजधानी है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Myanmar", "hi": "म्यांमार" },
+        { "id": "B", "en": "Bangladesh", "hi": "बांग्लादेश" },
+        { "id": "C", "en": "Saudi Arabia", "hi": "सऊदी अरब" },
+        { "id": "D", "en": "None of these", "hi": "इनमें से कोई नहीं" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "Riyadh is the capital and largest city of Saudi Arabia.",
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q063",
+      "originalQuestionNumber": "63",
+      "subject": "General Awareness",
+      "question": {
+        "en": "Which of the following is the smallest state (in Area) of India?",
+        "hi": "क्षेत्रफल की दृष्टि से भारत का निम्न में से कौन सा राज्य सबसे छोटा है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Sikkim", "hi": "सिक्किम" },
+        { "id": "B", "en": "Goa", "hi": "गोआ" },
+        { "id": "C", "en": "Meghalaya", "hi": "मेघालय" },
+        { "id": "D", "en": "Mizoram", "hi": "मिजोरम" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Goa is India's smallest state by geographical area (3,702 sq km).",
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q064",
+      "originalQuestionNumber": "64",
+      "subject": "General Awareness",
+      "question": {
+        "en": "What is the tenure of the elected members of Rajya Sabha?",
+        "hi": "राज्य सभा के चुने हुए सदस्यों का कार्यकाल कितने वर्ष का होता है ?"
+      },
+      "options": [
+        { "id": "A", "en": "2 Years", "hi": "2 वर्ष" },
+        { "id": "B", "en": "4 Years", "hi": "4 वर्ष" },
+        { "id": "C", "en": "6 Years", "hi": "6 वर्ष" },
+        { "id": "D", "en": "8 Years", "hi": "8 वर्ष" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "Members of the Rajya Sabha are elected for a six-year term, with one-third retiring every two years.",
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q065",
+      "originalQuestionNumber": "65",
+      "subject": "General Awareness",
+      "question": {
+        "en": "When is the United Nations Day celebrated across the world?",
+        "hi": "विश्व में संयुक्त राष्ट्र दिवस कब मनाया जाता है ?"
+      },
+      "options": [
+        { "id": "A", "en": "October 20", "hi": "20 अक्टूबर" },
+        { "id": "B", "en": "October 24", "hi": "24 अक्टूबर" },
+        { "id": "C", "en": "November 27", "hi": "27 नवंबर" },
+        { "id": "D", "en": "November 30", "hi": "30 नवंबर" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "independently_verified",
+      "explanation": "United Nations Day is celebrated annually on 24 October to mark the entry into force of the UN Charter in 1945. Note: The printed answer key in 'paper1 asnwer.pdf' erroneously lists (d) for Q65, which is a typo in that publication.",
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": [
+        "Discrepancy: Provided key on page 14 of 'paper1 asnwer.pdf' prints '(d)' for Q65, which is factually incorrect. United Nations Day is October 24 (Option B)."
+      ]
+    },
+    {
+      "id": "Q066",
+      "originalQuestionNumber": "66",
+      "subject": "General Awareness",
+      "question": {
+        "en": "The International Court of Justice is located at",
+        "hi": "अंतर्राष्ट्रीय न्यायालय कहाँ स्थित है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Geneva", "hi": "जिनेवा" },
+        { "id": "B", "en": "The Hague", "hi": "द हेग" },
+        { "id": "C", "en": "Amsterdam", "hi": "एमस्टर्डम" },
+        { "id": "D", "en": "Vienna", "hi": "वियना" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "The International Court of Justice (ICJ) is seated at the Peace Palace in The Hague, Netherlands.",
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q067",
+      "originalQuestionNumber": "67",
+      "subject": "General Awareness",
+      "question": {
+        "en": "The world famous 'Khajuraho' sculptures are located in",
+        "hi": "विश्व प्रसिद्ध 'खजुराहो' मूर्तिकलाएँ स्थित हैं"
+      },
+      "options": [
+        { "id": "A", "en": "Gujarat", "hi": "गुजरात में" },
+        { "id": "B", "en": "Madhya Pradesh", "hi": "मध्य प्रदेश में" },
+        { "id": "C", "en": "Odisha", "hi": "ओडिशा में" },
+        { "id": "D", "en": "Maharashtra", "hi": "महाराष्ट्र में" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "The Khajuraho Group of Monuments is located in Chhatarpur district, Madhya Pradesh.",
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q068",
+      "originalQuestionNumber": "68",
+      "subject": "General Awareness",
+      "question": {
+        "en": "The famous Nabakalebara festival belongs to which of the following states?",
+        "hi": "प्रसिद्ध नबकालेबारा उत्सव इनमें से किस राज्य से सम्बद्ध है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Kerala", "hi": "केरल" },
+        { "id": "B", "en": "Bihar", "hi": "बिहार" },
+        { "id": "C", "en": "Rajasthan", "hi": "राजस्थान" },
+        { "id": "D", "en": "Odisha", "hi": "ओडिशा" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "Nabakalebara is an ancient ritual festival observed at the Jagannath Temple in Puri, Odisha.",
+      "sourcePage": 10,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q069",
+      "originalQuestionNumber": "69",
+      "subject": "General Awareness",
+      "question": {
+        "en": "Which of the following is not a green house gas ?",
+        "hi": "निम्न में से कौन सी एक हरितगृह गैस नहीं है ?"
+      },
+      "options": [
+        { "id": "A", "en": "Methane", "hi": "मीथेन" },
+        { "id": "B", "en": "Nitrogen", "hi": "नाइट्रोजन" },
+        { "id": "C", "en": "Carbon dioxide", "hi": "कार्बन डाइऑक्साइड" },
+        { "id": "D", "en": "Chlorofluorocarbon (CFC)", "hi": "क्लोरोफ्लुओरोकार्बन (CFC)" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Diatomic Nitrogen (N2) is transparent to infrared radiation and is not a greenhouse gas, unlike Methane, CO2, and CFCs.",
+      "sourcePage": 10,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q070",
+      "originalQuestionNumber": "70",
+      "subject": "General Awareness",
+      "question": {
+        "en": "Arjuna Award is given for",
+        "hi": "अर्जुन पुरस्कार किसलिए दिए जाते हैं ?"
+      },
+      "options": [
+        { "id": "A", "en": "Exceptional service in emergency", "hi": "आपातकालीन स्थिति में विशिष्ट सेवा के लिए" },
+        { "id": "B", "en": "Bravery on battlefield", "hi": "युद्ध में वीरता के लिए" },
+        { "id": "C", "en": "Outstanding performance in sports", "hi": "खेल के क्षेत्र में उत्कृष्ट प्रदर्शन के लिए" },
+        { "id": "D", "en": "Exceptional social services", "hi": "विशिष्ट समाज सेवाओं के लिए" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "The Arjuna Award is presented by the Ministry of Youth Affairs and Sports to recognize outstanding achievement in sports.",
+      "sourcePage": 10,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q071",
+      "originalQuestionNumber": "71",
+      "subject": "Hindi Unseen Passage",
+      "question": {
+        "en": null,
+        "hi": "निर्देश : निम्नलिखित गद्यांश को ध्यानपूर्वक पढ़िए तथा उस पर आधारित प्रश्नों (71-75) के उत्तर चुनिए :\nस्वतंत्रता संग्राम मनुष्य में उत्तम और स्पृहणीय विशेषताएँ पैदा करता है और भारतीय स्वातंत्र्य संग्राम भी इसका अपवाद नहीं है। महात्मा गाँधी के नेतृत्व में यह युद्ध बिना किसी ईर्ष्या-द्वेष तथा खून-खराबे के लड़ा गया था । गाँधीजी इसे सत्याग्रह कहते थे। इसके पीछे उनकी शिक्षा, धार्मिक आस्था तथा अन्य उपलब्धियों का उतना हाथ नहीं था जितना उनके सदाचरण और व्यवहार का । इस स्वातंत्र्य आंदोलन को स्मरण रखने का मुख्य कारण यह है कि यह जनतांत्रिक था अर्थात् इसमें देश के हर वर्ग और जाति के लोग सम्मिलित थे, चाहे वे धनी हों या गरीब, नर हों या नारी हों अथवा विभिन्न संप्रदायों के । इसके साथ ही यह एक धर्मनिरपेक्ष और स्वतंत्रता कर्मियों का संघर्षशील राष्ट्रीय आंदोलन था । स्वतंत्र भारत के नागरिक के रूप में हम आज जनतांत्रिकता और धर्म-निरपेक्षता का लाभ उठा रहे हैं । हम सोच नहीं सकते कि इतने बड़े देश में अपना शासन करने के लिए हम अपना प्रतिनिधि नहीं चुन सकते थे या कोई गंदा कानून लागू कर दिया जाता तो हम उसके विरुद्ध आवाज नहीं उठा सकते थे और हम अपनी राय स्वतंत्रतापूर्वक व्यक्त नहीं कर सकते थे।\n\nउपर्युक्त गद्यांश में प्रयुक्त 'स्पृहणीय' शब्द का अर्थ है -"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "प्राप्त करने योग्य" },
+        { "id": "B", "en": null, "hi": "प्राप्त की हुई" },
+        { "id": "C", "en": null, "hi": "त्याग करने योग्य" },
+        { "id": "D", "en": null, "hi": "त्याग की हुई" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "'स्पृहणीय' का अर्थ है जिसकी स्पृहा या इच्छा की जाए, अर्थात् 'प्राप्त करने योग्य' (वांछनीय)।",
+      "sourcePage": 10,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q072",
+      "originalQuestionNumber": "72",
+      "subject": "Hindi Unseen Passage",
+      "question": {
+        "en": null,
+        "hi": "उपर्युक्त गद्यांश में लेखक ने मुख्य रूप से बताया है कि"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "आजादी में क्रांतिकारियों की विशेष भूमिका थी।" },
+        { "id": "B", "en": null, "hi": "आजादी के संघर्ष में कृषकों का क्या योगदान था ।" },
+        { "id": "C", "en": null, "hi": "गुलाम देश की दशा कैसी थी।" },
+        { "id": "D", "en": null, "hi": "महात्मा गाँधी के नेतृत्व में राष्ट्रीय आंदोलन कैसा था।" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "गद्यांश में मुख्य रूप से महात्मा गाँधी के नेतृत्व में लड़े गए भारतीय राष्ट्रीय आंदोलन के अहिंसक, जनतांत्रिक और धर्मनिरपेक्ष स्वरूप का वर्णन है।",
+      "sourcePage": 10,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q073",
+      "originalQuestionNumber": "73",
+      "subject": "Hindi Unseen Passage",
+      "question": {
+        "en": null,
+        "hi": "उपर्युक्त गद्यांश के लेखक का उद्देश्य क्या था ?"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "धार्मिक आस्थाओं और सद्व्यवहार को बढ़ावा देना ।" },
+        { "id": "B", "en": null, "hi": "भारतीय स्वतंत्रता संग्राम की विशेषता बताना ।" },
+        { "id": "C", "en": null, "hi": "अंग्रेजी राज्य के दोष गिनाना ।" },
+        { "id": "D", "en": null, "hi": "जनतांत्रिकता से हानि बताना ।" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "लेखक का मुख्य उद्देश्य भारतीय स्वतंत्रता संग्राम की विशेषताओं (सत्याग्रह, जनतांत्रिकता, धर्मनिरपेक्षता) को रेखांकित करना था।",
+      "sourcePage": 11,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q074",
+      "originalQuestionNumber": "74",
+      "subject": "Hindi Unseen Passage",
+      "question": {
+        "en": null,
+        "hi": "धर्मनिरपेक्षता से अभिप्राय है"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "सभी धर्मों का आदर" },
+        { "id": "B", "en": null, "hi": "धर्म में हस्तक्षेप न करना" },
+        { "id": "C", "en": null, "hi": "धर्म की अवज्ञा" },
+        { "id": "D", "en": null, "hi": "किसी भी धर्म को न मानना" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "भारतीय संदर्भ एवं गद्यांश के अनुसार धर्मनिरपेक्षता से अभिप्राय सभी धर्मों का समान आदर (सर्वधर्म समभाव) से है।",
+      "sourcePage": 11,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q075",
+      "originalQuestionNumber": "75",
+      "subject": "Hindi Unseen Passage",
+      "question": {
+        "en": null,
+        "hi": "कैसे माना जाए कि हमारा स्वतंत्रता संग्राम जनतांत्रिक था ?"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "यह महात्मा गाँधी के सद्व्यवहार और सदाचरण का प्रतीक था ।" },
+        { "id": "B", "en": null, "hi": "इसमें हिन्दू और मुसलमान सम्मिलित हुए थे ।" },
+        { "id": "C", "en": null, "hi": "यह स्वतंत्रता-प्रेमियों का आंदोलन था।" },
+        { "id": "D", "en": null, "hi": "इसमें सभी जातियों, वर्गों, धर्मों के लोगों ने भाग लिया था ।" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "गद्यांश में स्पष्ट उल्लेख है: 'यह जनतांत्रिक था अर्थात् इसमें देश के हर वर्ग और जाति के लोग सम्मिलित थे, चाहे वे धनी हों या गरीब, नर हों या नारी हों अथवा विभिन्न संप्रदायों के।'",
+      "sourcePage": 11,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q076",
+      "originalQuestionNumber": "76",
+      "subject": "Hindi Unseen Passage",
+      "question": {
+        "en": null,
+        "hi": "निर्देश : निम्नलिखित गद्यांश को ध्यानपूर्वक पढ़िए तथा उस पर आधारित प्रश्नों (76-80) के उत्तर चुनिए :\nविधाता-रचित इस सृष्टि का सिरमौर है मनुष्य । उसकी कारीगरी का सर्वोत्तम नमूना । इस मानव को ब्रह्माण्ड का लघु रूप मानकर भारतीय दार्शनिकों ने 'यत् पिण्डे तत् ब्रह्माण्डे' की कल्पना की थी। उनकी यह कल्पना मात्र कल्पना नहीं थी, प्रत्युत यथार्थ भी थी क्योंकि मानव-मन में जो विचारणा के रूप में घटित होता है, उसी का कृति रूप ही तो सृष्टि है। मन तो मन, मानव का शरीर भी अप्रतिम है। देखने में इससे भव्य, आकर्षक एवं लावण्यमय रूप सृष्टि में अन्यत्र कहाँ है ? अद्भुत एवं अद्वितीय है मानव-सौन्दर्य ! साहित्यकारों ने इसके रूप-सौन्दर्य के वर्णन के लिए कितने ही अप्रस्तुतों का विधान किया है और इस सौन्दर्य-राशि से सभी को आप्यायित करने के लिए अनेक काव्य सृष्टियाँ रच डाली हैं।\nसाहित्यशास्त्रियों ने भी इसी मानव की भावनाओं का विवेचन करते हुए अनेक रसों का निरूपण किया है। परन्तु वैज्ञानिक दृष्टि से विचार किया जाए तो मानव-शरीर को एक जटिल यन्त्र से उपमित किया जा सकता है। जिस प्रकार यन्त्र के एक पुर्जे में दोष आ जाने पर सारा यन्त्र गड़बड़ा जाता है, बेकार हो जाता है उसी प्रकार मानव-शरीर के विभिन्न अवयवों में से यदि कोई एक अवयव भी बिगड़ जाता है तो उसका प्रभाव सारे शरीर पर पड़ता है। इतना ही नहीं, गुर्दे जैसे कोमल एवं नाजुक हिस्से के खराब हो जाने से यह गतिशील वपुयन्त्र एकाएक अवरुद्ध हो सकता है, व्यक्ति की मृत्यु हो सकती है। एक अंग के विकृत होने पर सारा शरीर दण्डित हो, वह कालकवलित हो जाए - यह विचारणीय है ।\nयदि किसी यन्त्र के पुर्जे को बदलकर उसके स्थान पर नया पुर्जा लगाकर यन्त्र को पूर्ववत सुचारु एवं व्यवस्थित रूप से क्रियाशील बनाया जा सकता है तो शरीर के विकृत अंग के स्थान पर नव्य निरामय अंग लगाकर शरीर को स्वस्थ एवं सामान्य क्यों नहीं बनाया जा सकता ? शल्य-चिकित्सकों ने इस दायित्वपूर्ण चुनौती को स्वीकार किया तथा निरन्तर अध्यवसाय पूर्णसाधना के अनन्तर अंग-प्रत्यारोपण के क्षेत्र में सफलता प्राप्त की। अंग-प्रत्यारोपण का उद्देश्य है कि मनुष्य दीर्घायु प्राप्त कर सके । यहाँ यह ध्यातव्य है कि मानव शरीर हर किसी के अंग को उसी प्रकार स्वीकार नहीं करता, जिस प्रकार हर किसी का रक्त उसे स्वीकार्य नहीं होता । रोगी को रक्त देने से पूर्व रक्त-वर्ग का परीक्षण अत्यावश्यक है, तो अंग-प्रत्यारोपण से पूर्व ऊतक-परीक्षण अनिवार्य है। आज का शल्य-चिकित्सक गुर्दे, यकृत, आँत, फेफड़े और हृदय का प्रत्यारोपण सफलतापूर्वक कर रहा है। साधन सम्पन्न चिकित्सालयों में मस्तिष्क के अतिरिक्त शरीर के प्रायः सभी अंगों का प्रत्यारोपण सम्भव हो गया है।\n\nमानव को सृष्टि का लघु रूप माना गया है क्योंकि"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "मानव-मन में जो घटित होता है, वही सृष्टि में घटित होता है।" },
+        { "id": "B", "en": null, "hi": "मानव सृष्टि का सिरमौर है।" },
+        { "id": "C", "en": null, "hi": "मन की शक्ति अपराजेय है।" },
+        { "id": "D", "en": null, "hi": "लघु मानव ही विधाता की सच्ची सृष्टि है।" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "गद्यांश के अनुसार: '...क्योंकि मानव-मन में जो विचारणा के रूप में घटित होता है, उसी का कृति रूप ही तो सृष्टि है।'",
+      "sourcePage": 12,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q077",
+      "originalQuestionNumber": "77",
+      "subject": "Hindi Unseen Passage",
+      "question": {
+        "en": null,
+        "hi": "वैज्ञानिक दृष्टि का अपेक्षाकृत अभाव होता है"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "साहित्यकार में" },
+        { "id": "B", "en": null, "hi": "साहित्यशास्त्री में" },
+        { "id": "C", "en": null, "hi": "शल्य चिकित्सक में" },
+        { "id": "D", "en": null, "hi": "वैज्ञानिक में" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "गद्यांश में उल्लेख है: 'साहित्यशास्त्रियों ने भी इसी मानव की भावनाओं का विवेचन करते हुए अनेक रसों का निरूपण किया है। परन्तु वैज्ञानिक दृष्टि से विचार किया जाए तो...'—अतः साहित्यशास्त्री में वैज्ञानिक दृष्टि का अपेक्षाकृत अभाव बताया गया है।",
+      "sourcePage": 12,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q078",
+      "originalQuestionNumber": "78",
+      "subject": "Hindi Unseen Passage",
+      "question": {
+        "en": null,
+        "hi": "मानव शरीर को यन्त्रवत् कहा गया है क्योंकि"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "मानव शरीर दृढ़ माँसपेशियों और अवयवों से निर्मित है।" },
+        { "id": "B", "en": null, "hi": "मानव शरीर यन्त्र की भाँति लावण्यमय होता है।" },
+        { "id": "C", "en": null, "hi": "अवयव रूपी पुर्जों के विकृत होने से शरीर यन्त्रवत् निष्क्रिय हो जाता है।" },
+        { "id": "D", "en": null, "hi": "मानव शरीर विधाता की सृष्टि की अनुपम कृति है।" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "गद्यांश के अनुसार जिस प्रकार यन्त्र के एक पुर्जे में दोष आने पर सारा यन्त्र बेकार हो जाता है, उसी प्रकार शरीर के अवयव बिगड़ने से शरीर रूपी यन्त्र अवरुद्ध/निष्क्रिय हो जाता है।",
+      "sourcePage": 12,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q079",
+      "originalQuestionNumber": "79",
+      "subject": "Hindi Unseen Passage",
+      "question": {
+        "en": null,
+        "hi": "शल्य-चिकित्सकों द्वारा स्वीकार की गई दायित्वपूर्ण चुनौती थी"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "जीर्ण शरीर के स्थान पर स्वस्थ शरीर देना" },
+        { "id": "B", "en": null, "hi": "मानव शरीर को मृत्यु से बचाना" },
+        { "id": "C", "en": null, "hi": "अंग-प्रत्यारोपण द्वारा शरीर को सामान्य बनाना" },
+        { "id": "D", "en": null, "hi": "शल्य चिकित्सा का महत्त्व स्थापित करना" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "गद्यांश में लिखा है: 'शरीर के विकृत अंग के स्थान पर नव्य निरामय अंग लगाकर शरीर को स्वस्थ एवं सामान्य क्यों नहीं बनाया जा सकता? शल्य-चिकित्सकों ने इस दायित्वपूर्ण चुनौती को स्वीकार किया...'",
+      "sourcePage": 12,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q080",
+      "originalQuestionNumber": "80",
+      "subject": "Hindi Unseen Passage",
+      "question": {
+        "en": null,
+        "hi": "अनुच्छेद में प्रयुक्त 'निरामय' शब्द का पर्याय है"
+      },
+      "options": [
+        { "id": "A", "en": null, "hi": "सुन्दर" },
+        { "id": "B", "en": null, "hi": "स्वस्थ" },
+        { "id": "C", "en": null, "hi": "अद्भुत" },
+        { "id": "D", "en": null, "hi": "नवीन" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "'निरामय' (निर् + आमय = रोगरहित) का पर्याय 'स्वस्थ' है।",
+      "sourcePage": 12,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q081",
+      "originalQuestionNumber": "81",
+      "subject": "Graph Interpretation",
+      "question": {
+        "en": "Directions (81-85): The following graph shows the production of cement in Million Tonnes during the various years. Study the same and answer the following questions correctly:\n[Graph Data - Production of Cement (In Million tonnes): 2009-10: 42, 2010-11: 44, 2011-12: 58, 2012-13: 55, 2013-14: 90, 2014-15: 98, 2015-16: 60, 2016-17: 55, 2017-18: 80, 2018-19: 90, 2019-20: 80]\n\nThe production fell down to the maximum extent in the year:",
+        "hi": "निर्देश (81-85) : निम्नांकित रेखाचित्र में सीमेंट का विभिन्न वर्षों के दौरान उत्पादन (मिलियन टन में) दर्शाया गया है। इसका अध्ययन करें और निम्नलिखित प्रश्नों के उत्तर दीजिए:\n[रेखाचित्र डेटा - सीमेंट का उत्पादन (मिलियन टन में): 2009-10: 42, 2010-11: 44, 2011-12: 58, 2012-13: 55, 2013-14: 90, 2014-15: 98, 2015-16: 60, 2016-17: 55, 2017-18: 80, 2018-19: 90, 2019-20: 80]\n\nउत्पादन अधिकतम स्तर तक इस वर्ष घटा :"
+      },
+      "options": [
+        { "id": "A", "en": "2012-13", "hi": "2012-13" },
+        { "id": "B", "en": "2015-16", "hi": "2015-16" },
+        { "id": "C", "en": "2016-17", "hi": "2016-17" },
+        { "id": "D", "en": "2019-20", "hi": "2019-20" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "In 2015-16, production fell from 98 MT (in 2014-15) to 60 MT, a drop of 38 MT (38.78%), which is the largest drop across all years.",
+      "sourcePage": 12,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q082",
+      "originalQuestionNumber": "82",
+      "subject": "Graph Interpretation",
+      "question": {
+        "en": "The increase in production was maximum during the year ________ over its previous year.",
+        "hi": "उत्पादन में पिछले वर्ष की तुलना में वर्ष ________ के दौरान अधिकतम वृद्धि हुई ।"
+      },
+      "options": [
+        { "id": "A", "en": "2013-14", "hi": "2013-14" },
+        { "id": "B", "en": "2017-18", "hi": "2017-18" },
+        { "id": "C", "en": "2014-15", "hi": "2014-15" },
+        { "id": "D", "en": "2018-19", "hi": "2018-19" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "In 2013-14, production rose from 55 MT (in 2012-13) to 90 MT, an increase of 35 MT (63.64%), the highest both in absolute and percentage terms.",
+      "sourcePage": 12,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q083",
+      "originalQuestionNumber": "83",
+      "subject": "Graph Interpretation",
+      "question": {
+        "en": "The average production during the first three years was:",
+        "hi": "प्रथम तीन वर्ष दौरान औसत उत्पादन था"
+      },
+      "options": [
+        { "id": "A", "en": "44 MT", "hi": "44 MT" },
+        { "id": "B", "en": "46 MT", "hi": "46 MT" },
+        { "id": "C", "en": "48 MT", "hi": "48 MT" },
+        { "id": "D", "en": "50 MT", "hi": "50 MT" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "First three years (2009-10, 2010-11, 2011-12): (42 + 44 + 58) / 3 = 144 / 3 = 48 MT.",
+      "sourcePage": 12,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q084",
+      "originalQuestionNumber": "84",
+      "subject": "Graph Interpretation",
+      "question": {
+        "en": "The maximum production of cement was noted in the year:",
+        "hi": "सीमेंट का अधिकतम उत्पादन दर्ज हुआ इस वर्ष :"
+      },
+      "options": [
+        { "id": "A", "en": "2013-14", "hi": "2013-14" },
+        { "id": "B", "en": "2014-15", "hi": "2014-15" },
+        { "id": "C", "en": "2018-19", "hi": "2018-19" },
+        { "id": "D", "en": "2017-18", "hi": "2017-18" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Maximum production is 98 MT in the year 2014-15.",
+      "sourcePage": 13,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q085",
+      "originalQuestionNumber": "85",
+      "subject": "Graph Interpretation",
+      "question": {
+        "en": "The percentage increase in production during 2011-12 over its previous year was:",
+        "hi": "वर्ष 2011-12 के दौरान उत्पादन वृद्धि प्रतिशत पिछले वर्ष की तुलना में था"
+      },
+      "options": [
+        { "id": "A", "en": "31.8%", "hi": "31.8%" },
+        { "id": "B", "en": "36%", "hi": "36%" },
+        { "id": "C", "en": "37.5%", "hi": "37.5%" },
+        { "id": "D", "en": "None of these", "hi": "इनमें से कोई नहीं" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "Production in 2010-11 = 44 MT; in 2011-12 = 58 MT. Percentage increase = ((58 - 44) / 44) × 100 = (14 / 44) × 100 = 31.81% ≈ 31.8%.",
+      "sourcePage": 13,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q086",
+      "originalQuestionNumber": "86",
+      "subject": "Graph Interpretation",
+      "question": {
+        "en": "Directions (86-90): The following graph shows the import of a certain commodity X in Crore Rupees between 2013 and 2019. The questions are based on the shown figure. Answer these questions.\n[Graph Data - Import of X (₹ in Crore): 2013-14: 700, 2014-15: 900, 2015-16: 1200, 2016-17: 1200, 2017-18: 1300, 2018-19: 2000]\n\nPercent increase in import of X from 2014-15 to 2015-16 is",
+        "hi": "निर्देश (86-90) : दिया गया ग्राफ एक वस्तु X के आयात को 2013 से 2019 के मध्य करोड़ रुपये में दर्शाता है। दर्शाए गए चित्र पर आधारित प्रश्नों के उत्तर दें।\n[ग्राफ डेटा - X का आयात (करोड़ ₹ में): 2013-14: 700, 2014-15: 900, 2015-16: 1200, 2016-17: 1200, 2017-18: 1300, 2018-19: 2000]\n\nवर्ष 2014-15 से 2015-16 के दौरान X के आयात में वृद्धि प्रतिशत है -"
+      },
+      "options": [
+        { "id": "A", "en": "43.0%", "hi": "43.0%" },
+        { "id": "B", "en": "33.3%", "hi": "33.3%" },
+        { "id": "C", "en": "28.8%", "hi": "28.8%" },
+        { "id": "D", "en": "25.0%", "hi": "25.0%" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Import in 2014-15 = 900; in 2015-16 = 1200. Percentage increase = ((1200 - 900) / 900) × 100 = (300 / 900) × 100 = 33.33% ≈ 33.3%.",
+      "sourcePage": 13,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q087",
+      "originalQuestionNumber": "87",
+      "subject": "Graph Interpretation",
+      "question": {
+        "en": "Average of the increase in import of X year by year for all the years is (in ₹ crore)",
+        "hi": "सभी वर्षों के लिए वर्ष दर वर्ष X के आयात की वृद्धि का औसत (₹ करोड़ में) है"
+      },
+      "options": [
+        { "id": "A", "en": "260", "hi": "260" },
+        { "id": "B", "en": "280", "hi": "280" },
+        { "id": "C", "en": "325", "hi": "325" },
+        { "id": "D", "en": "None of these", "hi": "इनमें से कोई नहीं" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "Year-over-year increases across the 5 intervals: (900-700)=200, (1200-900)=300, (1200-1200)=0, (1300-1200)=100, (2000-1300)=700. Total increase = 200 + 300 + 0 + 100 + 700 = 1300. Average over 5 intervals = 1300 / 5 = 260.",
+      "sourcePage": 13,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q088",
+      "originalQuestionNumber": "88",
+      "subject": "Graph Interpretation",
+      "question": {
+        "en": "For how many years, there was more import of X, than the average import of X?",
+        "hi": "विगत कितने वर्षों तक X का आयात, X के औसत आयात से अधिक था ?"
+      },
+      "options": [
+        { "id": "A", "en": "4", "hi": "4" },
+        { "id": "B", "en": "3", "hi": "3" },
+        { "id": "C", "en": "2", "hi": "2" },
+        { "id": "D", "en": "1", "hi": "1" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "Average import across all 6 years = (700 + 900 + 1200 + 1200 + 1300 + 2000) / 6 = 7300 / 6 = 1216.67. Years exceeding 1216.67 are 2017-18 (1300) and 2018-19 (2000), i.e., 2 years.",
+      "sourcePage": 13,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q089",
+      "originalQuestionNumber": "89",
+      "subject": "Graph Interpretation",
+      "question": {
+        "en": "The difference of the numbers of years in which import of X is less than the average import and in which import of X is more than the average import is",
+        "hi": "X के औसत आयात से अधिक आयात और X के औसत आयात से कम आयात के वर्षों का अंतर है-"
+      },
+      "options": [
+        { "id": "A", "en": "3", "hi": "3" },
+        { "id": "B", "en": "2", "hi": "2" },
+        { "id": "C", "en": "1", "hi": "1" },
+        { "id": "D", "en": "0", "hi": "0" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Average import = 1216.67. Number of years with import < average = 4 (700, 900, 1200, 1200). Number of years with import > average = 2 (1300, 2000). Difference = 4 - 2 = 2.",
+      "sourcePage": 13,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q090",
+      "originalQuestionNumber": "90",
+      "subject": "Graph Interpretation",
+      "question": {
+        "en": "The percentage increase in import of X during 2018-19 over its Average of Import of X of all years ?",
+        "hi": "वर्ष 2018-19 के दौरान X के आयात में प्रतिशत वृद्धि सभी वर्षों के X के आयात के उसके औसत से कितनी है ?"
+      },
+      "options": [
+        { "id": "A", "en": "50.9%", "hi": "50.9%" },
+        { "id": "B", "en": "63.5%", "hi": "63.5%" },
+        { "id": "C", "en": "70.6%", "hi": "70.6%" },
+        { "id": "D", "en": "64.38%", "hi": "64.38%" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "Average import = 7300 / 6. Import in 2018-19 = 2000. Percentage increase over average = ((2000 - 7300/6) / (7300/6)) × 100 = (4700 / 7300) × 100 = 64.3835% ≈ 64.38%.",
+      "sourcePage": 13,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q091",
+      "originalQuestionNumber": "91",
+      "subject": "Table Interpretation & Analysis",
+      "question": {
+        "en": "Directions (91-95): Study the table and answer the given questions.\nIn the following table four persons A, B, C and D are selling items on different days of the week.\n[Table Data:\nMonday: A=40, B=45, C=25, D=20\nTuesday: A=35, B=50, C=48, D=26\nFriday: A=25, B=28, C=15, D=41\nSaturday: A=30, B=40, C=45, D=40]\n\nWhat was the ratio of item sold by A on Tuesday & items sold by C on Saturday?",
+        "hi": "निर्देश (91-95) : दी गई तालिका/सारणी का ध्यानपूर्वक अध्ययन करें तथा नीचे दिए प्रश्नों के उत्तर दें :\nनिम्न तालिका में चार व्यक्ति A, B, C तथा D सप्ताह के विभिन्न दिनों पर वस्तुओं की बिक्री कर रहे हैं :\n[तालिका डेटा:\nसोमवार: A=40, B=45, C=25, D=20\nमंगलवार: A=35, B=50, C=48, D=26\nशुक्रवार: A=25, B=28, C=15, D=41\nशनिवार: A=30, B=40, C=45, D=40]\n\nमंगलवार को A द्वारा बेची गई वस्तु तथा शनिवार को C द्वारा बेची गई वस्तु का अनुपात क्या था ?"
+      },
+      "options": [
+        { "id": "A", "en": "9:7", "hi": "9:7" },
+        { "id": "B", "en": "7:9", "hi": "7:9" },
+        { "id": "C", "en": "6:5", "hi": "6:5" },
+        { "id": "D", "en": "8:7", "hi": "8:7" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Items sold by A on Tuesday = 35. Items sold by C on Saturday = 45. Ratio = 35 : 45 = 7 : 9.",
+      "sourcePage": 14,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q092",
+      "originalQuestionNumber": "92",
+      "subject": "Table Interpretation & Analysis",
+      "question": {
+        "en": "Items sold by D on Monday is what percent of item sold by C on Saturday?",
+        "hi": "सोमवार को D द्वारा बेची गई वस्तु, शनिवार को C द्वारा बेची गई वस्तु का कितना प्रतिशत थी ?"
+      },
+      "options": [
+        { "id": "A", "en": "42.60%", "hi": "42.60%" },
+        { "id": "B", "en": "49.55%", "hi": "49.55%" },
+        { "id": "C", "en": "44.44%", "hi": "44.44%" },
+        { "id": "D", "en": "32.70%", "hi": "32.70%" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "Items sold by D on Monday = 20. Items sold by C on Saturday = 45. Percentage = (20 / 45) × 100 = (4 / 9) × 100 = 44.44%.",
+      "sourcePage": 14,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q093",
+      "originalQuestionNumber": "93",
+      "subject": "Table Interpretation & Analysis",
+      "question": {
+        "en": "What is the average of the items sold by B, C and D on Monday, Tuesday and Saturday respectively?",
+        "hi": "B, C तथा D द्वारा क्रमशः सोमवार, मंगलवार तथा शनिवार को बेची गई वस्तुओं का औसत क्या है ?"
+      },
+      "options": [
+        { "id": "A", "en": "44.33", "hi": "44.33" },
+        { "id": "B", "en": "42.50", "hi": "42.50" },
+        { "id": "C", "en": "46.66", "hi": "46.66" },
+        { "id": "D", "en": "45.90", "hi": "45.90" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "B on Monday = 45; C on Tuesday = 48; D on Saturday = 40. Average = (45 + 48 + 40) / 3 = 133 / 3 = 44.33.",
+      "sourcePage": 14,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q094",
+      "originalQuestionNumber": "94",
+      "subject": "Table Interpretation & Analysis",
+      "question": {
+        "en": "Percent increase for selling of items B compare with Selling of items D in all four days of weeks is",
+        "hi": "सप्ताह के सभी चार दिनों में D वस्तु की बिक्री की तुलना में B वस्तु की बिक्री में कितने प्रतिशत की वृद्धि आई ?"
+      },
+      "options": [
+        { "id": "A", "en": "29.1%", "hi": "29.1%" },
+        { "id": "B", "en": "19.5%", "hi": "19.5%" },
+        { "id": "C", "en": "18.3%", "hi": "18.3%" },
+        { "id": "D", "en": "28.3%", "hi": "28.3%" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "Total sold by D = 20 + 26 + 41 + 40 = 127. Total sold by B = 45 + 50 + 28 + 40 = 163. Percentage increase = ((163 - 127) / 127) × 100 = (36 / 127) × 100 = 28.346% ≈ 28.3%.",
+      "sourcePage": 14,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q095",
+      "originalQuestionNumber": "95",
+      "subject": "Table Interpretation & Analysis",
+      "question": {
+        "en": "What is the difference between the average of items selling on Monday to average items selling on Friday?",
+        "hi": "सोमवार को बेची गई वस्तुओं की औसत और शुक्रवार को बेची गई वस्तुओं की औसत के मध्य कितना अंतर है ?"
+      },
+      "options": [
+        { "id": "A", "en": "10.5", "hi": "10.5" },
+        { "id": "B", "en": "7.40", "hi": "7.40" },
+        { "id": "C", "en": "5.25", "hi": "5.25" },
+        { "id": "D", "en": "6.45", "hi": "6.45" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "Monday total = 40 + 45 + 25 + 20 = 130 (Average = 130 / 4 = 32.5). Friday total = 25 + 28 + 15 + 41 = 109 (Average = 109 / 4 = 27.25). Difference = 32.5 - 27.25 = 5.25.",
+      "sourcePage": 14,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q096",
+      "originalQuestionNumber": "96",
+      "subject": "Table Interpretation & Analysis",
+      "question": {
+        "en": "Directions (96-100): Study the table and answer the given questions.\nProduction of Crops in India during 2010-2017 (In tonnes)\n[Table Data:\n2010-11: Wheat=6121, Rice=874, Bajra=565, Maize=80, Barley=300, Pulses=415, Potatoes=210\n2011-12: Wheat=7010, Rice=964, Bajra=655, Maize=60, Barley=312, Pulses=417, Potatoes=220\n2012-13: Wheat=7112, Rice=960, Bajra=780, Maize=55, Barley=210, Pulses=680, Potatoes=222\n2013-14: Wheat=7056, Rice=985, Bajra=1110, Maize=40, Barley=200, Pulses=310, Potatoes=245\n2014-15: Wheat=6896, Rice=716, Bajra=1160, Maize=90, Barley=216, Pulses=370, Potatoes=315\n2015-16: Wheat=6912, Rice=826, Bajra=1450, Maize=110, Barley=160, Pulses=300, Potatoes=400\n2016-17: Wheat=7617, Rice=812, Bajra=1460, Maize=75, Barley=216, Pulses=260, Potatoes=445]\n\nWheat production started showing a slump during :",
+        "hi": "निर्देश (96-100) : दी गई तालिका/सारणी का ध्यानपूर्वक अध्ययन करें तथा नीचे दिए प्रश्नों के उत्तर दें:\nभारत में 2010-2017 के मध्य फसलों का उत्पादन (टन में)\n[तालिका डेटा:\n2010-11: गेहूँ=6121, चावल=874, बाजरा=565, मक्का=80, जौ=300, दालें=415, आलू=210\n2011-12: गेहूँ=7010, चावल=964, बाजरा=655, मक्का=60, जौ=312, दालें=417, आलू=220\n2012-13: गेहूँ=7112, चावल=960, बाजरा=780, मक्का=55, जौ=210, दालें=680, आलू=222\n2013-14: गेहूँ=7056, चावल=985, बाजरा=1110, मक्का=40, जौ=200, दालें=310, आलू=245\n2014-15: गेहूँ=6896, चावल=716, बाजरा=1160, मक्का=90, जौ=216, दालें=370, आलू=315\n2015-16: गेहूँ=6912, चावल=826, बाजरा=1450, मक्का=110, जौ=160, दालें=300, आलू=400\n2016-17: गेहूँ=7617, चावल=812, बाजरा=1460, मक्का=75, जौ=216, दालें=260, आलू=445]\n\nगेहूँ उत्पादन में किस वर्ष के दौरान गिरावट दिखाई दी ?"
+      },
+      "options": [
+        { "id": "A", "en": "2013-14", "hi": "2013-14" },
+        { "id": "B", "en": "2015-16", "hi": "2015-16" },
+        { "id": "C", "en": "2014-15", "hi": "2014-15" },
+        { "id": "D", "en": "2016-17", "hi": "2016-17" }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "independently_verified",
+      "explanation": "Wheat production peaked at 7112 in 2012-13, then fell to 7056 in 2013-14 and further fell to 6896 in 2014-15. In English ('started showing a slump during'), 2013-14 (Option A) is unambiguous, whereas in Hindi ('किस वर्ष के दौरान गिरावट दिखाई दी'), both 2013-14 (A) and 2014-15 (C) experienced declines. Due to this ambiguity between the Hindi and English versions, UPSSSC awarded full marks (*) to all candidates in the revised answer key.",
+      "sourcePage": 15,
+      "verificationStatus": "needs_review",
+      "issues": [
+        "Marked with '*' in the provided answer key ('आयोग द्वारा सभी को समान अंक दिए गए') because English asks when wheat production 'started showing a slump' (2013-14, Option A), while Hindi asks in which year a slump was seen (both 2013-14 and 2014-15 showed declines)."
+      ]
+    },
+    {
+      "id": "Q097",
+      "originalQuestionNumber": "97",
+      "subject": "Table Interpretation & Analysis",
+      "question": {
+        "en": "Which of the following crops showed the continuous increase in production during 2013-2017?",
+        "hi": "इनमें से किस फसल में 2013-2017 के मध्य उत्पादन में लगातार वृद्धि दर्ज की गई ?"
+      },
+      "options": [
+        { "id": "A", "en": "Maize", "hi": "मक्का" },
+        { "id": "B", "en": "Barley", "hi": "जौ" },
+        { "id": "C", "en": "Pulses", "hi": "दालें" },
+        { "id": "D", "en": "Bajra", "hi": "बाजरा" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "Bajra production increased continuously from 2013-14 to 2016-17: 1110 -> 1160 -> 1450 -> 1460 tonnes.",
+      "sourcePage": 15,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q098",
+      "originalQuestionNumber": "98",
+      "subject": "Table Interpretation & Analysis",
+      "question": {
+        "en": "What is the average yield of potatoes during the period 2010-11 to 2016-17?",
+        "hi": "2010-11 से 2016-17 की अवधि के मध्य आलू का औसत उत्पादन कितना है ?"
+      },
+      "options": [
+        { "id": "A", "en": "300.00 tonnes", "hi": "300.00 टन" },
+        { "id": "B", "en": "293.86 tonnes", "hi": "293.86 टन" },
+        { "id": "C", "en": "353.96 tonnes", "hi": "353.96 टन" },
+        { "id": "D", "en": "253.86 tonnes", "hi": "253.86 टन" }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Total potato production across the 7 years = 210 + 220 + 222 + 245 + 315 + 400 + 445 = 2057 tonnes. Average = 2057 / 7 = 293.857... ≈ 293.86 tonnes.",
+      "sourcePage": 15,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q099",
+      "originalQuestionNumber": "99",
+      "subject": "Table Interpretation & Analysis",
+      "question": {
+        "en": "During 2016-17, which of the following crops showed decrease in production in comparison to the previous year?",
+        "hi": "2016-17 के मध्य इनमें से किस फसल के उत्पादन में पिछले वर्ष की तुलना में गिरावट दर्ज की गई ?"
+      },
+      "options": [
+        { "id": "A", "en": "Barley", "hi": "जौ" },
+        { "id": "B", "en": "Bajra", "hi": "बाजरा" },
+        { "id": "C", "en": "Rice", "hi": "चावल" },
+        { "id": "D", "en": "Potatoes", "hi": "आलू" }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "In 2016-17, Rice production fell from 826 tonnes (in 2015-16) to 812 tonnes, whereas Barley (160->216), Bajra (1450->1460), and Potatoes (400->445) all increased.",
+      "sourcePage": 15,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q100",
+      "originalQuestionNumber": "100",
+      "subject": "Table Interpretation & Analysis",
+      "question": {
+        "en": "The production of potatoes in 2015-16 is approximately how many times that in 2010-11?",
+        "hi": "आलू का उत्पादन 2015-16 में 2010-11 का अंदाजन कितना गुणा है ?"
+      },
+      "options": [
+        { "id": "A", "en": "1.82", "hi": "1.82" },
+        { "id": "B", "en": "2.00", "hi": "2.00" },
+        { "id": "C", "en": "2.10", "hi": "2.10" },
+        { "id": "D", "en": "1.90", "hi": "1.90" }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "Potato production in 2015-16 = 400 tonnes; in 2010-11 = 210 tonnes. Ratio = 400 / 210 = 1.9047... ≈ 1.90.",
+      "sourcePage": 15,
+      "verificationStatus": "verified",
+      "issues": []
+    }
+  ]
+}

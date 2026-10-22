@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0",
+  "defaults": {
+    "durationMinutes": 120,
+    "durationNote": "Applied only when an exam file omits duration. Typical UP PET computer-based test duration is 120 minutes.",
+    "markingScheme": {
+      "marksPerCorrect": 1,
+      "marksPerIncorrect": -0.25,
+      "marksPerUnattempted": 0
+    },
+    "markingNote": "Applied only when an exam file omits marking rules. These are standard PET practice rules, not a substitute for an official brochure."
+  },
+  "exams": [
+    {
+      "id": "upsssc-pet-2021-shift-2-gamma21-a",
+      "title": "UP PET 2021 — Shift 2",
+      "year": 2021,
+      "examDate": null,
+      "shift": "Shift 2 (द्वितीय पाली)",
+      "paperSet": "A (GAMMA21)",
+      "category": "previous-year",
+      "dataPath": "/exams/up-pet-2021-shift-2.json",
+      "status": "published"
+    },
+    {
+      "id": "PET-2025-06SEP-S1",
+      "title": "UP PET 2025 — Shift 1",
+      "year": 2025,
+      "examDate": "2025-09-06",
+      "shift": "Shift 1",
+      "paperSet": "Master Set",
+      "category": "previous-year",
+      "dataPath": "/exams/up-pet-2025-shift-1.json",
+      "status": "published"
+    }
+  ]
+}

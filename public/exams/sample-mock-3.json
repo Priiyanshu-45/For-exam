@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1.0",
+  "examId": "sample-mock-3",
+  "title": "SAMPLE Mock 3 — platform discovery check",
+  "examDate": "2026-01-01",
+  "shift": "Sample",
+  "paperSet": "SAMPLE",
+  "durationMinutes": 10,
+  "totalQuestions": 4,
+  "markingScheme": {
+    "marksPerCorrect": 1,
+    "marksPerIncorrect": 0,
+    "marksPerUnattempted": 0
+  },
+  "metadata": {
+    "note": "LABELLED SAMPLE. This file exists to demonstrate registry-based discovery. It is not an official UP PET paper."
+  },
+  "questions": [
+    {
+      "id": "Q001",
+      "originalQuestionNumber": "1",
+      "subject": "Platform",
+      "question": { "en": "How is a new exam added to this platform?", "hi": "इस मंच पर नई परीक्षा कैसे जोड़ी जाती है?" },
+      "options": [
+        { "id": "A", "en": "Rewrite the home page", "hi": "होम पेज फिर से लिखें" },
+        { "id": "B", "en": "Add a JSON file and a registry entry", "hi": "JSON फ़ाइल और रजिस्ट्री प्रविष्टि जोड़ें" },
+        { "id": "C", "en": "Hard-code a React component", "hi": "React घटक हार्ड-कोड करें" },
+        { "id": "D", "en": "Change the scoring engine", "hi": "स्कोरिंग इंजन बदलें" }
+      ],
+      "correctAnswer": "B",
+      "verificationStatus": "verified",
+      "explanation": "The library is populated from registry.json."
+    },
+    {
+      "id": "Q002",
+      "originalQuestionNumber": "2",
+      "subject": "Platform",
+      "question": { "en": "Where is in-progress exam state stored?", "hi": "चल रही परीक्षा की स्थिति कहाँ संग्रहीत होती है?" },
+      "options": [
+        { "id": "A", "en": "This browser", "hi": "इस ब्राउज़र में" },
+        { "id": "B", "en": "A central server", "hi": "केंद्रीय सर्वर पर" },
+        { "id": "C", "en": "Email", "hi": "ईमेल में" },
+        { "id": "D", "en": "Nowhere", "hi": "कहीं नहीं" }
+      ],
+      "correctAnswer": "A",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "Q003",
+      "originalQuestionNumber": "3",
+      "subject": "Platform",
+      "question": { "en": "What happens if an answer key is unresolved?", "hi": "यदि उत्तर कुंजी अनसुलझी हो तो क्या होता है?" },
+      "options": [
+        { "id": "A", "en": "It is marked incorrect", "hi": "इसे गलत माना जाता है" },
+        { "id": "B", "en": "It is excluded from correct/incorrect scoring", "hi": "इसे सही/गलत स्कोरिंग से बाहर रखा जाता है" },
+        { "id": "C", "en": "A random answer is used", "hi": "कोई यादृच्छिक उत्तर प्रयोग होता है" },
+        { "id": "D", "en": "The exam cannot start", "hi": "परीक्षा शुरू नहीं हो सकती" }
+      ],
+      "correctAnswer": "B",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "Q004",
+      "originalQuestionNumber": "4",
+      "subject": "Platform",
+      "question": { "en": "This sample paper is:", "hi": "यह नमूना प्रश्नपत्र है:" },
+      "options": [
+        { "id": "A", "en": "An official UP PET paper", "hi": "आधिकारिक UP PET पेपर" },
+        { "id": "B", "en": "A labelled sample for registry testing", "hi": "रजिस्ट्री परीक्षण के लिए चिह्नित नमूना" },
+        { "id": "C", "en": "Shift 1 2025", "hi": "शिफ्ट 1 2025" },
+        { "id": "D", "en": "Shift 2 2021", "hi": "शिफ्ट 2 2021" }
+      ],
+      "correctAnswer": "B",
+      "verificationStatus": "verified"
+    }
+  ]
+}

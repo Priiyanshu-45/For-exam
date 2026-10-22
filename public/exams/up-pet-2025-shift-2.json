@@ -1,0 +1,5076 @@
+{
+  "schemaVersion": "1.0",
+  "examId": "upsssc-pet-2025-09-06-shift2-jf4",
+  "title": "UPSSSC Preliminary Eligibility Test (PET) 2025 — Set JF4",
+  "titleHi": "उत्तर प्रदेश अधीनस्थ सेवा चयन आयोग, लखनऊ — प्रारम्भिक अर्हता परीक्षा (PET)-2025",
+  "conductingBody": {
+    "hi": "उत्तर प्रदेश अधीनस्थ सेवा चयन आयोग, लखनऊ",
+    "en": "Uttar Pradesh Subordinate Service Selection Commission, Lucknow"
+  },
+  "advertisementNumber": "01-परीक्षा/2025",
+  "examDate": "2025-09-06",
+  "shift": "Second (द्वितीय)",
+  "paperSet": "JF4",
+  "durationMinutes": null,
+  "totalQuestions": 100,
+  "markingScheme": {
+    "marksPerCorrect": null,
+    "marksPerIncorrect": null,
+    "marksPerUnattempted": null
+  },
+  "metadata": {
+    "languages": [
+      "hi",
+      "en"
+    ],
+    "subjectsAreInferred": true,
+    "note": "Subject labels are inferred from topic; the paper does not print section headings. sourcePage is the printed page number on the question paper (the supplied scan starts at printed page 2; the cover page with instructions is not included, so duration and marking scheme are unknown).",
+    "answerKeyDocument": "UPSSSC PET-2025 Provisional Answer Key, Master Set (JF4), 06-09-2025, Shift 2 — questions appear in a different order from the question paper; every answer was matched by question content, not by number.",
+    "unresolvedOrIncompleteQuestions": [
+      "Q030",
+      "Q031"
+    ]
+  },
+  "contexts": [
+    {
+      "id": "CTX-1-5",
+      "type": "table",
+      "questionRange": [
+        1,
+        5
+      ],
+      "sourcePages": [
+        2
+      ],
+      "directions": {
+        "hi": "निर्देश (प्र.सं. 1 – 5) : तालिका का अध्ययन करें और प्रश्न का उत्तर दें । अलग-अलग महीनों में पाँच अलग-अलग दुकानों द्वारा बेचे गए लैपटॉप ।",
+        "en": "Direction (Q. No. 1 – 5) : Study the table and answer the questions. Laptop sold by five different stores in different months."
+      },
+      "table": {
+        "rowHeader": {
+          "hi": "स्टोर",
+          "en": "Store"
+        },
+        "columns": [
+          {
+            "hi": "जून",
+            "en": "June"
+          },
+          {
+            "hi": "जुलाई",
+            "en": "July"
+          },
+          {
+            "hi": "मई",
+            "en": "May"
+          },
+          {
+            "hi": "अक्टूबर",
+            "en": "October"
+          }
+        ],
+        "rows": [
+          {
+            "label": "I",
+            "values": [
+              240,
+              342,
+              234,
+              210
+            ]
+          },
+          {
+            "label": "J",
+            "values": [
+              230,
+              234,
+              432,
+              242
+            ]
+          },
+          {
+            "label": "K",
+            "values": [
+              120,
+              338,
+              235,
+              234
+            ]
+          },
+          {
+            "label": "L",
+            "values": [
+              280,
+              348,
+              342,
+              178
+            ]
+          },
+          {
+            "label": "M",
+            "values": [
+              326,
+              456,
+              362,
+              148
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "CTX-16-20",
+      "type": "bar_chart",
+      "questionRange": [
+        16,
+        20
+      ],
+      "sourcePages": [
+        5
+      ],
+      "directions": {
+        "hi": "निर्देश (प्र.सं. 16 – 20) : निम्नलिखित जानकारी का ध्यानपूर्वक अध्ययन करें और नीचे दिए गए प्रश्नों के उत्तर दें । दिया गया बार ग्राफ पाँच अलग-अलग दुकानों में बेची गई सब्जियों (गाजर और मूली) (किलोग्राम में) की मात्रा को दर्शाता है ।",
+        "en": "Direction (Q. No. 16 – 20) : Study the following information carefully and answer the questions given below. The given bar graph shows the quantity of vegetables (Carrot and Radish ) (in kg) sold in five different shops."
+      },
+      "chart": {
+        "unit": "kg",
+        "categories": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "series": [
+          {
+            "name": {
+              "en": "Radish",
+              "hi": "मूली"
+            },
+            "values": [
+              432,
+              648,
+              864,
+              576,
+              936
+            ]
+          },
+          {
+            "name": {
+              "en": "Carrot",
+              "hi": "गाजर"
+            },
+            "values": [
+              576,
+              504,
+              432,
+              792,
+              540
+            ]
+          }
+        ],
+        "note": "Values transcribed from the data labels printed on the bar chart in the scan."
+      }
+    },
+    {
+      "id": "CTX-31-35",
+      "type": "table",
+      "questionRange": [
+        31,
+        35
+      ],
+      "sourcePages": [
+        8
+      ],
+      "directions": {
+        "hi": "निर्देश (प्र.सं. 31 – 35) : तालिका का अध्ययन करें और प्रश्न का उत्तर दें । P और Q द्वारा चार अलग-अलग महीनों में लिखे गए कुल पृष्ठ (हिन्दी + अंग्रेजी) दिए गए हैं ।",
+        "en": "Direction (Q. No. 31 – 35) : Study the table and answer the questions. Total pages (Hindi + English) written by P and Q in four different months given."
+      },
+      "table": {
+        "rowHeader": {
+          "hi": "महीना",
+          "en": "Month"
+        },
+        "columns": [
+          {
+            "hi": "P",
+            "en": "P"
+          },
+          {
+            "hi": "Q",
+            "en": "Q"
+          }
+        ],
+        "rows": [
+          {
+            "label": {
+              "hi": "मई",
+              "en": "May"
+            },
+            "values": [
+              240,
+              340
+            ]
+          },
+          {
+            "label": {
+              "hi": "जून",
+              "en": "June"
+            },
+            "values": [
+              320,
+              234
+            ]
+          },
+          {
+            "label": {
+              "hi": "जुलाई",
+              "en": "July"
+            },
+            "values": [
+              420,
+              280
+            ]
+          },
+          {
+            "label": {
+              "hi": "अगस्त",
+              "en": "August"
+            },
+            "values": [
+              220,
+              360
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "CTX-48-49",
+      "type": "passage",
+      "questionRange": [
+        48,
+        49
+      ],
+      "sourcePages": [
+        12
+      ],
+      "directions": {
+        "hi": null,
+        "en": "Direction (Q. No. 48 and 49) : Read the passage and choose the correct option to answer the questions that follow :"
+      },
+      "title": {
+        "hi": null,
+        "en": "Advances in Electric Vehicles"
+      },
+      "passage": {
+        "hi": null,
+        "en": "Electric Vehicles (EVs) have gained popularity as an alternative to traditional gasoline-powered cars. They offer environmental benefits, such as reduced greenhouse gas emissions and lower air pollution. Many countries are investing in EV infrastructure, including charging stations, to support the widespread adoption of electric vehicles."
+      }
+    },
+    {
+      "id": "CTX-56-60",
+      "type": "line_chart",
+      "questionRange": [
+        56,
+        60
+      ],
+      "sourcePages": [
+        14
+      ],
+      "directions": {
+        "hi": "निर्देश (प्र.सं. 56 – 60) : निम्नलिखित जानकारी का ध्यानपूर्वक अध्ययन करें और प्रश्नों के उत्तर दें । नीचे दिए गए रेखा ग्राफ चार अलग-अलग दुकानों यानी A, B, C और D द्वारा बेचे गए बॉल प्वाईंट पेन की संख्या को दर्शाता है और साथ ही चार अलग-अलग दुकानों द्वारा बेचे गए जेल पेन की संख्या और चार अलग-अलग दुकानों द्वारा बेचे गए फाउंटेन पेन की संख्या भी दी गई है ।",
+        "en": "Direction (Q. No. 56 – 60) : Study the following information carefully and answer the questions. The given line graph shows the number of ball point pens sold by four different shops i.e. A, B, C and D and also given the number of gel pens sold by four different shops and the number of fountain pens sold by four different shops."
+      },
+      "chart": {
+        "unit": "pens",
+        "categories": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "series": [
+          {
+            "name": {
+              "en": "The number of ball point pens sold",
+              "hi": "बेचे गए बॉल प्वाईंट पेन की संख्या"
+            },
+            "values": [
+              140,
+              300,
+              180,
+              270
+            ]
+          },
+          {
+            "name": {
+              "en": "The number of gel pens sold",
+              "hi": "बेचे गए जेल पेन की संख्या"
+            },
+            "values": [
+              240,
+              120,
+              320,
+              100
+            ]
+          },
+          {
+            "name": {
+              "en": "The number of fountain pens sold",
+              "hi": "बेचे गए फाउंटेन पेन की संख्या"
+            },
+            "values": [
+              360,
+              200,
+              280,
+              180
+            ]
+          }
+        ],
+        "note": "Values transcribed from the data labels printed on the line graph in the scan."
+      }
+    },
+    {
+      "id": "CTX-71-75",
+      "type": "passage",
+      "questionRange": [
+        71,
+        75
+      ],
+      "sourcePages": [
+        17,
+        18
+      ],
+      "directions": {
+        "hi": "निर्देश (प्र.सं. 71 – 75) : निम्नलिखित गद्यांश को पढ़कर पूछे गये प्रश्नों के उत्तर दीजिए ।",
+        "en": null
+      },
+      "title": null,
+      "passage": {
+        "hi": "सैन्य संचालक और राणा का प्रतिनिधित्व करने वाले महारावत बाघसिंह की तलवार धूप में दामिनी-सी चमकी और वे गरज उठे-‘‘हम बादशाह का सामना नहीं कर पाएँगे क्योंकि उसके पास बड़ी सेना है । ऐसी स्थिति में हमें केसरिया बाना पहन लेना चाहिए और दुर्ग की वीर ललनाओं को जौहर व्रत करने के लिए प्रेरित करना चाहिए ।’’\n\nयह सुनते ही हाड़ी रानी ने सगर्व कहा-‘‘हम जौहर करेंगी । कोई भी शत्रु हमारे नारीत्व-सतीत्व को कलंकित करे, इससे पहले हम मरना ठीक समझेंगी ।’’\n\nमहारावत तथा अन्य सरदारों को इससे संतोष हुआ । और वे निश्चिन्त हो गए । उन्होंने केसरिया बाना पहन लिया । वीर ललनाओं ने अग्नि-कुंड में बारूद तथा आग को प्रज्वलित करने वाली दूसरी सामग्रियाँ डालीं । कितना दारुण दृश्य था-हजारों नारियाँ और कुँवारी कन्याएँ ....\n\nएक कुँवारी कन्या ने कहा-‘‘माँ सा, हम जीते जी अग्नि-कुंड में क्यों प्रवेश करती हैं ?’’\n‘‘मर्यादा की रक्षा के लिए ।’’\n‘‘क्या हम युद्ध करती हुई नहीं मर सकतीं ?’’\nउस नारी ने अहंकार से कहा-‘‘मर सकती हैं, क्षत्राणी का धर्म भी युद्ध करते हुए मरना है । त्याग ही उनका गौरव है पर उसमें जीवित रूप में पकड़े जाने का भी अंदेशा है, तब... ?’’\n‘‘ओह !’’ कुँवारी कन्या ने कहा - ‘‘मर्यादा से तो मृत्यु भली है । चलिए, माँ सा, हम सब अपनी आन पर उत्सर्ग हों ।’’\nएक युवती एक रानी से पूछ रही थी - ‘‘इस युद्ध को बंद करा दीजिए । यह युद्ध कितना भयंकर होता है, कितना बीभत्स होता है, इसमें कितनी घृणा है, क्या मनुष्य प्रेम से नहीं रह सकता ?’’\n‘‘युद्ध अपने स्थान पर श्रेष्ठ लगता है और प्रेम अपने स्थान पर । आज चित्तौड़ पर विपत्ति आई हुई है, उसकी मान-मर्यादा के गौरव को खतरा है; ऐसे समय प्रेम की बात या युद्ध बंद करने की बात हास्यास्पद लगती है । अभी सिर्फ युद्ध की बात करो, शत्रु-संहार की बात करो, उत्सर्ग की बात करो । हम जौहर व्रत करके अपने नरसिंहों को निश्चिन्त करा देंगी ।’’",
+        "en": null
+      }
+    },
+    {
+      "id": "CTX-76-80",
+      "type": "passage",
+      "questionRange": [
+        76,
+        80
+      ],
+      "sourcePages": [
+        19
+      ],
+      "directions": {
+        "hi": "निर्देश (प्र.सं. 76 – 80) : निम्नलिखित गद्यांश को पढ़कर पूछे गये प्रश्नों के उत्तर दीजिए ।",
+        "en": null
+      },
+      "title": null,
+      "passage": {
+        "hi": "‘क’ कई महीने बाद आये थे । सुबह चाय पीकर अखबार देख रहा था कि वे तूफान की तरह कमरे में घुसे, ‘साइक्लोन’ की तरह मुझे अपनी भुजाओं में जकड़ा तो मुझे धृतराष्ट्र की भुजाओं में जकड़े भीम के पुतले की याद आ गयी । यह धृतराष्ट्र की ही जकड़ थी । अंधे धृतराष्ट्र ने टटोलते हुए पूछा, ‘कहाँ है भीम ? आ बेटा, तुझे कलेजे से लगा लूँ ।’ और जब भीम का पुतला उनकी पकड़ में आ गया तो उन्होंने प्राणघाती स्नेह से उसे जकड़कर चूर कर डाला ।\n\nऐसे मौके पर हम अक्सर अपने पुतले को अंकवार में दे देते हैं, हम अलग खड़े देखते रहते हैं । ‘क’ से क्या मैं गले मिला ? क्या मुझे उसने समेटकर कलेजे से लगा लिया ? हरगिज नहीं । मैंने अपना पुतला ही उसे दिया । पुतला इसलिए उसकी भुजाओं में सौंप दिया कि मुझे मालूम था कि मैं धृतराष्ट्र से मिल रहा हूँ । पिछली रात को एक मित्र ने बताया कि ‘क’ अपनी ससुराल आया है और ‘ग’ के साथ बैठकर शाम को दो-तीन घंटे तुम्हारी निन्दा करता रहा । इस सूचना के बाद जब आज सबेरे वह मेरे गले लगा तो मैंने शरीर से अपने मन को चुपचाप खिसका दिया और निःस्नेह, कँटीली देह उसकी बाँहों में छोड़ दी । भावना के अगर काँटे होते तो उसे मालूम होता कि वह नागफनी को कलेजे से चिपटाये है । छल का धृतराष्ट्र जब आलिंगन करे, तो पुतला ही आगे बढ़ाना चाहिए ।\n\nपर वह मेरा दोस्त अभिनय में पूरा है । उसके आँसू भर नहीं आये, बाकी मिलन के हर्षोल्लास के सब चिन्ह प्रकट हो गये-वह गहरी आत्मीयता की जकड़, नयनों से छलकता वह असीम स्नेह और वह स्नेहसिक्त वाणी ।\n\nबोला, ‘अभी सुबह की गाड़ी से उतरा और एकदम तुमसे मिलने चला आया, जैसे आत्मा का एक खण्ड दूसरे खण्ड से मिलने को आतुर रहता है ।’ आते ही झूठ बोला कम्बख्त । कल का आया है, यह मुझे मेरा मित्र बता गया था । इस झूठ में कोई प्रयोजन शायद उसका न रहा हो । कुछ लोग बड़े निर्दोष मिथ्यावादी होते हैं । वे आदतन, प्रकृति के वशीभूत झूठ बोलते हैं । उनके मुख से निष्प्रयास, निष्प्रयोजन झूठ ही निकलता है । मेरे एक रिश्तेदार ऐसे हैं । वे अगर बम्बई जा रहे हैं और उनसे पूछे, तो वे कहेंगे, ‘कलकत्ता जा रहा हूँ ।’",
+        "en": null
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q001",
+      "originalQuestionNumber": "1",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-1-5",
+      "question": {
+        "en": "What is the ratio of the laptop sold by store K and L in June and the laptop sold by I and M in May ?",
+        "hi": "जून में स्टोर K और L द्वारा बेचे गए लैपटॉप और मई में I और M द्वारा बेचे गए लैपटॉप का अनुपात क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "29 : 37",
+          "hi": "29 : 37"
+        },
+        {
+          "id": "B",
+          "en": "100 : 149",
+          "hi": "100 : 149"
+        },
+        {
+          "id": "C",
+          "en": "25 : 37",
+          "hi": "25 : 37"
+        },
+        {
+          "id": "D",
+          "en": "21 : 37",
+          "hi": "21 : 37"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "K+L in June = 120+280 = 400; I+M in May = 234+362 = 596; 400 : 596 = 100 : 149.",
+      "sourcePage": 2,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 94,
+        "keyAnswerText": "100 : 149"
+      }
+    },
+    {
+      "id": "Q002",
+      "originalQuestionNumber": "2",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-1-5",
+      "question": {
+        "en": "If 37.5% of laptop sold by store L in June is defective, then find the non-defective laptop sold by store L in June.",
+        "hi": "यदि जून में स्टोर L द्वारा बेचे गए 37.5% लैपटॉप दोषपूर्ण हैं, तो जून में स्टोर L द्वारा बेचे गए गैर-दोषपूर्ण लैपटॉप ज्ञात कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "142",
+          "hi": "142"
+        },
+        {
+          "id": "B",
+          "en": "175",
+          "hi": "175"
+        },
+        {
+          "id": "C",
+          "en": "125",
+          "hi": "125"
+        },
+        {
+          "id": "D",
+          "en": "145",
+          "hi": "145"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Non-defective = 62.5% of 280 = 175.",
+      "sourcePage": 2,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 92,
+        "keyAnswerText": "175"
+      }
+    },
+    {
+      "id": "Q003",
+      "originalQuestionNumber": "3",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-1-5",
+      "question": {
+        "en": "Find the average (approx.) number of laptop sold by stores K, L and M in May.",
+        "hi": "मई में स्टोर K, L और M द्वारा बेचे गए लैपटॉप की औसत (लगभग) संख्या ज्ञात कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "231",
+          "hi": "231"
+        },
+        {
+          "id": "B",
+          "en": "313",
+          "hi": "313"
+        },
+        {
+          "id": "C",
+          "en": "256",
+          "hi": "256"
+        },
+        {
+          "id": "D",
+          "en": "263",
+          "hi": "263"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "(235+342+362)/3 = 939/3 = 313.",
+      "sourcePage": 2,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 91,
+        "keyAnswerText": "313"
+      }
+    },
+    {
+      "id": "Q004",
+      "originalQuestionNumber": "4",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-1-5",
+      "question": {
+        "en": "Number of laptop sold by store J in July and October together is what percent of the laptop sold by store M in May and June ?",
+        "hi": "जुलाई और अक्टूबर में स्टोर J द्वारा बेचे गए लैपटॉप की संख्या मई और जून में स्टोर M द्वारा बेचे गए लैपटॉप का कितना प्रतिशत है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "98.33%",
+          "hi": "98.33%"
+        },
+        {
+          "id": "B",
+          "en": "66.81%",
+          "hi": "66.81%"
+        },
+        {
+          "id": "C",
+          "en": "78.32%",
+          "hi": "78.32%"
+        },
+        {
+          "id": "D",
+          "en": "69.18%",
+          "hi": "69.18%"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "(234+242)/(362+326) = 476/688 = 69.186...%, i.e. 69.18% as printed (truncated); nearest option D.",
+      "sourcePage": 2,
+      "verificationStatus": "verified",
+      "issues": [
+        "Exact value is 69.186%; option D (69.18%) is the nearest option and matches the official key."
+      ],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 93,
+        "keyAnswerText": "69.18%"
+      }
+    },
+    {
+      "id": "Q005",
+      "originalQuestionNumber": "5",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-1-5",
+      "question": {
+        "en": "In October total laptop sold by store I is 71.42% of total laptop in the shop. Find the number of unsold laptop in store I in the month of October.",
+        "hi": "अक्टूबर में स्टोर I द्वारा बेचे गए कुल लैपटॉप, दुकान में कुल लैपटॉप का 71.42% है । अक्टूबर महीने में स्टोर I में न बिकने वाले लैपटॉप की संख्या ज्ञात करें ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "84",
+          "hi": "84"
+        },
+        {
+          "id": "B",
+          "en": "21",
+          "hi": "21"
+        },
+        {
+          "id": "C",
+          "en": "86",
+          "hi": "86"
+        },
+        {
+          "id": "D",
+          "en": "54",
+          "hi": "54"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "71.42% = 5/7. 210 = 5/7 of total, so total = 294; unsold = 294 - 210 = 84.",
+      "sourcePage": 2,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 95,
+        "keyAnswerText": "84"
+      }
+    },
+    {
+      "id": "Q006",
+      "originalQuestionNumber": "6",
+      "subject": "Current Affairs",
+      "contextId": null,
+      "question": {
+        "en": "On 26 December, 2024, which country successfully tested the firing of the supersonic missile UAV-122 from the Bayraktar Akinci drone ?",
+        "hi": "26 दिसंबर, 2024 को किस देश ने बायरक्टर अकिंसी ड्रोन से सुपरसोनिक मिसाइल UAV-122 का सफल परीक्षण किया ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Iran",
+          "hi": "ईरान"
+        },
+        {
+          "id": "B",
+          "en": "Israel",
+          "hi": "इज़राइल"
+        },
+        {
+          "id": "C",
+          "en": "Turkey",
+          "hi": "तुर्की"
+        },
+        {
+          "id": "D",
+          "en": "Russia",
+          "hi": "रूस"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 3,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 59,
+        "keyAnswerText": "Turkey"
+      }
+    },
+    {
+      "id": "Q007",
+      "originalQuestionNumber": "7",
+      "subject": "Economics",
+      "contextId": null,
+      "question": {
+        "en": "“Development Planning – the Indian Experience” book was written by",
+        "hi": "‘‘डेवलपमेंट प्लानिंग-द इंडियन एक्सपीरियन्स’’ पुस्तक ________ द्वारा लिखी गई थी ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Sukhamoy Chakravarty",
+          "hi": "सुखमय चक्रवर्ती"
+        },
+        {
+          "id": "B",
+          "en": "S.N. Sen",
+          "hi": "एस.एन. सेन"
+        },
+        {
+          "id": "C",
+          "en": "Amartya Sen",
+          "hi": "अमर्त्य सेन"
+        },
+        {
+          "id": "D",
+          "en": "Adam Smith",
+          "hi": "एडम स्मिथ"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 3,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 33,
+        "keyAnswerText": "Sukhamoy Chakravarty"
+      }
+    },
+    {
+      "id": "Q008",
+      "originalQuestionNumber": "8",
+      "subject": "Reasoning",
+      "contextId": null,
+      "question": {
+        "en": "Find the odd word from the following.",
+        "hi": "निम्नलिखित में से भिन्न शब्द चुनिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Bat",
+          "hi": "चमगादड़"
+        },
+        {
+          "id": "B",
+          "en": "Pigeon",
+          "hi": "कबूतर"
+        },
+        {
+          "id": "C",
+          "en": "Parrot",
+          "hi": "तोता"
+        },
+        {
+          "id": "D",
+          "en": "Crow",
+          "hi": "कौआ"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "Bat is a mammal; the others are birds.",
+      "sourcePage": 3,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 54,
+        "keyAnswerText": "Bat"
+      }
+    },
+    {
+      "id": "Q009",
+      "originalQuestionNumber": "9",
+      "subject": "History",
+      "contextId": null,
+      "question": {
+        "en": "The book ‘Economic History of India’ was published by",
+        "hi": "‘इकॉनॉमिक हिस्ट्री ऑफ इंडिया’ पुस्तक किसके द्वारा प्रकाशित की गई थी ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "B. G. Tilak",
+          "hi": "बी.जी. तिलक"
+        },
+        {
+          "id": "B",
+          "en": "R. C. Dutt",
+          "hi": "आर.सी. दत्त"
+        },
+        {
+          "id": "C",
+          "en": "M. G. Ranade",
+          "hi": "एम.जी. रानाडे"
+        },
+        {
+          "id": "D",
+          "en": "S. N. Sen",
+          "hi": "एस.एन. सेन"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 3,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 21,
+        "keyAnswerText": "R. C. Dutt"
+      }
+    },
+    {
+      "id": "Q010",
+      "originalQuestionNumber": "10",
+      "subject": "Mathematics",
+      "contextId": null,
+      "question": {
+        "en": "12½% of 1 hour 40 mins is",
+        "hi": "1 घंटा 40 मिनट का 12½% क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "12.5 mins",
+          "hi": "12.5 मिनट"
+        },
+        {
+          "id": "B",
+          "en": "20.5 mins",
+          "hi": "20.5 मिनट"
+        },
+        {
+          "id": "C",
+          "en": "25 mins",
+          "hi": "25 मिनट"
+        },
+        {
+          "id": "D",
+          "en": "15 mins",
+          "hi": "15 मिनट"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "1 h 40 min = 100 min; 12.5% of 100 = 12.5 min.",
+      "sourcePage": 3,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 46,
+        "keyAnswerText": "12.5 mins"
+      }
+    },
+    {
+      "id": "Q011",
+      "originalQuestionNumber": "11",
+      "subject": "Polity",
+      "contextId": null,
+      "question": {
+        "en": "________ refers to the existence of more than one level of Government in the country.",
+        "hi": "________ देश में एक से अधिक स्तर की सरकार के अस्तित्व को दर्शाता है ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Federalism",
+          "hi": "संघवाद"
+        },
+        {
+          "id": "B",
+          "en": "Secularism",
+          "hi": "धर्मनिरपेक्षता"
+        },
+        {
+          "id": "C",
+          "en": "Democracy",
+          "hi": "लोकतंत्र"
+        },
+        {
+          "id": "D",
+          "en": "Unitary system",
+          "hi": "एकात्मक प्रणाली"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 4,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 38,
+        "keyAnswerText": "Federalism"
+      }
+    },
+    {
+      "id": "Q012",
+      "originalQuestionNumber": "12",
+      "subject": "Science",
+      "contextId": null,
+      "question": {
+        "en": "Which of the following adaptations is common in desert plants ?",
+        "hi": "रेगिस्तानी पौधों में निम्नलिखित में से कौन-सा अनुकूलन सामान्य है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Large flat leaves",
+          "hi": "बड़े चपटे पत्ते"
+        },
+        {
+          "id": "B",
+          "en": "Bright colored flowers",
+          "hi": "चमकीले रंग के फूल"
+        },
+        {
+          "id": "C",
+          "en": "Shallow roots",
+          "hi": "उथली जड़ें"
+        },
+        {
+          "id": "D",
+          "en": "Thick stems for water storage",
+          "hi": "जल भंडारण के लिए मोटे तने"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 4,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 28,
+        "keyAnswerText": "Thick stems for water storage"
+      }
+    },
+    {
+      "id": "Q013",
+      "originalQuestionNumber": "13",
+      "subject": "General Knowledge",
+      "contextId": null,
+      "question": {
+        "en": "27th September is observed as",
+        "hi": "27 सितंबर को ________ के रूप में मनाया जाता है ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Teachers’ Day",
+          "hi": "शिक्षक दिवस"
+        },
+        {
+          "id": "B",
+          "en": "World Tourism Day",
+          "hi": "विश्व पर्यटन दिवस"
+        },
+        {
+          "id": "C",
+          "en": "International Literacy Day",
+          "hi": "अंतर्राष्ट्रीय साक्षरता दिवस"
+        },
+        {
+          "id": "D",
+          "en": "United Nations Day",
+          "hi": "संयुक्त राष्ट्र दिवस"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 4,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 70,
+        "keyAnswerText": "World Tourism Day"
+      }
+    },
+    {
+      "id": "Q014",
+      "originalQuestionNumber": "14",
+      "subject": "Current Affairs",
+      "contextId": null,
+      "question": {
+        "en": "When was the International Big Cat Alliance (IBCA) launched by India ?",
+        "hi": "भारत द्वारा अंतर्राष्ट्रीय बिग कैट अलायंस (IBCA) कब शुरू किया गया था ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "3 March, 2023",
+          "hi": "3 मार्च, 2023"
+        },
+        {
+          "id": "B",
+          "en": "5 June, 2023",
+          "hi": "5 जून, 2023"
+        },
+        {
+          "id": "C",
+          "en": "9 April, 2023",
+          "hi": "9 अप्रैल, 2023"
+        },
+        {
+          "id": "D",
+          "en": "22 May, 2023",
+          "hi": "22 मई, 2023"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 4,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 58,
+        "keyAnswerText": "9 April, 2023"
+      }
+    },
+    {
+      "id": "Q015",
+      "originalQuestionNumber": "15",
+      "subject": "Sports",
+      "contextId": null,
+      "question": {
+        "en": "India defeated which team in the 1983 Cricket World Cup final ?",
+        "hi": "भारत ने 1983 क्रिकेट विश्व कप फाइनल में किस टीम को हराया था ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "England",
+          "hi": "इंग्लैंड"
+        },
+        {
+          "id": "B",
+          "en": "West Indies",
+          "hi": "वेस्टइंडीज़"
+        },
+        {
+          "id": "C",
+          "en": "Australia",
+          "hi": "ऑस्ट्रेलिया"
+        },
+        {
+          "id": "D",
+          "en": "Pakistan",
+          "hi": "पाकिस्तान"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 4,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 74,
+        "keyAnswerText": "West Indies"
+      }
+    },
+    {
+      "id": "Q016",
+      "originalQuestionNumber": "16",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-16-20",
+      "question": {
+        "en": "The quantity of Radish sold in F is the average quantity of Radish sold in A, C and D together and the ratio of the Radish to Carrot sold in F is 4 : 5. Find the quantity of Carrot sold in F.",
+        "hi": "F में बेचे गए मूली की मात्रा A, C और D में बेचे गए मूली की औसत मात्रा है और F में बेचे गए मूली और गाजर का अनुपात 4 : 5 है । F में बेचे गए गाजर की मात्रा ज्ञात कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "720 kg",
+          "hi": "720 kg"
+        },
+        {
+          "id": "B",
+          "en": "810 kg",
+          "hi": "810 kg"
+        },
+        {
+          "id": "C",
+          "en": "750 kg",
+          "hi": "750 kg"
+        },
+        {
+          "id": "D",
+          "en": "780 kg",
+          "hi": "780 kg"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "Radish in F = (432+864+576)/3 = 624 kg; Carrot = 624 × 5/4 = 780 kg.",
+      "sourcePage": 5,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 76,
+        "keyAnswerText": "780 kg"
+      }
+    },
+    {
+      "id": "Q017",
+      "originalQuestionNumber": "17",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-16-20",
+      "question": {
+        "en": "The quantity of Pumpkin sold in A is the difference between the quantity of Radish sold in A and B together and the quantity of Carrot sold in C and D together. Find the total quantity of vegetables sold in A (Carrot, Radish and Pumpkin).",
+        "hi": "A में बेचे गए कद्दू की मात्रा A और B में बेचे गए मूली की मात्रा और C और D में बेचे गए गाजर की मात्रा के बीच का अंतर है । A में बेची गई सब्जियों की कुल मात्रा ज्ञात कीजिए । (गाजर, मूली और कद्दू)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "1048 kg",
+          "hi": "1048 kg"
+        },
+        {
+          "id": "B",
+          "en": "1124 kg",
+          "hi": "1124 kg"
+        },
+        {
+          "id": "C",
+          "en": "1152 kg",
+          "hi": "1152 kg"
+        },
+        {
+          "id": "D",
+          "en": "1096 kg",
+          "hi": "1096 kg"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "Radish A+B = 432+648 = 1080; Carrot C+D = 432+792 = 1224; Pumpkin in A = 144; total in A = 576+432+144 = 1152 kg.",
+      "sourcePage": 5,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 78,
+        "keyAnswerText": "1152 kg"
+      }
+    },
+    {
+      "id": "Q018",
+      "originalQuestionNumber": "18",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-16-20",
+      "question": {
+        "en": "What is the difference between the quantity of Carrot and Radish in all the shops together ?",
+        "hi": "सभी दुकानों में गाजर और मूली की मात्रा में क्या अंतर है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "608 kg",
+          "hi": "608 kg"
+        },
+        {
+          "id": "B",
+          "en": "620 kg",
+          "hi": "620 kg"
+        },
+        {
+          "id": "C",
+          "en": "612 kg",
+          "hi": "612 kg"
+        },
+        {
+          "id": "D",
+          "en": "616 kg",
+          "hi": "616 kg"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "Radish total = 3456 kg; Carrot total = 2844 kg; difference = 612 kg.",
+      "sourcePage": 5,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 80,
+        "keyAnswerText": "612 kg"
+      }
+    },
+    {
+      "id": "Q019",
+      "originalQuestionNumber": "19",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-16-20",
+      "question": {
+        "en": "The ratio of the total quantity of vegetables sold in B and F is 32 : 35. Find the difference between the number of vegetables sold in F and D.",
+        "hi": "B और F में बेची गई सब्जियों की कुल मात्रा का अनुपात 32 : 35 है । F और D में बेची गई सब्जियों की संख्या के बीच अंतर ज्ञात कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "108 kg",
+          "hi": "108 kg"
+        },
+        {
+          "id": "B",
+          "en": "116 kg",
+          "hi": "116 kg"
+        },
+        {
+          "id": "C",
+          "en": "112 kg",
+          "hi": "112 kg"
+        },
+        {
+          "id": "D",
+          "en": "104 kg",
+          "hi": "104 kg"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "B total = 648+504 = 1152; F = 1152 × 35/32 = 1260; D total = 576+792 = 1368; difference = 108 kg.",
+      "sourcePage": 6,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 79,
+        "keyAnswerText": "108 kg"
+      }
+    },
+    {
+      "id": "Q020",
+      "originalQuestionNumber": "20",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-16-20",
+      "question": {
+        "en": "The quantity of Carrot sold in B and D together is what percent of the total quantity of vegetables sold in E ?",
+        "hi": "B और D में बेचे गए गाजर की मात्रा E में बेची गई सब्जियों की कुल मात्रा का कितने प्रतिशत है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "87.8%",
+          "hi": "87.8%"
+        },
+        {
+          "id": "B",
+          "en": "83.9%",
+          "hi": "83.9%"
+        },
+        {
+          "id": "C",
+          "en": "89.5%",
+          "hi": "89.5%"
+        },
+        {
+          "id": "D",
+          "en": "85.6%",
+          "hi": "85.6%"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "(504+792)/(936+540) = 1296/1476 = 87.8%.",
+      "sourcePage": 6,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 77,
+        "keyAnswerText": "87.8%"
+      }
+    },
+    {
+      "id": "Q021",
+      "originalQuestionNumber": "21",
+      "subject": "Geography",
+      "contextId": null,
+      "question": {
+        "en": "India shares its land boundaries with how many countries ?",
+        "hi": "भारत अपनी भूमि सीमा कितने देशों के साथ साझा करता है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "7",
+          "hi": "7"
+        },
+        {
+          "id": "B",
+          "en": "9",
+          "hi": "9"
+        },
+        {
+          "id": "C",
+          "en": "5",
+          "hi": "5"
+        },
+        {
+          "id": "D",
+          "en": "6",
+          "hi": "6"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 6,
+      "verificationStatus": "verified",
+      "issues": [
+        "Standard textbook count is 7 (Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, Myanmar); some sources count 6 by excluding Afghanistan. Official key = 7."
+      ],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 73,
+        "keyAnswerText": "7"
+      }
+    },
+    {
+      "id": "Q022",
+      "originalQuestionNumber": "22",
+      "subject": "Polity",
+      "contextId": null,
+      "question": {
+        "en": "Which of the following statement is true regarding the Money bill ?",
+        "hi": "धन विधेयक के संबंध में निम्नलिखित में से कौन-सा कथन सत्य है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "It can be introduced in either House of Parliament",
+          "hi": "इसे संसद के किसी भी सदन में पेश किया जा सकता है"
+        },
+        {
+          "id": "B",
+          "en": "It cannot be introduced in either House of Parliament",
+          "hi": "इसे संसद के किसी भी सदन में पेश नहीं किया जा सकता है"
+        },
+        {
+          "id": "C",
+          "en": "It can be introduced only in the Rajya Sabha",
+          "hi": "इसे केवल राज्यसभा में पेश किया जा सकता है"
+        },
+        {
+          "id": "D",
+          "en": "It can be introduced only in the Lok Sabha",
+          "hi": "इसे केवल लोकसभा में पेश किया जा सकता है"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 6,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 69,
+        "keyAnswerText": "It can be introduced only in the Lok Sabha"
+      }
+    },
+    {
+      "id": "Q023",
+      "originalQuestionNumber": "23",
+      "subject": "Economics",
+      "contextId": null,
+      "question": {
+        "en": "LPG Model of development was introduced in India in",
+        "hi": "भारत में विकास का LPG मॉडल ________ में प्रस्तुत किया गया था ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "1990",
+          "hi": "1990"
+        },
+        {
+          "id": "B",
+          "en": "1995",
+          "hi": "1995"
+        },
+        {
+          "id": "C",
+          "en": "1991",
+          "hi": "1991"
+        },
+        {
+          "id": "D",
+          "en": "1992",
+          "hi": "1992"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 7,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 32,
+        "keyAnswerText": "1991"
+      }
+    },
+    {
+      "id": "Q024",
+      "originalQuestionNumber": "24",
+      "subject": "Current Affairs",
+      "contextId": null,
+      "question": {
+        "en": "How many total Padma Awards were announced in 2025, including a duo case (counted as one) ?",
+        "hi": "2025 में कुल कितने पद्म पुरस्कारों की घोषणा की गई, जिसमें एक युगल मामला (एक के रूप में गिना गया) भी शामिल है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "135",
+          "hi": "135"
+        },
+        {
+          "id": "B",
+          "en": "139",
+          "hi": "139"
+        },
+        {
+          "id": "C",
+          "en": "145",
+          "hi": "145"
+        },
+        {
+          "id": "D",
+          "en": "140",
+          "hi": "140"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 7,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 60,
+        "keyAnswerText": "139"
+      }
+    },
+    {
+      "id": "Q025",
+      "originalQuestionNumber": "25",
+      "subject": "Polity",
+      "contextId": null,
+      "question": {
+        "en": "The time gap between the question hour and the agenda of the day is called",
+        "hi": "प्रश्न काल और दिन के एजेंडे के बीच के समय अंतराल को ________ कहा जाता है ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "First hour",
+          "hi": "पहला घंटा"
+        },
+        {
+          "id": "B",
+          "en": "Zero hour",
+          "hi": "शून्य काल"
+        },
+        {
+          "id": "C",
+          "en": "Half an hour",
+          "hi": "आधा घंटा"
+        },
+        {
+          "id": "D",
+          "en": "Starred question hour",
+          "hi": "तारांकित प्रश्न काल"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 7,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 39,
+        "keyAnswerText": "Zero hour"
+      }
+    },
+    {
+      "id": "Q026",
+      "originalQuestionNumber": "26",
+      "subject": "History",
+      "contextId": null,
+      "question": {
+        "en": "The Girnar Rock Inscription of Rudradaman refers to Sudarshan Lake, constructed during the reign of which Mauryan ruler ?",
+        "hi": "रुद्रदामन के गिरनार शिलालेख में सुदर्शन झील का उल्लेख है, जिसका निर्माण किस मौर्य शासक के शासनकाल में हुआ था ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Ashoka",
+          "hi": "अशोक"
+        },
+        {
+          "id": "B",
+          "en": "Dasharatha Maurya",
+          "hi": "दशरथ मौर्य"
+        },
+        {
+          "id": "C",
+          "en": "Bindusara",
+          "hi": "बिंदुसार"
+        },
+        {
+          "id": "D",
+          "en": "Chandragupta Maurya",
+          "hi": "चंद्रगुप्त मौर्य"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 7,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 20,
+        "keyAnswerText": "Chandragupta Maurya"
+      }
+    },
+    {
+      "id": "Q027",
+      "originalQuestionNumber": "27",
+      "subject": "Reasoning",
+      "contextId": null,
+      "question": {
+        "en": "The age of Amit is same as Sumit because they are twins, Richa is younger than Sumit, Richa is younger than Jyotsana but elder than Saurabh, Sumit is younger than Jyotsana. Who is the eldest among them ?",
+        "hi": "अमित की आयु सुमित के समान है क्योंकि वे जुड़वाँ हैं, ऋचा सुमित से छोटी है, ऋचा ज्योत्सना से छोटी है लेकिन सौरभ से बड़ी है, सुमित ज्योत्सना से छोटा है । उनमें सबसे बड़ा कौन है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Amit",
+          "hi": "अमित"
+        },
+        {
+          "id": "B",
+          "en": "Saurabh",
+          "hi": "सौरभ"
+        },
+        {
+          "id": "C",
+          "en": "Richa",
+          "hi": "ऋचा"
+        },
+        {
+          "id": "D",
+          "en": "Jyotsana",
+          "hi": "ज्योत्सना"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "Order (eldest to youngest): Jyotsana > Sumit = Amit > Richa > Saurabh.",
+      "sourcePage": 7,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 53,
+        "keyAnswerText": "Jyotsana"
+      }
+    },
+    {
+      "id": "Q028",
+      "originalQuestionNumber": "28",
+      "subject": "Science",
+      "contextId": null,
+      "question": {
+        "en": "Defence Research and Development Organization (DRDO) was established in the year",
+        "hi": "रक्षा अनुसंधान एवं विकास संगठन (DRDO) की स्थापना किस वर्ष हुई थी ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "1968",
+          "hi": "1968"
+        },
+        {
+          "id": "B",
+          "en": "1962",
+          "hi": "1962"
+        },
+        {
+          "id": "C",
+          "en": "1972",
+          "hi": "1972"
+        },
+        {
+          "id": "D",
+          "en": "1958",
+          "hi": "1958"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 8,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 75,
+        "keyAnswerText": "1958"
+      }
+    },
+    {
+      "id": "Q029",
+      "originalQuestionNumber": "29",
+      "subject": "Science",
+      "contextId": null,
+      "question": {
+        "en": "In human beings, the posture and balance of the body is controlled by",
+        "hi": "मनुष्य में शरीर की मुद्रा और संतुलन किसके द्वारा नियंत्रित होता है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Pons",
+          "hi": "पोंस"
+        },
+        {
+          "id": "B",
+          "en": "Cerebrum",
+          "hi": "सेरेब्रम"
+        },
+        {
+          "id": "C",
+          "en": "Medulla oblongata",
+          "hi": "मेडुला ऑब्लोंगटा"
+        },
+        {
+          "id": "D",
+          "en": "Cerebellum",
+          "hi": "सेरिबैलम"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 8,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 45,
+        "keyAnswerText": "Cerebellum"
+      }
+    },
+    {
+      "id": "Q030",
+      "originalQuestionNumber": "30",
+      "subject": "Geography",
+      "contextId": null,
+      "question": {
+        "en": "Keoladeo National Park is located in which Indian State ?",
+        "hi": "केवलादेव राष्ट्रीय उद्यान भारत के किस राज्य में स्थित है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "गुजरात"
+        }
+      ],
+      "correctAnswer": null,
+      "answerSource": "unresolved",
+      "explanation": null,
+      "sourcePage": 8,
+      "verificationStatus": "unreadable",
+      "issues": [
+        "The bottom of page 8 is cut off/blanked in the scanned question paper: options B, C, D (and E) are not visible; only option A (गुजरात) is legible.",
+        "The English version of the question text is also not visible; it was taken from the answer key (Master Set Q72), not from the paper.",
+        "The official key answer is राजस्थान / Rajasthan (Master Set Q72), but the option label cannot be determined without the missing options. correctAnswer is therefore null; correctAnswerText carries the key text. Please map this to the right label from a complete copy of the paper."
+      ],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 72,
+        "keyAnswerText": "Rajasthan"
+      },
+      "optionsIncomplete": true,
+      "correctAnswerText": {
+        "hi": "राजस्थान",
+        "en": "Rajasthan"
+      },
+      "questionEnglishSource": "answer_key"
+    },
+    {
+      "id": "Q031",
+      "originalQuestionNumber": "31",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-31-35",
+      "question": {
+        "en": "Total pages written by P in May and June together is approximately, what percent of the total pages written by Q in May and August together ?",
+        "hi": "मई और जून में P द्वारा लिखे गए कुल पृष्ठ, मई और अगस्त में Q द्वारा लिखे गए कुल पृष्ठों का लगभग कितना प्रतिशत है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "56%",
+          "hi": "56%"
+        },
+        {
+          "id": "B",
+          "en": "78%",
+          "hi": "78%"
+        },
+        {
+          "id": "C",
+          "en": "80%",
+          "hi": "80%"
+        },
+        {
+          "id": "D",
+          "en": "70%",
+          "hi": "70%"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "P (May+June) = 240+320 = 560; Q (May+Aug) = 340+360 = 700; 560/700 = 80%.",
+      "sourcePage": 8,
+      "verificationStatus": "needs_review",
+      "issues": [
+        "Page 8 is cut off after option D: option E (likely 'None of the above') is not visible and was not added.",
+        "English question text is not visible in the scan; it was taken from the answer key (Master Set Q86)."
+      ],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 86,
+        "keyAnswerText": "80%"
+      },
+      "optionsIncomplete": true,
+      "questionEnglishSource": "answer_key"
+    },
+    {
+      "id": "Q032",
+      "originalQuestionNumber": "32",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-31-35",
+      "question": {
+        "en": "How much more percentage of pages written by P in June as compared to Q in same month ?",
+        "hi": "जून में P द्वारा लिखे गए पृष्ठों का प्रतिशत Q की तुलना में समान महीने में कितना अधिक है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "36.75%",
+          "hi": "36.75%"
+        },
+        {
+          "id": "B",
+          "en": "33.3%",
+          "hi": "33.3%"
+        },
+        {
+          "id": "C",
+          "en": "48.36%",
+          "hi": "48.36%"
+        },
+        {
+          "id": "D",
+          "en": "25.96%",
+          "hi": "25.96%"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "(320-234)/234 × 100 = 36.75%.",
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 90,
+        "keyAnswerText": "36.75%"
+      }
+    },
+    {
+      "id": "Q033",
+      "originalQuestionNumber": "33",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-31-35",
+      "question": {
+        "en": "What are the average pages written by P in all the months together ?",
+        "hi": "सभी महीनों में P द्वारा लिखे गए औसत पृष्ठ क्या हैं ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "243",
+          "hi": "243"
+        },
+        {
+          "id": "B",
+          "en": "360",
+          "hi": "360"
+        },
+        {
+          "id": "C",
+          "en": "256",
+          "hi": "256"
+        },
+        {
+          "id": "D",
+          "en": "300",
+          "hi": "300"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "(240+320+420+220)/4 = 1200/4 = 300.",
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 88,
+        "keyAnswerText": "300"
+      }
+    },
+    {
+      "id": "Q034",
+      "originalQuestionNumber": "34",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-31-35",
+      "question": {
+        "en": "28.57% of the total pages written by Q in July is in Hindi. How many English pages are written by Q in July ?",
+        "hi": "जुलाई में Q द्वारा लिखे गए कुल पृष्ठों का 28.57% हिन्दी में है । Q द्वारा जुलाई में कितने अंग्रेजी पृष्ठ लिखे गए ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "284",
+          "hi": "284"
+        },
+        {
+          "id": "B",
+          "en": "200",
+          "hi": "200"
+        },
+        {
+          "id": "C",
+          "en": "232",
+          "hi": "232"
+        },
+        {
+          "id": "D",
+          "en": "268",
+          "hi": "268"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "28.57% = 2/7 of 280 = 80 Hindi pages; English = 280 - 80 = 200.",
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 87,
+        "keyAnswerText": "200"
+      }
+    },
+    {
+      "id": "Q035",
+      "originalQuestionNumber": "35",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-31-35",
+      "question": {
+        "en": "What is respective ratio between the total pages written by both P and Q in May and the total pages written by both P and Q in July ?",
+        "hi": "मई में P और Q दोनों द्वारा लिखे गए कुल पृष्ठों और जुलाई में P और Q दोनों द्वारा लिखे गए कुल पृष्ठों के बीच क्रमशः अनुपात क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "31 : 23",
+          "hi": "31 : 23"
+        },
+        {
+          "id": "B",
+          "en": "39 : 21",
+          "hi": "39 : 21"
+        },
+        {
+          "id": "C",
+          "en": "29 : 35",
+          "hi": "29 : 35"
+        },
+        {
+          "id": "D",
+          "en": "37 : 59",
+          "hi": "37 : 59"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "May = 240+340 = 580; July = 420+280 = 700; 580 : 700 = 29 : 35.",
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 89,
+        "keyAnswerText": "29 : 35"
+      }
+    },
+    {
+      "id": "Q036",
+      "originalQuestionNumber": "36",
+      "subject": "Current Affairs",
+      "contextId": null,
+      "question": {
+        "en": "India’s first overseas Jan Aushadhi Kendra was installed in",
+        "hi": "भारत का पहला विदेशी जन औषधि केंद्र किस देश में शुरू हुआ ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Nepal",
+          "hi": "नेपाल"
+        },
+        {
+          "id": "B",
+          "en": "Bangladesh",
+          "hi": "बांग्लादेश"
+        },
+        {
+          "id": "C",
+          "en": "Sri Lanka",
+          "hi": "श्रीलंका"
+        },
+        {
+          "id": "D",
+          "en": "Mauritius",
+          "hi": "मॉरीशस"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 9,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 65,
+        "keyAnswerText": "Mauritius"
+      }
+    },
+    {
+      "id": "Q037",
+      "originalQuestionNumber": "37",
+      "subject": "History",
+      "contextId": null,
+      "question": {
+        "en": "What is the symbol associated with Parshvanatha, the 23rd Tirthankara ?",
+        "hi": "23 वें तीर्थंकर पार्श्वनाथ से जुड़ा प्रतीक क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Bull",
+          "hi": "बैल"
+        },
+        {
+          "id": "B",
+          "en": "Lion",
+          "hi": "शेर"
+        },
+        {
+          "id": "C",
+          "en": "Conch",
+          "hi": "शंख"
+        },
+        {
+          "id": "D",
+          "en": "Snake",
+          "hi": "साँप"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 10,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 19,
+        "keyAnswerText": "Snake"
+      }
+    },
+    {
+      "id": "Q038",
+      "originalQuestionNumber": "38",
+      "subject": "Polity",
+      "contextId": null,
+      "question": {
+        "en": "Under Article 129 of the Indian Constitution, the ________ has been declared as a Court of Record.",
+        "hi": "भारतीय संविधान की अनुच्छेद 129 के तहत, ________ को अभिलेख का न्यायालय घोषित किया गया है ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Gram Nyayalayas",
+          "hi": "ग्राम न्यायालय"
+        },
+        {
+          "id": "B",
+          "en": "Supreme Court",
+          "hi": "सर्वोच्च न्यायालय"
+        },
+        {
+          "id": "C",
+          "en": "High Court",
+          "hi": "उच्च न्यायालय"
+        },
+        {
+          "id": "D",
+          "en": "District Court",
+          "hi": "जिला न्यायालय"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 10,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 40,
+        "keyAnswerText": "Supreme Court"
+      }
+    },
+    {
+      "id": "Q039",
+      "originalQuestionNumber": "39",
+      "subject": "Current Affairs",
+      "contextId": null,
+      "question": {
+        "en": "Justin Trudeau, who announced his resignation on 6 January, 2025, served as the Prime Minister of which country ?",
+        "hi": "जस्टिन ट्रूडो, जिन्होंने 6 जनवरी, 2025 को अपने इस्तीफे की घोषणा की, किस देश के प्रधानमंत्री थे ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Australia",
+          "hi": "ऑस्ट्रेलिया"
+        },
+        {
+          "id": "B",
+          "en": "New Zealand",
+          "hi": "न्यूज़ीलैंड"
+        },
+        {
+          "id": "C",
+          "en": "Canada",
+          "hi": "कनाडा"
+        },
+        {
+          "id": "D",
+          "en": "United Kingdom",
+          "hi": "यूनाइटेड किंगडम"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 10,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 61,
+        "keyAnswerText": "Canada"
+      }
+    },
+    {
+      "id": "Q040",
+      "originalQuestionNumber": "40",
+      "subject": "Geography",
+      "contextId": null,
+      "question": {
+        "en": "Which of the following States faces the most serious issue of groundwater over-exploitation ?",
+        "hi": "निम्नलिखित में से कौन-सा राज्य भूजल के अति-दोहन की सबसे गंभीर समस्या का सामना कर रहा है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Kerala",
+          "hi": "केरल"
+        },
+        {
+          "id": "B",
+          "en": "Meghalaya",
+          "hi": "मेघालय"
+        },
+        {
+          "id": "C",
+          "en": "Punjab",
+          "hi": "पंजाब"
+        },
+        {
+          "id": "D",
+          "en": "Odisha",
+          "hi": "ओडिशा"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 10,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 27,
+        "keyAnswerText": "Punjab"
+      }
+    },
+    {
+      "id": "Q041",
+      "originalQuestionNumber": "41",
+      "subject": "Economics",
+      "contextId": null,
+      "question": {
+        "en": "“Conditions of Economic Progress” - This work was done by",
+        "hi": "‘‘कंडिशन्स ऑफ इकॉनॉमिक प्रोग्रेस’’ - यह कार्य किसके द्वारा किया गया ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Adam Smith",
+          "hi": "एडम स्मिथ"
+        },
+        {
+          "id": "B",
+          "en": "Colin Clark",
+          "hi": "कॉलिन क्लार्क"
+        },
+        {
+          "id": "C",
+          "en": "Robinhood",
+          "hi": "रॉबिनहुड"
+        },
+        {
+          "id": "D",
+          "en": "Alfred Marshall",
+          "hi": "अल्फ्रेड मार्शल"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 11,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 31,
+        "keyAnswerText": "Colin Clark"
+      }
+    },
+    {
+      "id": "Q042",
+      "originalQuestionNumber": "42",
+      "subject": "Polity",
+      "contextId": null,
+      "question": {
+        "en": "Consumer Protection Act in India was passed in the year",
+        "hi": "भारत में उपभोक्ता संरक्षण अधिनियम किस वर्ष पारित हुआ था ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "1976",
+          "hi": "1976"
+        },
+        {
+          "id": "B",
+          "en": "1966",
+          "hi": "1966"
+        },
+        {
+          "id": "C",
+          "en": "1996",
+          "hi": "1996"
+        },
+        {
+          "id": "D",
+          "en": "1986",
+          "hi": "1986"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 11,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 34,
+        "keyAnswerText": "1986"
+      }
+    },
+    {
+      "id": "Q043",
+      "originalQuestionNumber": "43",
+      "subject": "Mathematics",
+      "contextId": null,
+      "question": {
+        "en": "The product of 2 numbers is 1530 and their HCF is 15, then their LCM is",
+        "hi": "2 संख्याओं का गुणनफल 1530 है और उनका म.स.प. 15 है, तो उनका ल.स.प. क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "112",
+          "hi": "112"
+        },
+        {
+          "id": "B",
+          "en": "102",
+          "hi": "102"
+        },
+        {
+          "id": "C",
+          "en": "120",
+          "hi": "120"
+        },
+        {
+          "id": "D",
+          "en": "84",
+          "hi": "84"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "HCF × LCM = product, so LCM = 1530 / 15 = 102.",
+      "sourcePage": 11,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 47,
+        "keyAnswerText": "102"
+      }
+    },
+    {
+      "id": "Q044",
+      "originalQuestionNumber": "44",
+      "subject": "History",
+      "contextId": null,
+      "question": {
+        "en": "Which part of the Tripitaka contains the conventional teachings of the Buddha ?",
+        "hi": "त्रिपिटक के किस भाग में बुद्ध की पारंपरिक शिक्षाएँ हैं ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Vinaya Pitaka",
+          "hi": "विनय पिटक"
+        },
+        {
+          "id": "B",
+          "en": "Dipa Vamsha",
+          "hi": "दीपवंश"
+        },
+        {
+          "id": "C",
+          "en": "Abhidhamma Pitaka",
+          "hi": "अभिधम्म पिटक"
+        },
+        {
+          "id": "D",
+          "en": "Sutta Pitaka",
+          "hi": "सुत्त पिटक"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 11,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 18,
+        "keyAnswerText": "Sutta Pitaka"
+      }
+    },
+    {
+      "id": "Q045",
+      "originalQuestionNumber": "45",
+      "subject": "Mathematics",
+      "contextId": null,
+      "question": {
+        "en": "How much angular distance will be covered by the minute hand of a correct clock in a period of 2 hours 20 minutes ?",
+        "hi": "एक सही घड़ी की मिनट की सुई 2 घंटे 20 मिनट में कितनी कोणीय दूरी तय करेगी ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "840°",
+          "hi": "840°"
+        },
+        {
+          "id": "B",
+          "en": "520°",
+          "hi": "520°"
+        },
+        {
+          "id": "C",
+          "en": "140°",
+          "hi": "140°"
+        },
+        {
+          "id": "D",
+          "en": "320°",
+          "hi": "320°"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "140 minutes × 6° per minute = 840°.",
+      "sourcePage": 11,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 52,
+        "keyAnswerText": "840°"
+      }
+    },
+    {
+      "id": "Q046",
+      "originalQuestionNumber": "46",
+      "subject": "English Language",
+      "contextId": null,
+      "question": {
+        "en": "Choose the correct question tag for the following statement.\nThe windows are open, ________",
+        "hi": null
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "aren’t it ?",
+          "hi": null
+        },
+        {
+          "id": "B",
+          "en": "isn’t they ?",
+          "hi": null
+        },
+        {
+          "id": "C",
+          "en": "isn’t it ?",
+          "hi": null
+        },
+        {
+          "id": "D",
+          "en": "aren’t they ?",
+          "hi": null
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": null
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "Plural subject 'windows' with a positive statement takes a negative tag: aren’t they ?",
+      "sourcePage": 12,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 96,
+        "keyAnswerText": "aren’t they ?"
+      }
+    },
+    {
+      "id": "Q047",
+      "originalQuestionNumber": "47",
+      "subject": "English Language",
+      "contextId": null,
+      "question": {
+        "en": "Choose the indirect form of the given sentence.\nI said, “The teacher likes me”.",
+        "hi": null
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "I said that the teacher liked me.",
+          "hi": null
+        },
+        {
+          "id": "B",
+          "en": "I said that the teacher was liking me.",
+          "hi": null
+        },
+        {
+          "id": "C",
+          "en": "I said that the teacher likes me.",
+          "hi": null
+        },
+        {
+          "id": "D",
+          "en": "I said that the teacher is liking me.",
+          "hi": null
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": null
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "Present simple in direct speech shifts to past simple after the reporting verb 'said'.",
+      "sourcePage": 12,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 98,
+        "keyAnswerText": "I said that the teacher liked me."
+      }
+    },
+    {
+      "id": "Q048",
+      "originalQuestionNumber": "48",
+      "subject": "English Language",
+      "contextId": "CTX-48-49",
+      "question": {
+        "en": "Why are countries investing in EV infrastructure ?",
+        "hi": null
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "To replace public transport",
+          "hi": null
+        },
+        {
+          "id": "B",
+          "en": "To promote air travel",
+          "hi": null
+        },
+        {
+          "id": "C",
+          "en": "To support EV adoption",
+          "hi": null
+        },
+        {
+          "id": "D",
+          "en": "To reduce taxes on fuel",
+          "hi": null
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": null
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 12,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 100,
+        "keyAnswerText": "To support EV adoption"
+      }
+    },
+    {
+      "id": "Q049",
+      "originalQuestionNumber": "49",
+      "subject": "English Language",
+      "contextId": "CTX-48-49",
+      "question": {
+        "en": "Which of the following is a type of EV infrastructure ?",
+        "hi": null
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Petrol pumps",
+          "hi": null
+        },
+        {
+          "id": "B",
+          "en": "Gas pipelines",
+          "hi": null
+        },
+        {
+          "id": "C",
+          "en": "Charging stations",
+          "hi": null
+        },
+        {
+          "id": "D",
+          "en": "Oil rigs",
+          "hi": null
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": null
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 12,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 99,
+        "keyAnswerText": "Charging stations"
+      }
+    },
+    {
+      "id": "Q050",
+      "originalQuestionNumber": "50",
+      "subject": "English Language",
+      "contextId": null,
+      "question": {
+        "en": "Choose the word which is nearest in meaning (synonym) to the given word.\nAdmire",
+        "hi": null
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Blame",
+          "hi": null
+        },
+        {
+          "id": "B",
+          "en": "Stop",
+          "hi": null
+        },
+        {
+          "id": "C",
+          "en": "Curse",
+          "hi": null
+        },
+        {
+          "id": "D",
+          "en": "Praise",
+          "hi": null
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": null
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 13,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 97,
+        "keyAnswerText": "Praise"
+      }
+    },
+    {
+      "id": "Q051",
+      "originalQuestionNumber": "51",
+      "subject": "Current Affairs",
+      "contextId": null,
+      "question": {
+        "en": "Exercise CYCLONE 2025 is conducted between India and which country ?",
+        "hi": "अभ्यास साइक्लोन 2025 भारत और किस देश के बीच आयोजित किया जा रहा है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Maldives",
+          "hi": "मालदीव"
+        },
+        {
+          "id": "B",
+          "en": "Egypt",
+          "hi": "मिस्र"
+        },
+        {
+          "id": "C",
+          "en": "Turkey",
+          "hi": "तुर्की"
+        },
+        {
+          "id": "D",
+          "en": "Saudi Arabia",
+          "hi": "सऊदी अरब"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 13,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 64,
+        "keyAnswerText": "Egypt"
+      }
+    },
+    {
+      "id": "Q052",
+      "originalQuestionNumber": "52",
+      "subject": "Science",
+      "contextId": null,
+      "question": {
+        "en": "Which instrument is used to measure potential difference ?",
+        "hi": "विभवान्तर मापने के लिए किस उपकरण का उपयोग किया जाता है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Voltmeter",
+          "hi": "वोल्टमीटर"
+        },
+        {
+          "id": "B",
+          "en": "Galvanometer",
+          "hi": "गैल्वेनोमीटर"
+        },
+        {
+          "id": "C",
+          "en": "Ammeter",
+          "hi": "एमीटर"
+        },
+        {
+          "id": "D",
+          "en": "Ohmmeter",
+          "hi": "ओममीटर"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 13,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 41,
+        "keyAnswerText": "Voltmeter"
+      }
+    },
+    {
+      "id": "Q053",
+      "originalQuestionNumber": "53",
+      "subject": "Reasoning",
+      "contextId": null,
+      "question": {
+        "en": "What comes in place of question mark (?) in the following number series ?\n4, 12, 36, 108, 324, ?",
+        "hi": "निम्नलिखित संख्या शृंखला में प्रश्न चिह्न (?) के स्थान पर क्या आएगा ?\n4, 12, 36, 108, 324, ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "520",
+          "hi": "520"
+        },
+        {
+          "id": "B",
+          "en": "972",
+          "hi": "972"
+        },
+        {
+          "id": "C",
+          "en": "680",
+          "hi": "680"
+        },
+        {
+          "id": "D",
+          "en": "475",
+          "hi": "475"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "Each term is 3 times the previous one; 324 × 3 = 972.",
+      "sourcePage": 13,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 55,
+        "keyAnswerText": "972"
+      }
+    },
+    {
+      "id": "Q054",
+      "originalQuestionNumber": "54",
+      "subject": "Science",
+      "contextId": null,
+      "question": {
+        "en": "Which of the following forests are adapted to saline water ?",
+        "hi": "निम्नलिखित में से कौन-से वन खारे पानी के अनुकूल हैं ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Thorn",
+          "hi": "काँटेदार"
+        },
+        {
+          "id": "B",
+          "en": "Evergreen",
+          "hi": "सदाबहार"
+        },
+        {
+          "id": "C",
+          "en": "Mangrove",
+          "hi": "मैंग्रोव"
+        },
+        {
+          "id": "D",
+          "en": "Deciduous",
+          "hi": "पर्णपाती"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 13,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 29,
+        "keyAnswerText": "Mangrove"
+      }
+    },
+    {
+      "id": "Q055",
+      "originalQuestionNumber": "55",
+      "subject": "Mathematics",
+      "contextId": null,
+      "question": {
+        "en": "Which among the following is not a prime number ?",
+        "hi": "निम्नलिखित में से कौन-सी अभाज्य संख्या नहीं है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "53",
+          "hi": "53"
+        },
+        {
+          "id": "B",
+          "en": "29",
+          "hi": "29"
+        },
+        {
+          "id": "C",
+          "en": "47",
+          "hi": "47"
+        },
+        {
+          "id": "D",
+          "en": "57",
+          "hi": "57"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "57 = 3 × 19; the others are prime.",
+      "sourcePage": 13,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 48,
+        "keyAnswerText": "57"
+      }
+    },
+    {
+      "id": "Q056",
+      "originalQuestionNumber": "56",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-56-60",
+      "question": {
+        "en": "Find the ratio of the total number of ball point pens sold by shop A to the total number of fountain pens sold by shops A and B together.",
+        "hi": "दुकान A द्वारा बेचे गए बॉल प्वाईंट पेन की कुल संख्या दुकान A और B द्वारा बेचे गए फाउंटेन पेन की कुल संख्या से अनुपात ज्ञात करें ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "9 : 8",
+          "hi": "9 : 8"
+        },
+        {
+          "id": "B",
+          "en": "5 : 3",
+          "hi": "5 : 3"
+        },
+        {
+          "id": "C",
+          "en": "2 : 7",
+          "hi": "2 : 7"
+        },
+        {
+          "id": "D",
+          "en": "1 : 4",
+          "hi": "1 : 4"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "Ball point A = 140; fountain A+B = 360+200 = 560; 140 : 560 = 1 : 4.",
+      "sourcePage": 14,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 84,
+        "keyAnswerText": "1 : 4"
+      }
+    },
+    {
+      "id": "Q057",
+      "originalQuestionNumber": "57",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-56-60",
+      "question": {
+        "en": "Find the difference between the total number of ball point and fountain pens sold by shop A and the total number of ball point pens sold by shop D.",
+        "hi": "दुकान A द्वारा बेचे गए बॉल प्वाईंट और फाउंटेन पेन की कुल संख्या और दुकान D द्वारा बेचे गए बॉल प्वाईंट पेन की कुल संख्या के बीच अंतर ज्ञात करें ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "250",
+          "hi": "250"
+        },
+        {
+          "id": "B",
+          "en": "230",
+          "hi": "230"
+        },
+        {
+          "id": "C",
+          "en": "190",
+          "hi": "190"
+        },
+        {
+          "id": "D",
+          "en": "340",
+          "hi": "340"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "(140+360) - 270 = 230.",
+      "sourcePage": 14,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 83,
+        "keyAnswerText": "230"
+      }
+    },
+    {
+      "id": "Q058",
+      "originalQuestionNumber": "58",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-56-60",
+      "question": {
+        "en": "The total number of gel pens sold by shops A and B together is what percentage of the total number of ball point pens sold by shop B ?",
+        "hi": "दुकान A और B द्वारा बेचे गए जेल पेन की कुल संख्या दुकान B द्वारा बेचे गए बॉल प्वाईंट पेन की कुल संख्या का कितना प्रतिशत है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "50%",
+          "hi": "50%"
+        },
+        {
+          "id": "B",
+          "en": "100%",
+          "hi": "100%"
+        },
+        {
+          "id": "C",
+          "en": "120%",
+          "hi": "120%"
+        },
+        {
+          "id": "D",
+          "en": "80%",
+          "hi": "80%"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "(240+120)/300 × 100 = 120%.",
+      "sourcePage": 14,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 85,
+        "keyAnswerText": "120%"
+      }
+    },
+    {
+      "id": "Q059",
+      "originalQuestionNumber": "59",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-56-60",
+      "question": {
+        "en": "If the total number of ball point, gel and fountain pens sold by shop E is 33.33% less than that of shop C and the ratio of the number of fountain pens sold by shop C to shop E is 7 : 5, then find the total number of ball point and gel pens sold by shop E.",
+        "hi": "यदि दुकान E द्वारा बेचे गए बॉल प्वाईंट, जेल और फाउंटेन पेन की कुल संख्या दुकान C की तुलना में 33.33% कम है और दुकान C द्वारा बेचे गए फाउंटेन पेन की संख्या का दुकान E से अनुपात 7 : 5 है, तो दुकान E द्वारा बेचे गए बॉल प्वाईंट और जेल पेन की कुल संख्या ज्ञात कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "320",
+          "hi": "320"
+        },
+        {
+          "id": "B",
+          "en": "450",
+          "hi": "450"
+        },
+        {
+          "id": "C",
+          "en": "410",
+          "hi": "410"
+        },
+        {
+          "id": "D",
+          "en": "290",
+          "hi": "290"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": "C total = 180+320+280 = 780; E total = 780 × 2/3 = 520; E fountain = 280 × 5/7 = 200; ball point + gel = 520 - 200 = 320.",
+      "sourcePage": 15,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 82,
+        "keyAnswerText": "320"
+      }
+    },
+    {
+      "id": "Q060",
+      "originalQuestionNumber": "60",
+      "subject": "Quantitative Aptitude (Data Interpretation)",
+      "contextId": "CTX-56-60",
+      "question": {
+        "en": "Out of the total number of pens sold by shop F, 40% of the pens are fountain pens. If the ratio of the number of fountain pen sold by shop D to shop F is 3 : 4, then find the total number of pens sold by shop F.",
+        "hi": "दुकान F द्वारा बेचे गए कुल पेन में से 40% पेन फाउंटेन पेन है । यदि दुकान D द्वारा बेचे गए फाउंटेन पेन की संख्या का दुकान F से अनुपात 3 : 4 है, तो दुकान F द्वारा बेचे गए पेन की कुल संख्या ज्ञात कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "560",
+          "hi": "560"
+        },
+        {
+          "id": "B",
+          "en": "480",
+          "hi": "480"
+        },
+        {
+          "id": "C",
+          "en": "720",
+          "hi": "720"
+        },
+        {
+          "id": "D",
+          "en": "600",
+          "hi": "600"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "D fountain = 180, so F fountain = 180 × 4/3 = 240 = 40% of total; total = 600.",
+      "sourcePage": 15,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 81,
+        "keyAnswerText": "600"
+      }
+    },
+    {
+      "id": "Q061",
+      "originalQuestionNumber": "61",
+      "subject": "Economics",
+      "contextId": null,
+      "question": {
+        "en": "The backbone of the Indian Economy is",
+        "hi": "भारतीय अर्थव्यवस्था की रीढ़ है"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Industry",
+          "hi": "उद्योग"
+        },
+        {
+          "id": "B",
+          "en": "Agriculture",
+          "hi": "कृषि"
+        },
+        {
+          "id": "C",
+          "en": "Trade and Commerce",
+          "hi": "व्यापार और वाणिज्य"
+        },
+        {
+          "id": "D",
+          "en": "Transport and Communication",
+          "hi": "परिवहन और संचार"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 15,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 35,
+        "keyAnswerText": "Agriculture"
+      }
+    },
+    {
+      "id": "Q062",
+      "originalQuestionNumber": "62",
+      "subject": "Art & Culture",
+      "contextId": null,
+      "question": {
+        "en": "‘Maach’ is a traditional folk theatre form of which State ?",
+        "hi": "‘माच’ किस राज्य का एक पारंपरिक लोक नाट्य रूप है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Madhya Pradesh",
+          "hi": "मध्य प्रदेश"
+        },
+        {
+          "id": "B",
+          "en": "Maharashtra",
+          "hi": "महाराष्ट्र"
+        },
+        {
+          "id": "C",
+          "en": "Rajasthan",
+          "hi": "राजस्थान"
+        },
+        {
+          "id": "D",
+          "en": "Gujarat",
+          "hi": "गुजरात"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 15,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 66,
+        "keyAnswerText": "Madhya Pradesh"
+      }
+    },
+    {
+      "id": "Q063",
+      "originalQuestionNumber": "63",
+      "subject": "History",
+      "contextId": null,
+      "question": {
+        "en": "Who is known as ‘Grand Old Man of India’ ?",
+        "hi": "‘भारत के ग्रैंड ओल्ड मैन’ के रूप में किसे जाना जाता है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Dadabhai Naoroji",
+          "hi": "दादाभाई नवरोजी"
+        },
+        {
+          "id": "B",
+          "en": "Gopal Krishna Gokhale",
+          "hi": "गोपालकृष्ण गोखले"
+        },
+        {
+          "id": "C",
+          "en": "Bal Gangadhar Tilak",
+          "hi": "बाल गंगाधर तिलक"
+        },
+        {
+          "id": "D",
+          "en": "M.G. Ranade",
+          "hi": "एम.जी. रानाडे"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 15,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 22,
+        "keyAnswerText": "Dadabhai Naoroji"
+      }
+    },
+    {
+      "id": "Q064",
+      "originalQuestionNumber": "64",
+      "subject": "Reasoning",
+      "contextId": null,
+      "question": {
+        "en": "Suket has three daughters and each daughter has a brother. How many male members are there in the family ?",
+        "hi": "सुकेत की तीन बेटियाँ हैं और प्रत्येक बेटी का एक भाई है । परिवार में कितने पुरुष सदस्य हैं ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "4",
+          "hi": "4"
+        },
+        {
+          "id": "B",
+          "en": "2",
+          "hi": "2"
+        },
+        {
+          "id": "C",
+          "en": "1",
+          "hi": "1"
+        },
+        {
+          "id": "D",
+          "en": "3",
+          "hi": "3"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": "The three daughters share one brother; males = Suket + 1 son = 2.",
+      "sourcePage": 16,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 51,
+        "keyAnswerText": "2"
+      }
+    },
+    {
+      "id": "Q065",
+      "originalQuestionNumber": "65",
+      "subject": "Science",
+      "contextId": null,
+      "question": {
+        "en": "Potential difference between two points of a wire carrying 2 ampere current is 0.1 volt. What is the resistance between these points ?",
+        "hi": "2 एम्पियर विद्युत धारा प्रवाहित करने वाले तार के दो बिंदुओं के बीच विभवांतर 0.1 वोल्ट है । इन बिंदुओं के बीच प्रतिरोध क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "0.5 ohm",
+          "hi": "0.5 ओम"
+        },
+        {
+          "id": "B",
+          "en": "2 ohm",
+          "hi": "2 ओम"
+        },
+        {
+          "id": "C",
+          "en": "20 ohm",
+          "hi": "20 ओम"
+        },
+        {
+          "id": "D",
+          "en": "0.05 ohm",
+          "hi": "0.05 ओम"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "R = V/I = 0.1/2 = 0.05 ohm.",
+      "sourcePage": 16,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 42,
+        "keyAnswerText": "0.05 ohm"
+      }
+    },
+    {
+      "id": "Q066",
+      "originalQuestionNumber": "66",
+      "subject": "History",
+      "contextId": null,
+      "question": {
+        "en": "The Chhandogya Upanishad clearly refers to which of the following ashramas ?",
+        "hi": "छांदोग्य उपनिषद स्पष्ट रूप से निम्नलिखित में से किस आश्रम को संदर्भित करता है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Only Grihastha and Vanaprastha",
+          "hi": "केवल गृहस्थ और वानप्रस्थ"
+        },
+        {
+          "id": "B",
+          "en": "Only Grihastha and Brahmacharya",
+          "hi": "केवल गृहस्थ और ब्रह्मचर्य"
+        },
+        {
+          "id": "C",
+          "en": "Only Brahmacharya and Sannyasa",
+          "hi": "केवल ब्रह्मचर्य और संन्यास"
+        },
+        {
+          "id": "D",
+          "en": "Brahmacharya, Grihastha and Vanaprastha",
+          "hi": "ब्रह्मचर्य, गृहस्थ और वानप्रस्थ"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 16,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 17,
+        "keyAnswerText": "Brahmacharya, Grihastha and Vanaprastha"
+      }
+    },
+    {
+      "id": "Q067",
+      "originalQuestionNumber": "67",
+      "subject": "Current Affairs",
+      "contextId": null,
+      "question": {
+        "en": "Which international initiative has the Reserve Bank of India (RBI) joined to enable instant cross-border retail payments ?",
+        "hi": "भारतीय रिज़र्व बैंक (RBI) तत्काल सीमा-पार खुदरा भुगतान सक्षम करने के लिए किस अंतर्राष्ट्रीय पहल में शामिल हुआ है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Project Horizon",
+          "hi": "प्रोजेक्ट होरिज़ॉन"
+        },
+        {
+          "id": "B",
+          "en": "Project Phoenix",
+          "hi": "प्रोजेक्ट फीनिक्स"
+        },
+        {
+          "id": "C",
+          "en": "Project Dart",
+          "hi": "प्रोजेक्ट डार्ट"
+        },
+        {
+          "id": "D",
+          "en": "Project Nexus",
+          "hi": "प्रोजेक्ट नेक्सस"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 16,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 63,
+        "keyAnswerText": "Project Nexus"
+      }
+    },
+    {
+      "id": "Q068",
+      "originalQuestionNumber": "68",
+      "subject": "Geography",
+      "contextId": null,
+      "question": {
+        "en": "The Brahmaputra River is called ________ in Tibet.",
+        "hi": "तिब्बत में ब्रह्मपुत्र नदी को ________ कहा जाता है ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Dihang",
+          "hi": "दिहांग"
+        },
+        {
+          "id": "B",
+          "en": "Tsangpo",
+          "hi": "त्सांगपो"
+        },
+        {
+          "id": "C",
+          "en": "Lohit",
+          "hi": "लोहित"
+        },
+        {
+          "id": "D",
+          "en": "Lhasa",
+          "hi": "ल्हासा"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 17,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 26,
+        "keyAnswerText": "Tsangpo"
+      }
+    },
+    {
+      "id": "Q069",
+      "originalQuestionNumber": "69",
+      "subject": "Mathematics",
+      "contextId": null,
+      "question": {
+        "en": "If you subtract ½ from a number and multiply the result by ½, you get ⅛. The number is",
+        "hi": "यदि आप किसी संख्या से ½ घटाते हैं और परिणाम को ½ से गुणा करते हैं, तो आपको ⅛ मिलता है । संख्या क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "¼",
+          "hi": "¼"
+        },
+        {
+          "id": "B",
+          "en": "1¼",
+          "hi": "1¼"
+        },
+        {
+          "id": "C",
+          "en": "½",
+          "hi": "½"
+        },
+        {
+          "id": "D",
+          "en": "¾",
+          "hi": "¾"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": "(x - ½) × ½ = ⅛ → x - ½ = ¼ → x = ¾.",
+      "sourcePage": 17,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 49,
+        "keyAnswerText": "¾"
+      }
+    },
+    {
+      "id": "Q070",
+      "originalQuestionNumber": "70",
+      "subject": "Sports",
+      "contextId": null,
+      "question": {
+        "en": "Who among the following received the Arjun Award (Lifetime) in 2024 for Para-Swimming ?",
+        "hi": "निम्नलिखित में से किसे 2024 में पैरा-तैराकी के लिए अर्जुन पुरस्कार (लाइफटाइम) मिला ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Devendra Jhajharia",
+          "hi": "देवेंद्र झाझरिया"
+        },
+        {
+          "id": "B",
+          "en": "Sharad Kumar",
+          "hi": "शरद कुमार"
+        },
+        {
+          "id": "C",
+          "en": "Murlikant Rajaram Petkar",
+          "hi": "मुरलीकांत राजाराम पेटकर"
+        },
+        {
+          "id": "D",
+          "en": "Mariyappan Thangavelu",
+          "hi": "मरियप्पन थंगावेलु"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 17,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 56,
+        "keyAnswerText": "Murlikant Rajaram Petkar"
+      }
+    },
+    {
+      "id": "Q071",
+      "originalQuestionNumber": "71",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": "CTX-71-75",
+      "question": {
+        "en": null,
+        "hi": "‘‘इस युद्ध को बंद करा दीजिए । यह युद्ध कितना भयंकर होता है ।’’ इस वाक्य को किसने किससे कहा ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "एक बेटी ने अपने पिता से"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "एक युवती ने रानी से"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "एक कुँवारी कन्या ने माँ से"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "एक सखी ने दूसरी सखी से"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 18,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 10,
+        "keyAnswerText": "एक युवती ने रानी से"
+      }
+    },
+    {
+      "id": "Q072",
+      "originalQuestionNumber": "72",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": "CTX-71-75",
+      "question": {
+        "en": null,
+        "hi": "कुँवारी कन्या मर्यादा से मृत्यु को ही क्यों भली मानती है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "अगर युद्ध करते समय जीवित पकड़े जाने पर जो हालात होगी, उससे बचने के लिए ।"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "अपने जन्मभूमि की इज्जत के लिए ।"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "यवन सेना की बर्बरता से डरकर ।"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "उसके परिवारवालों के साथ दुनिया से मुक्ति पाने के लिए ।"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 18,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 9,
+        "keyAnswerText": "अगर युद्ध करते समय जीवित पकड़े जाने पर जो हालात होगी, उससे बचने के लिए ।"
+      }
+    },
+    {
+      "id": "Q073",
+      "originalQuestionNumber": "73",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": "CTX-71-75",
+      "question": {
+        "en": null,
+        "hi": "महारावत और अन्य सरदारों को क्यों संतोष हुआ ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "जब हाड़ी रानी गर्व से जौहर के लिए तैयार हो जाती है ।"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "उत्तर में राजपूत वीरों ने बाण बरसाना शुरू किया था ।"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "बाघसिंहजी राजकीय पोशाक पहनने लगे ।"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "सैनिक वीरता से शत्रुओं का सामना कर रहे थे ।"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 18,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 8,
+        "keyAnswerText": "जब हाड़ी रानी गर्व से जौहर के लिए तैयार हो जाती है ।"
+      }
+    },
+    {
+      "id": "Q074",
+      "originalQuestionNumber": "74",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": "CTX-71-75",
+      "question": {
+        "en": null,
+        "hi": "एक कुँवारी कन्या जौहर से पहले अपनी माँ से क्या पूछती है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "हम सूर्यवंशी है और सूर्य पर कौन कीचड़ उछाल सकता है ?"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "इस युद्ध को बंद कर दीजिए ।"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "हम जीते जी अग्नि-कुंड में क्यों प्रवेश करती हैं ?"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "क्षत्राणी का धर्म युद्ध करते हुए मरना है या नहीं ?"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 18,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 7,
+        "keyAnswerText": "हम जीते जी अग्नि-कुंड में क्यों प्रवेश करती हैं ?"
+      }
+    },
+    {
+      "id": "Q075",
+      "originalQuestionNumber": "75",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": "CTX-71-75",
+      "question": {
+        "en": null,
+        "hi": "सैन्य संचालक और महारावत बाघसिंह क्या पहनकर युद्ध रंग में जाने की बातें करने लगते हैं ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "यवन सेना का पोशाक"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "केसरिया बाना"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "सफेद बाना"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "राजकीय पोशाक"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 18,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 6,
+        "keyAnswerText": "केसरिया बाना"
+      }
+    },
+    {
+      "id": "Q076",
+      "originalQuestionNumber": "76",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": "CTX-76-80",
+      "question": {
+        "en": null,
+        "hi": "जब ‘क’ लेखक जी से मिलने आता है तो लेखक जी ने उसके साथ क्या किया ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "लेखक जी ने शरीर से अपने मन को खिसकाकर नि:स्नेह कँटीली देह को उसके बाँहों में छोड़ा था ।"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "जरूरी काम का बहाना करके बाजार गये थे ।"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "उसे देखते ही कमरे में चले गये थे ।"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "सिर दर्द का बहाना करके बाहर चले गये थे ।"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 19,
+      "verificationStatus": "verified",
+      "issues": [
+        "The scanned copy carries a pencil mark near option C; this is a candidate's mark and was ignored. The official key (Master Set Q14) and the passage text support option A."
+      ],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 14,
+        "keyAnswerText": "लेखक जी ने शरीर से अपने मन को खिसकाकर नि:स्नेह कँटीली देह को उसके बाँहों में छोड़ा था ।"
+      }
+    },
+    {
+      "id": "Q077",
+      "originalQuestionNumber": "77",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": "CTX-76-80",
+      "question": {
+        "en": null,
+        "hi": "पिछली रात ‘क’ कहाँ पर आया हुआ था ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "किसी की शादी में"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "अपनी ससुराल में"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "अपने दोस्त के घर पर"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "किसी धर्मशाला में"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 19,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 13,
+        "keyAnswerText": "अपनी ससुराल में"
+      }
+    },
+    {
+      "id": "Q078",
+      "originalQuestionNumber": "78",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": "CTX-76-80",
+      "question": {
+        "en": null,
+        "hi": "जब ‘क’ ने लेखक जी को अपने बाहों में जकड़ा तो उन्हें किस तरह का एहसास हुआ ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "धृतराष्ट्र की भुजाओं में जकड़े भीम के पुतले की याद आयी ।"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "किसी की आत्मीयता ने जकड़ लिया हो ।"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "ऐसा लगा जैसे किसी ने जोर से धक्का दिया ।"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "जैसा कोई अभिनय कर रहा है ।"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 19,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 11,
+        "keyAnswerText": "धृतराष्ट्र की भुजाओं में जकड़े भीम के पुतले की याद आयी ।"
+      }
+    },
+    {
+      "id": "Q079",
+      "originalQuestionNumber": "79",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": "CTX-76-80",
+      "question": {
+        "en": null,
+        "hi": "लेखक जी के एक रिश्तेदार बम्बई जा रहे हैं और उनसे पूछे, तो वे क्या कहेंगे ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "पटना जा रहा हूँ ।"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "पूना जा रहा हूँ ।"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "कलकत्ता जा रहा हूँ ।"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "दिल्ली जा रहा हूँ ।"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 20,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 15,
+        "keyAnswerText": "कलकत्ता जा रहा हूँ ।"
+      }
+    },
+    {
+      "id": "Q080",
+      "originalQuestionNumber": "80",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": "CTX-76-80",
+      "question": {
+        "en": null,
+        "hi": "पिछली रात उनके एक मित्र ने ‘क’ के बारे में क्या कहा था ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "‘क’ ने ‘ग’ के साथ मिलकर लेखक जी की निंदा की थी ।"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "‘क’ बहुत बड़ा धोखेबाज है ।"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "‘क’ कल सुबह लेखक जी से मिलने आयेगा ।"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "‘क’ से जरा दूर रहने के लिए कहा था ।"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 20,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 12,
+        "keyAnswerText": "‘क’ ने ‘ग’ के साथ मिलकर लेखक जी की निंदा की थी ।"
+      }
+    },
+    {
+      "id": "Q081",
+      "originalQuestionNumber": "81",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": null,
+      "question": {
+        "en": null,
+        "hi": "उपकार को मानने वाले को ________ कहते हैं ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "कृतघ्न"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "अवैध"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "कृतज्ञ"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "अनन्य"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 20,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 3,
+        "keyAnswerText": "कृतज्ञ"
+      }
+    },
+    {
+      "id": "Q082",
+      "originalQuestionNumber": "82",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": null,
+      "question": {
+        "en": null,
+        "hi": "‘कश्मीरी सेब’ कहानी के कहानीकार कौन है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "जयशंकर प्रसाद"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "यादवेंद्र चंद्र शर्मा"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "प्रेमचंद"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "यशपाल"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 20,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 2,
+        "keyAnswerText": "प्रेमचंद"
+      }
+    },
+    {
+      "id": "Q083",
+      "originalQuestionNumber": "83",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": null,
+      "question": {
+        "en": null,
+        "hi": "‘डंडा’ तद्भव शब्द है, उसका तत्सम शब्द ________ है ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "दश"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "दीमा"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "दुग्ध"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "दंड"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 20,
+      "verificationStatus": "verified",
+      "issues": [
+        "Option B is printed in a small, smudged font; 'दीमा' is the best reading and does not affect the answer (D)."
+      ],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 4,
+        "keyAnswerText": "दंड"
+      }
+    },
+    {
+      "id": "Q084",
+      "originalQuestionNumber": "84",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": null,
+      "question": {
+        "en": null,
+        "hi": "जो विशेषण शब्द विशेषणों की विशेषता बताते हैं, उसे क्या कहते हैं ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "उद्देश्य विशेषण"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "प्रविशेषण"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "विधेय विशेषण"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "सार्वनामिक विशेषण"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 20,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 1,
+        "keyAnswerText": "प्रविशेषण"
+      }
+    },
+    {
+      "id": "Q085",
+      "originalQuestionNumber": "85",
+      "subject": "Hindi Language & Comprehension",
+      "contextId": null,
+      "question": {
+        "en": null,
+        "hi": "‘शरीरिक’ एक अशुद्ध शब्द है, निम्नलिखित शब्दों में से सही शब्द का चयन कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "शारीरिक"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "शरीरक"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "शरिरिक"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "शारीरीक"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 20,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 5,
+        "keyAnswerText": "शारीरिक"
+      }
+    },
+    {
+      "id": "Q086",
+      "originalQuestionNumber": "86",
+      "subject": "Art & Culture",
+      "contextId": null,
+      "question": {
+        "en": "Rasiya Geet is a regional song of which State ?",
+        "hi": "रसिया गीत किस राज्य का क्षेत्रीय गीत है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Uttar Pradesh",
+          "hi": "उत्तर प्रदेश"
+        },
+        {
+          "id": "B",
+          "en": "Jharkhand",
+          "hi": "झारखंड"
+        },
+        {
+          "id": "C",
+          "en": "Rajasthan",
+          "hi": "राजस्थान"
+        },
+        {
+          "id": "D",
+          "en": "Chhattisgarh",
+          "hi": "छत्तीसगढ़"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 20,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 68,
+        "keyAnswerText": "Uttar Pradesh"
+      }
+    },
+    {
+      "id": "Q087",
+      "originalQuestionNumber": "87",
+      "subject": "History",
+      "contextId": null,
+      "question": {
+        "en": "Who founded the ‘Forward Bloc’ ?",
+        "hi": "‘फॉरवर्ड ब्लॉक’ की स्थापना किसने की ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "C.R. Das",
+          "hi": "सी.आर. दास"
+        },
+        {
+          "id": "B",
+          "en": "Gandhiji",
+          "hi": "गाँधीजी"
+        },
+        {
+          "id": "C",
+          "en": "Motilal Nehru",
+          "hi": "मोतीलाल नेहरू"
+        },
+        {
+          "id": "D",
+          "en": "Subhas Chandra Bose",
+          "hi": "सुभाष चंद्र बोस"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 20,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 25,
+        "keyAnswerText": "Subhas Chandra Bose"
+      }
+    },
+    {
+      "id": "Q088",
+      "originalQuestionNumber": "88",
+      "subject": "General Knowledge",
+      "contextId": null,
+      "question": {
+        "en": "The International Civil Aviation Organisation (ICAO) has its Headquarters in",
+        "hi": "अंतर्राष्ट्रीय नागरिक उड्डयन संगठन (ICAO) का मुख्यालय कहाँ स्थित है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Montreal",
+          "hi": "मॉन्ट्रियल"
+        },
+        {
+          "id": "B",
+          "en": "Brussels",
+          "hi": "ब्रुसेल्स"
+        },
+        {
+          "id": "C",
+          "en": "Geneva",
+          "hi": "जिनेवा"
+        },
+        {
+          "id": "D",
+          "en": "Paris",
+          "hi": "पेरिस"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 21,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 71,
+        "keyAnswerText": "Montreal"
+      }
+    },
+    {
+      "id": "Q089",
+      "originalQuestionNumber": "89",
+      "subject": "Polity",
+      "contextId": null,
+      "question": {
+        "en": "According to Article 57 of the Indian Constitution a person who holds, or who has held, office as ________ shall, subject to the other provisions of this Constitution, be eligible for re-election to that office.",
+        "hi": "भारतीय संविधान के अनुच्छेद 57 के अनुसार कोई व्यक्ति जो ________ के रूप में पद धारण करता है, या जिसने पद धारण किया है, इस संविधान के अन्य प्रावधानों के अधीन, उस पद पर पुनः-चुनाव के लिए पात्र होगा ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Vice-President",
+          "hi": "उपराष्ट्रपति"
+        },
+        {
+          "id": "B",
+          "en": "Attorney General",
+          "hi": "अटॉर्नी जनरल"
+        },
+        {
+          "id": "C",
+          "en": "President",
+          "hi": "राष्ट्रपति"
+        },
+        {
+          "id": "D",
+          "en": "Prime Minister",
+          "hi": "प्रधानमंत्री"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 21,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 36,
+        "keyAnswerText": "President"
+      }
+    },
+    {
+      "id": "Q090",
+      "originalQuestionNumber": "90",
+      "subject": "Current Affairs",
+      "contextId": null,
+      "question": {
+        "en": "Manish Singhal was appointed as the Secretary General of ________ on 1 January, 2025.",
+        "hi": "मनीष सिंघल को 1 जनवरी, 2025 को ________ का महासचिव नियुक्त किया गया ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Confederation of Indian Industry (CII)",
+          "hi": "कॉन्फेडरेशन ऑफ इंडियन इंडस्ट्री (CII)"
+        },
+        {
+          "id": "B",
+          "en": "Associated Chambers of Commerce and Industry of India (ASSOCHAM)",
+          "hi": "एसोसिएटेड चेम्बर्स ऑफ कॉमर्स एण्ड इंडस्ट्री ऑफ इंडिया (ASSOCHAM)"
+        },
+        {
+          "id": "C",
+          "en": "Federation of Indian Chambers of Commerce and Industry (FICCI)",
+          "hi": "फेडरेशन ऑफ इंडियन चेम्बर्स ऑफ कॉमर्स एण्ड इंडस्ट्री (FICCI)"
+        },
+        {
+          "id": "D",
+          "en": "National Association of Software and Service Companies (NASSCOM)",
+          "hi": "नेशनल एसोसिएशन ऑफ सॉफ्टवेयर एण्ड सर्विस कम्पनीज (NASSCOM)"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 21,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 62,
+        "keyAnswerText": "Associated Chambers of Commerce and Industry of India (ASSOCHAM)"
+      }
+    },
+    {
+      "id": "Q091",
+      "originalQuestionNumber": "91",
+      "subject": "History",
+      "contextId": null,
+      "question": {
+        "en": "Quit India Resolution was passed in",
+        "hi": "भारत छोड़ो प्रस्ताव कब पारित किया गया था ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "September 1943",
+          "hi": "सितम्बर 1943"
+        },
+        {
+          "id": "B",
+          "en": "August 1942",
+          "hi": "अगस्त 1942"
+        },
+        {
+          "id": "C",
+          "en": "August 1943",
+          "hi": "अगस्त 1943"
+        },
+        {
+          "id": "D",
+          "en": "September 1942",
+          "hi": "सितम्बर 1942"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 21,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 23,
+        "keyAnswerText": "August 1942"
+      }
+    },
+    {
+      "id": "Q092",
+      "originalQuestionNumber": "92",
+      "subject": "General Knowledge",
+      "contextId": null,
+      "question": {
+        "en": "What is the capital of Cuba ?",
+        "hi": "क्यूबा की राजधानी क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Dhaka",
+          "hi": "ढाका"
+        },
+        {
+          "id": "B",
+          "en": "Prague",
+          "hi": "प्राग"
+        },
+        {
+          "id": "C",
+          "en": "Havana",
+          "hi": "हवाना"
+        },
+        {
+          "id": "D",
+          "en": "Quito",
+          "hi": "क्विटो"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 22,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 67,
+        "keyAnswerText": "Havana"
+      }
+    },
+    {
+      "id": "Q093",
+      "originalQuestionNumber": "93",
+      "subject": "Science",
+      "contextId": null,
+      "question": {
+        "en": "What happens to the temperature of a reaction mixture when a chemical reaction absorbs heat energy ?",
+        "hi": "जब रासायनिक अभिक्रिया ऊष्मा ऊर्जा को अवशोषित करती है तो अभिक्रिया मिश्रण के तापमान पर क्या प्रभाव पड़ता है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "The temperature rises",
+          "hi": "तापमान बढ़ जाता है"
+        },
+        {
+          "id": "B",
+          "en": "Heat energy is produced",
+          "hi": "ऊष्मा ऊर्जा उत्पन्न होती है"
+        },
+        {
+          "id": "C",
+          "en": "The temperature remains the same",
+          "hi": "तापमान वही रहता है"
+        },
+        {
+          "id": "D",
+          "en": "The temperature falls",
+          "hi": "तापमान गिरता है"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 22,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 43,
+        "keyAnswerText": "The temperature falls"
+      }
+    },
+    {
+      "id": "Q094",
+      "originalQuestionNumber": "94",
+      "subject": "Mathematics",
+      "contextId": null,
+      "question": {
+        "en": "Between which two consecutive integers does √290 lie ?",
+        "hi": "√290 किस दो लगातार पूर्णांकों के बीच स्थित है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "16 and 17",
+          "hi": "16 और 17"
+        },
+        {
+          "id": "B",
+          "en": "19 and 20",
+          "hi": "19 और 20"
+        },
+        {
+          "id": "C",
+          "en": "17 and 18",
+          "hi": "17 और 18"
+        },
+        {
+          "id": "D",
+          "en": "18 and 19",
+          "hi": "18 और 19"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": "17² = 289 < 290 < 324 = 18².",
+      "sourcePage": 22,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 50,
+        "keyAnswerText": "17 and 18"
+      }
+    },
+    {
+      "id": "Q095",
+      "originalQuestionNumber": "95",
+      "subject": "History",
+      "contextId": null,
+      "question": {
+        "en": "Which of the following metals was not known or used by the people of the Harappan Civilization ?",
+        "hi": "निम्नलिखित में से कौन-सी धातु हड़प्पा सभ्यता के लोगों द्वारा ज्ञात या उपयोग नहीं की गई थी ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Copper",
+          "hi": "तांबा"
+        },
+        {
+          "id": "B",
+          "en": "Iron",
+          "hi": "लोहा"
+        },
+        {
+          "id": "C",
+          "en": "Gold",
+          "hi": "सोना"
+        },
+        {
+          "id": "D",
+          "en": "Bronze",
+          "hi": "कांस्य"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 22,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 16,
+        "keyAnswerText": "Iron"
+      }
+    },
+    {
+      "id": "Q096",
+      "originalQuestionNumber": "96",
+      "subject": "Current Affairs",
+      "contextId": null,
+      "question": {
+        "en": "Where was the 18th Pravasi Bharatiya Divas (PBD) Convention 2025 held ?",
+        "hi": "18 वां प्रवासी भारतीय दिवस (PBD) सम्मेलन 2025 कहाँ आयोजित किया गया था ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "New Delhi",
+          "hi": "नई दिल्ली"
+        },
+        {
+          "id": "B",
+          "en": "Hyderabad",
+          "hi": "हैदराबाद"
+        },
+        {
+          "id": "C",
+          "en": "Ahmedabad",
+          "hi": "अहमदाबाद"
+        },
+        {
+          "id": "D",
+          "en": "Bhubaneshwar",
+          "hi": "भुबनेश्वर"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 22,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 57,
+        "keyAnswerText": "Bhubaneshwar"
+      }
+    },
+    {
+      "id": "Q097",
+      "originalQuestionNumber": "97",
+      "subject": "Polity",
+      "contextId": null,
+      "question": {
+        "en": "What term describes the splitting of a country into smaller, often hostile units ?",
+        "hi": "किसी देश के छोटे, अक्सर शत्रुतापूर्ण इकाइयों में विभाजन को कौन-सा शब्द दर्शाता है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Annexation",
+          "hi": "विलयन"
+        },
+        {
+          "id": "B",
+          "en": "Federalism",
+          "hi": "संघवाद"
+        },
+        {
+          "id": "C",
+          "en": "Colonialism",
+          "hi": "उपनिवेशवाद"
+        },
+        {
+          "id": "D",
+          "en": "Balkanization",
+          "hi": "बाल्कनीकरण"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 23,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 30,
+        "keyAnswerText": "Balkanization"
+      }
+    },
+    {
+      "id": "Q098",
+      "originalQuestionNumber": "98",
+      "subject": "History",
+      "contextId": null,
+      "question": {
+        "en": "Who handed over the Presidentship of Indian Independence League to Subhas Chandra Bose ?",
+        "hi": "सुभाष चंद्र बोस को भारतीय स्वतंत्रता लीग की अध्यक्षता किसने सौंपी ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Gandhiji",
+          "hi": "गाँधीजी"
+        },
+        {
+          "id": "B",
+          "en": "Rash Behari Bose",
+          "hi": "रास बिहारी बोस"
+        },
+        {
+          "id": "C",
+          "en": "Nehru",
+          "hi": "नेहरू"
+        },
+        {
+          "id": "D",
+          "en": "Maulana Azad",
+          "hi": "मौलाना आज़ाद"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 23,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 24,
+        "keyAnswerText": "Rash Behari Bose"
+      }
+    },
+    {
+      "id": "Q099",
+      "originalQuestionNumber": "99",
+      "subject": "Science",
+      "contextId": null,
+      "question": {
+        "en": "Why is burning of natural gas classified as an exothermic reaction ?",
+        "hi": "प्राकृतिक गैस के जलने को ऊष्माक्षेपी अभिक्रिया के रूप में क्यों वर्गीकृत किया जाता है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Because it absorbs heat",
+          "hi": "क्योंकि यह गर्मी को अवशोषित करता है"
+        },
+        {
+          "id": "B",
+          "en": "Because it involves a change in state",
+          "hi": "क्योंकि इसमें अवस्था में परिवर्तन शामिल है"
+        },
+        {
+          "id": "C",
+          "en": "Because it produces light",
+          "hi": "क्योंकि यह प्रकाश उत्पन्न करता है"
+        },
+        {
+          "id": "D",
+          "en": "Because heat is produced in this reaction",
+          "hi": "क्योंकि इस अभिक्रिया में ऊष्मा उत्पन्न होती है"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 23,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 44,
+        "keyAnswerText": "Because heat is produced in this reaction"
+      }
+    },
+    {
+      "id": "Q100",
+      "originalQuestionNumber": "100",
+      "subject": "Polity",
+      "contextId": null,
+      "question": {
+        "en": "________ means an institution of self-government constituted under Article 243Q of the Constitution of India.",
+        "hi": "________ का अर्थ भारतीय संविधान के अनुच्छेद 243Q के अंतर्गत गठित स्वशासन की संस्था है ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Municipality",
+          "hi": "नगरपालिका"
+        },
+        {
+          "id": "B",
+          "en": "Panchayath",
+          "hi": "पंचायत"
+        },
+        {
+          "id": "C",
+          "en": "Metropolitan area",
+          "hi": "महानगरीय क्षेत्र"
+        },
+        {
+          "id": "D",
+          "en": "District",
+          "hi": "जिला"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 23,
+      "verificationStatus": "verified",
+      "issues": [],
+      "answerKeyReference": {
+        "masterSetQuestionNumber": 37,
+        "keyAnswerText": "Municipality"
+      }
+    }
+  ]
+}
