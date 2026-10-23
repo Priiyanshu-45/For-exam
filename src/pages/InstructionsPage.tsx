@@ -41,6 +41,7 @@ export function InstructionsPage() {
   };
   const evaluableCount = Math.max(0, exam.questions.length - exam.validation.unresolvedQuestionIds.length);
   const maxMarks = Math.round(evaluableCount * exam.markingScheme.marksPerCorrect * 100) / 100;
+  const canStart = agreed && autoAdvance;
 
   const start = () => {
     const attempt = createAttempt({
@@ -105,17 +106,18 @@ export function InstructionsPage() {
             Automatically advance to the next question after selecting an option
           </label>
         </div>
-        <label>
+        <label className="check-control">
           <input type="checkbox" checked={agreed} onChange={(event) => setAgreed(event.target.checked)} /> I have read and understood the examination instructions
         </label>
+        <p className="muted" id="start-requirements">Select both options above to enable starting or resuming the exam.</p>
         <div className="actions">
           {canResume && !freshStart ? (
             <>
-              <button type="button" className="primary" onClick={resume}>Resume exam</button>
-              <button type="button" className="ghost" onClick={() => setFreshStart(true)}>Start new attempt instead</button>
+              <button type="button" className="primary" disabled={!canStart} onClick={resume}>Resume exam</button>
+              <button type="button" className="ghost" disabled={!canStart} onClick={() => setFreshStart(true)}>Start new attempt instead</button>
             </>
           ) : (
-            <button type="button" className="primary" disabled={!agreed} onClick={start}>Start examination</button>
+            <button type="button" className="primary" disabled={!canStart} aria-describedby="start-requirements" onClick={start}>Start examination</button>
           )}
         </div>
       </section>

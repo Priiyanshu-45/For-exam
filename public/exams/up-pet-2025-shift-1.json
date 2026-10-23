@@ -13,105 +13,4229 @@
     "marksPerUnattempted": null
   },
   "questions": [
-    {"id":"Q001","originalQuestionNumber":"1","subject":null,"question":{"en":null,"hi":"कालिदास ने क्या कहा था ?"},"options":[{"id":"A","en":null,"hi":"सब पुराने अच्छे ही नहीं होते, सब नये खराब ही नहीं होते ।"},{"id":"B","en":null,"hi":"पुराने का मोह सब समय वाञ्छनीय ही नहीं होता ।"},{"id":"C","en":null,"hi":"उलझनों की मात्रा बहुत बढ़ गई है ।"},{"id":"D","en":null,"hi":"हमारी परंपरा महिमान्या, उत्तराधिकार विपुल और संस्कार उज्ज्वल है ।"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":19,"verificationStatus":"verified","issues":[]},
-    {"id":"Q002","originalQuestionNumber":"2","subject":null,"question":{"en":null,"hi":"लेखकजी कभी-कभी क्या सोचने लगते हैं ?"},"options":[{"id":"A","en":null,"hi":"अंग्रेजों की अनुवर्तिता करने के बाद भी भारतवर्ष 'इण्डिपेण्डेन्स' को अनधीनता क्यों नहीं कह सका ?"},{"id":"B","en":null,"hi":"यह हमारी पशुता के अवशेष है ।"},{"id":"C","en":null,"hi":"पशुता या मनुष्यता की ओर ।"},{"id":"D","en":null,"hi":"ये हमारी पशुता की निशानी है।"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":19,"verificationStatus":"verified","issues":[]},
-    {"id":"Q003","originalQuestionNumber":"3","subject":null,"question":{"en":null,"hi":"लेखकजी को प्राणि-विज्ञानियों की कौन-सी बात याद आती है ?"},"options":[{"id":"A","en":null,"hi":"हम कोई नौसिखुए नहीं है ।"},{"id":"B","en":null,"hi":"नाना भावों और नाना पहलुओं से विचारा गया है"},{"id":"C","en":null,"hi":"नाखून बढ़ना उनमें से एक हो सकता है।"},{"id":"D","en":null,"hi":"सहजात वृत्ति अनजानी स्मृतियों का ही नाम है"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":19,"verificationStatus":"verified","issues":[]},
-    {"id":"Q004","originalQuestionNumber":"4","subject":null,"question":{"en":null,"hi":"मरे बच्चे को गोद में दबाये रहनेवाली ___ मनुष्य का आदर्श नहीं बन सकती ।"},"options":[{"id":"A","en":null,"hi":"बाघिन"},{"id":"B","en":null,"hi":"बंदरिया"},{"id":"C","en":null,"hi":"भेडिया"},{"id":"D","en":null,"hi":"सुअर"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":21,"verificationStatus":"verified","issues":[]},
-    {"id":"Q005","originalQuestionNumber":"5","subject":null,"question":{"en":null,"hi":"मनुष्य ने अपनी आजादी के जितने भी नामकरण किये स्वतंत्रता, स्वराज्य, स्वाधीनता-उन सब में ___ का बंधन अवश्य रखा ।"},"options":[{"id":"A","en":null,"hi":"पर"},{"id":"B","en":null,"hi":"ओर"},{"id":"C","en":null,"hi":"स्व"},{"id":"D","en":null,"hi":"श्वर"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":21,"verificationStatus":"verified","issues":[]},
-    {"id":"Q006","originalQuestionNumber":"6","subject":null,"question":{"en":null,"hi":"आनंद की श्रेणी में ऐसा कोई शुद्ध मनोविकार नहीं है जो पात्र की हानि की उत्तेजना करे, पर दुःख की श्रेणी में ऐसा मनोविकार है जो पात्र की ___ की उत्तेजना करता है।"},"options":[{"id":"A","en":null,"hi":"भावना"},{"id":"B","en":null,"hi":"बुराई"},{"id":"C","en":null,"hi":"भलाई"},{"id":"D","en":null,"hi":"सच्चाई"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":21,"verificationStatus":"verified","issues":[]},
-    {"id":"Q007","originalQuestionNumber":"7","subject":null,"question":{"en":null,"hi":"दुःख की श्रेणी में प्रवृत्ति के विचार से करुणा का उल्टा क्या हो सकता है ?"},"options":[{"id":"A","en":null,"hi":"दुःख"},{"id":"B","en":null,"hi":"क्रोध"},{"id":"C","en":null,"hi":"श्रद्धा"},{"id":"D","en":null,"hi":"भाव"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":21,"verificationStatus":"verified","issues":[]},
-    {"id":"Q008","originalQuestionNumber":"8","subject":null,"question":{"en":null,"hi":"किसी पर प्रसन्न होकर भी लोग उसकी भलाई करते हैं । इस प्रकार पात्र की भलाई की उत्तेजना किन श्रेणियों में रखी जाती है ?"},"options":[{"id":"A","en":null,"hi":"दुःख और आनन्द दोनों की"},{"id":"B","en":null,"hi":"प्रेम और द्वेष दोनों की"},{"id":"C","en":null,"hi":"क्रोध और करुणा दोनों की"},{"id":"D","en":null,"hi":"श्रद्धा और भक्ति दोनों की"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":22,"verificationStatus":"verified","issues":[]},
-    {"id":"Q009","originalQuestionNumber":"9","subject":null,"question":{"en":null,"hi":"किसकी प्राप्ति के लिए पात्र में दुःख के अतिरिक्त और किसी विशेषता की अपेक्षा नहीं होती है ?"},"options":[{"id":"A","en":null,"hi":"क्रोध"},{"id":"B","en":null,"hi":"उत्तेजना"},{"id":"C","en":null,"hi":"उत्साह"},{"id":"D","en":null,"hi":"करुणा"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":22,"verificationStatus":"verified","issues":[]},
-    {"id":"Q010","originalQuestionNumber":"10","subject":null,"question":{"en":null,"hi":"करुणा जिसके प्रति उत्पन्न होती है, उसके लिए क्या किया जाता है ?"},"options":[{"id":"A","en":null,"hi":"उसकी हानि की चेष्टा की जाती है ।"},{"id":"B","en":null,"hi":"क्रोध उसके प्रति उत्पन्न हो जाता है ।"},{"id":"C","en":null,"hi":"उसकी भलाई का उद्योग किया जाता है।"},{"id":"D","en":null,"hi":"चंचल हो जाते हैं।"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":22,"verificationStatus":"verified","issues":[]},
-    {"id":"Q011","originalQuestionNumber":"11","subject":null,"question":{"en":null,"hi":"'चैत' तद्भव शब्द है, उसका तत्सम शब्द ___ है।"},"options":[{"id":"A","en":null,"hi":"चंद्र"},{"id":"B","en":null,"hi":"चैत्र"},{"id":"C","en":null,"hi":"चित्त"},{"id":"D","en":null,"hi":"चित्र"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":22,"verificationStatus":"verified","issues":[]},
-    {"id":"Q012","originalQuestionNumber":"12","subject":null,"question":{"en":null,"hi":"'आदान' का विलोम शब्द ___ है।"},"options":[{"id":"A","en":null,"hi":"अनुग्रह"},{"id":"B","en":null,"hi":"आचार"},{"id":"C","en":null,"hi":"अभिमान"},{"id":"D","en":null,"hi":"प्रदान"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":22,"verificationStatus":"verified","issues":[]},
-    {"id":"Q013","originalQuestionNumber":"13","subject":null,"question":{"en":null,"hi":"'समय की पहचान' सियारामशरण गुप्त जी की कविता है, जिसमें वे ___ के महत्व के बारे में बताते हैं ।"},"options":[{"id":"A","en":null,"hi":"समय"},{"id":"B","en":null,"hi":"विश्वास"},{"id":"C","en":null,"hi":"परिश्रम"},{"id":"D","en":null,"hi":"धन"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":22,"verificationStatus":"verified","issues":[]},
-    {"id":"Q014","originalQuestionNumber":"14","subject":null,"question":{"en":null,"hi":"'आँखें दिखाना' मुहावरे का सही अर्थ है"},"options":[{"id":"A","en":null,"hi":"गुस्से में देखना"},{"id":"B","en":null,"hi":"अपनी हानि स्वयं करना"},{"id":"C","en":null,"hi":"अनदेखा करना"},{"id":"D","en":null,"hi":"धोखा देना"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":22,"verificationStatus":"verified","issues":[]},
-    {"id":"Q015","originalQuestionNumber":"15","subject":null,"question":{"en":null,"hi":"जो विशेषण अपने विशेष्य की मात्रा या परिमाण के विषय में ज्ञान कराएँ, उसे ___ विशेषण कहते हैं ।"},"options":[{"id":"A","en":null,"hi":"गुणवाचक"},{"id":"B","en":null,"hi":"सार्वनामिक"},{"id":"C","en":null,"hi":"परिमाणवाचक"},{"id":"D","en":null,"hi":"संख्यावाचक"},{"id":"E","en":null,"hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":22,"verificationStatus":"verified","issues":[]},
-    {"id":"Q016","originalQuestionNumber":"16","subject":null,"question":{"en":"The difference between the largest 3 digit number and smallest 2 digit number is","hi":"सबसे बड़ी 3 अंकों की संख्या और सबसे छोटी 2 अंकों की संख्या के बीच का अंतर क्या है ?"},"options":[{"id":"A","en":"980","hi":"980"},{"id":"B","en":"990","hi":"990"},{"id":"C","en":"989","hi":"989"},{"id":"D","en":"998","hi":"998"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":22,"verificationStatus":"verified","issues":[]},
-    {"id":"Q017","originalQuestionNumber":"17","subject":null,"question":{"en":"Dekhni is a traditional dance form of which Indian State ?","hi":"देखनी किस भारतीय राज्य का पारंपरिक नृत्य है ?"},"options":[{"id":"A","en":"Kerala","hi":"केरल"},{"id":"B","en":"Odisha","hi":"ओडिशा"},{"id":"C","en":"Goa","hi":"गोवा"},{"id":"D","en":"Madhya Pradesh","hi":"मध्य प्रदेश"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":23,"verificationStatus":"verified","issues":[]},
-    {"id":"Q018","originalQuestionNumber":"18","subject":null,"question":{"en":"The food for work programme was restructured and renamed as ___ from October, 1980.","hi":"काम के बदले अनाज कार्यक्रम का पुनर्गठन किया गया और अक्टूबर 1980 से इसका नाम बदलकर ___ कर दिया गया ।"},"options":[{"id":"A","en":"National Rural Employment Programme","hi":"राष्ट्रीय ग्रामीण रोज़गार कार्यक्रम"},{"id":"B","en":"Employment Generated Programme","hi":"रोज़गार सृजन कार्यक्रम"},{"id":"C","en":"Rural Employment Guarantee Programme","hi":"ग्रामीण रोज़गार गारंटी कार्यक्रम"},{"id":"D","en":"Integrated Rural Development Programme","hi":"एकीकृत ग्रामीण विकास कार्यक्रम"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":23,"verificationStatus":"verified","issues":[]},
-    {"id":"Q019","originalQuestionNumber":"19","subject":null,"question":{"en":"In December 2024, which organization released the report titled \"S.A.F.E. (Secure, Affordable, Flexible and Efficient) Accommodation: Worker Housing for Manufacturing Growth\"?","hi":"दिसंबर 2024 में, किस संगठन ने \"S.A.F.E. (सिक्यूर, एफोर्डेबल, फ्लेक्सिबल एण्ड एफिशिएंट) एकोमोडेशन : विनिर्माण विकास के लिए श्रमिक आवास\" शीर्षक से रिपोर्ट जारी की ?"},"options":[{"id":"A","en":"Ministry of Housing and Urban Affairs","hi":"आवास और शहरी मामलों का मंत्रालय"},{"id":"B","en":"National Institution for Transforming India (NITI) Aayog","hi":"नैशनल इन्स्टिट्यूशन फॉर ट्रैन्सफॉर्मिंग इंडिया (NITI) आयोग"},{"id":"C","en":"Ministry of Labour and Employment","hi":"श्रम और रोजगार मंत्रालय"},{"id":"D","en":"Confederation of Indian Industry (CII)","hi":"भारतीय उद्योग परिसंघ (CII)"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":23,"verificationStatus":"verified","issues":[]},
-    {"id":"Q020","originalQuestionNumber":"20","subject":null,"question":{"en":"If x and y are co-primes, then their LCM is","hi":"यदि x और y सह-अभाज्य हैं, तो उनका LCM क्या है ?"},"options":[{"id":"A","en":"1","hi":"1"},{"id":"B","en":"x + y","hi":"x + y"},{"id":"C","en":"x / y","hi":"x / y"},{"id":"D","en":"xy","hi":"xy"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":23,"verificationStatus":"verified","issues":[]},
-    {"id":"Q021","originalQuestionNumber":"21","subject":null,"question":{"en":"Vijay Stambh is situated in","hi":"विजय स्तम्भ कहाँ स्थित है ?"},"options":[{"id":"A","en":"Jaipur","hi":"जयपुर"},{"id":"B","en":"Chittorgarh","hi":"चित्तौड़गढ़"},{"id":"C","en":"Udaipur","hi":"उदयपुर"},{"id":"D","en":"Jodhpur","hi":"जोधपुर"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":24,"verificationStatus":"verified","issues":[]},
-    {"id":"Q022","originalQuestionNumber":"22","subject":null,"question":{"en":"Meaning of the underdeveloped economy was","hi":"अविकसित अर्थव्यवस्था का अर्थ था"},"options":[{"id":"A","en":"Countries in which per capita real income is low","hi":"वे देश जहाँ प्रति व्यक्ति वास्तविक आय कम है"},{"id":"B","en":"Countries in which mass poverty is observed","hi":"वे देश जिनमें अधिक गरीबी देखी जाती है"},{"id":"C","en":"Countries in which per capita real income is balanced","hi":"वे देश जिनमें प्रति व्यक्ति वास्तविक आय संतुलित है"},{"id":"D","en":"Countries in which per capita real income is high","hi":"वे देश जिनमें प्रति व्यक्ति वास्तविक आय अधिक है"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":24,"verificationStatus":"verified","issues":[]},
-    {"id":"Q023","originalQuestionNumber":"23","subject":null,"question":{"en":"Where was the 8th edition of Indusfood Asia's premier Food and Beverage (F and B) Trade Show 2025 organized ?","hi":"आशिया का प्रीमियर खाद्य एवं पेय (एफ एण्ड बी) व्यापार प्रदर्शन इंडसफूड 2025 का 8 वाँ संस्करण कहाँ आयोजित किया गया था ?"},"options":[{"id":"A","en":"Pragati Maidan, New Delhi","hi":"प्रगति मैदान, नई दिल्ली"},{"id":"B","en":"Mahatma Mandir, Gandhinagar","hi":"महात्मा मंदिर, गांधीनगर"},{"id":"C","en":"India Habitat Centre, New Delhi","hi":"इंडिया हैबिटेट सेंटर, नई दिल्ली"},{"id":"D","en":"India Exposition Mart Ltd., Greater Noida","hi":"इंडिया एक्सपोज़िशन मार्ट लिमिटेड, ग्रेटर नोएडा"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":24,"verificationStatus":"verified","issues":[]},
-    {"id":"Q024","originalQuestionNumber":"24","subject":null,"question":{"en":"If 2994 / 14.5 = 172, then 29.94 / 1.45 =","hi":"यदि 2994 / 14.5 = 172 है, तो 29.94 / 1.45 ="},"options":[{"id":"A","en":"0.172","hi":"0.172"},{"id":"B","en":"172","hi":"172"},{"id":"C","en":"1.72","hi":"1.72"},{"id":"D","en":"17.2","hi":"17.2"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":24,"verificationStatus":"verified","issues":[]},
-    {"id":"Q025","originalQuestionNumber":"25","subject":null,"question":{"en":"Where is the headquarters of the International Labour Organization (ILO) located?","hi":"अंतर्राष्ट्रीय श्रम संगठन (ILO) का मुख्यालय कहाँ स्थित है ?"},"options":[{"id":"A","en":"New York","hi":"न्यूयॉर्क"},{"id":"B","en":"The Hague","hi":"द हेग"},{"id":"C","en":"Geneva","hi":"जिनेवा"},{"id":"D","en":"Paris","hi":"पेरिस"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":26,"verificationStatus":"verified","issues":[]},
-    {"id":"Q026","originalQuestionNumber":"26","subject":null,"question":{"en":"Which stage of the DTM sees the fastest population growth?","hi":"DTM के किस चरण में सबसे तेज़ जनसंख्या वृद्धि देखी जाती है ?"},"options":[{"id":"A","en":"Stage 1","hi":"चरण 1"},{"id":"B","en":"Stage 5","hi":"चरण 5"},{"id":"C","en":"Stage 2","hi":"चरण 2"},{"id":"D","en":"Stage 3","hi":"चरण 3"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":26,"verificationStatus":"verified","issues":[]},
-    {"id":"Q027","originalQuestionNumber":"27","subject":null,"question":{"en":"2/5 in percent form is","hi":"2/5 प्रतिशत रूप में क्या है ?"},"options":[{"id":"A","en":"20%","hi":"20%"},{"id":"B","en":"80%","hi":"80%"},{"id":"C","en":"40%","hi":"40%"},{"id":"D","en":"25%","hi":"25%"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":26,"verificationStatus":"verified","issues":[]},
-    {"id":"Q028","originalQuestionNumber":"28","subject":null,"question":{"en":"If the marked price of the computer is 20% more than its cost price and the shopkeeper offers a discount of 15% on the marked price of the computer, then find the profit percentage of the computer.","hi":"यदि कंप्यूटर का अंकित मूल्य उसके क्रय मूल्य से 20% अधिक है और दुकानदार कंप्यूटर के अंकित मूल्य पर 15% की छूट देता है, तो कंप्यूटर का लाभ प्रतिशत ज्ञात कीजिए ।"},"options":[{"id":"A","en":"1%","hi":"1%"},{"id":"B","en":"2%","hi":"2%"},{"id":"C","en":"5%","hi":"5%"},{"id":"D","en":"3%","hi":"3%"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":26,"verificationStatus":"verified","issues":[]},
-    {"id":"Q029","originalQuestionNumber":"29","subject":null,"question":{"en":"The selling price of smart watch and book rack is in the ratio of 4: 5 and the cost price of the smart watch is Rs. 4,800. If the shopkeeper gets the profit of the smart watch is 10% of its marked price, then find the discount offered by the shopkeeper on a book rack.","hi":"स्मार्ट वॉच और बुक रैक का विक्रय मूल्य 4: 5 के अनुपात में है और स्मार्ट वॉच का क्रय मूल्य 4,800 रुपये है। यदि दुकानदार को स्मार्ट वॉच पर उसके अंकित मूल्य का 10% लाभ मिलता है, तो दुकानदार द्वारा बुक रैक पर दी जाने वाली छूट ज्ञात कीजिए ।"},"options":[{"id":"A","en":"Rs. 100","hi":"100 रुपये"},{"id":"B","en":"Rs. 250","hi":"250 रुपये"},{"id":"C","en":"Rs. 150","hi":"150 रुपये"},{"id":"D","en":"Rs. 200","hi":"200 रुपये"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":27,"verificationStatus":"verified","issues":[]},
-    {"id":"Q030","originalQuestionNumber":"30","subject":null,"question":{"en":"Find the average of the marked price of dining table and book rack.","hi":"डाइनिंग टेबल और बुक रैक के अंकित मूल्य का औसत ज्ञात कीजिए ।"},"options":[{"id":"A","en":"Rs. 8,000","hi":"8,000 रुपये"},{"id":"B","en":"Rs. 7,500","hi":"7,500 रुपये"},{"id":"C","en":"Rs. 8,500","hi":"8,500 रुपये"},{"id":"D","en":"Rs. 9,000","hi":"9,000 रुपये"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":27,"verificationStatus":"verified","issues":[]},
-    {"id":"Q031","originalQuestionNumber":"31","subject":null,"question":{"en":"If the ratio of the cost price and marked price of the cell phone is 3: 4 and the profit earned by the shopkeeper is Rs. 1,200, then find the discount offered by the shopkeeper.","hi":"यदि सेल फोन के क्रय मूल्य और अंकित मूल्य का अनुपात 3:4 है और दुकानदार द्वारा अर्जित लाभ 1,200 रुपये है, तो दुकानदार द्वारा दी जाने वाली छूट ज्ञात कीजिए ।"},"options":[{"id":"A","en":"Rs. 800","hi":"800 रुपये"},{"id":"B","en":"Rs. 600","hi":"600 रुपये"},{"id":"C","en":"Rs. 1,000","hi":"1,000 रुपये"},{"id":"D","en":"Rs. 900","hi":"900 रुपये"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":27,"verificationStatus":"verified","issues":[]},
-    {"id":"Q032","originalQuestionNumber":"32","subject":null,"question":{"en":"The selling price and marked price of the dining table is 4: 5. If the shopkeeper gets the profit of 25%, then find the cost price of the dining table.","hi":"डाइनिंग टेबल का विक्रय मूल्य और अंकित मूल्य 4:5 है । यदि दुकानदार को 25% का लाभ मिलता है, तो डाइनिंग टेबल का क्रय मूल्य ज्ञात कीजिए ।"},"options":[{"id":"A","en":"Rs. 6,000","hi":"6,000 रुपये"},{"id":"B","en":"Rs. 6,500","hi":"6,500 रुपये"},{"id":"C","en":"Rs. 6,200","hi":"6,200 रुपये"},{"id":"D","en":"Rs. 6,400","hi":"6,400 रुपये"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":27,"verificationStatus":"verified","issues":[]},
-    {"id":"Q033","originalQuestionNumber":"33","subject":null,"question":{"en":"On January 5, 2025, two indigenously designed and constructed Fast Patrol Vessels (FPVs) - Amulya and Akshay - were launched for the Indian Coast Guard by which of the following Shipyards?","hi":"5 जनवरी, 2025 को, भारतीय तट रक्षक बल के लिए निम्नलिखित में से किस शिपयार्ड द्वारा दो स्वदेशी रूप से डिज़ाइन और निर्मित तीव्र गश्ती पोत (FPV)-अमूल्य और अक्षय-लॉन्च किए गए ?"},"options":[{"id":"A","en":"Mazagon Dock Shipbuilders Limited","hi":"मझगांव डॉक शिपबिल्डर्स लिमिटेड"},{"id":"B","en":"Goa Shipyard Limited","hi":"गोवा शिपयार्ड लिमिटेड"},{"id":"C","en":"Garden Reach Shipbuilders and Engineers","hi":"गार्डन रीच शिपबिल्डर्स एंड इंजीनियर्स"},{"id":"D","en":"Cochin Shipyard Limited","hi":"कोचीन शिपयार्ड लिमिटेड"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":28,"verificationStatus":"verified","issues":[]},
-    {"id":"Q034","originalQuestionNumber":"34","subject":null,"question":{"en":"Which is greater : $\\sqrt{45}$ or $\\sqrt{49}-1$?","hi":"कौन-सा बड़ा है : $\\sqrt{45}$ या $\\sqrt{49}-1$?"},"options":[{"id":"A","en":"$\\sqrt{45}$","hi":"$\\sqrt{45}$"},{"id":"B","en":"$\\sqrt{49}-1$","hi":"$\\sqrt{49}-1$"},{"id":"C","en":"Both are equal","hi":"दोनों बराबर हैं"},{"id":"D","en":"Cannot be determined","hi":"निर्धारित नहीं किया जा सकता"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":28,"verificationStatus":"verified","issues":[]},
-    {"id":"Q035","originalQuestionNumber":"35","subject":null,"question":{"en":"Which sea lies to the west of India?","hi":"भारत के पश्चिम में कौन-सा सागर स्थित है ?"},"options":[{"id":"A","en":"Arabian Sea","hi":"अरब सागर"},{"id":"B","en":"South China Sea","hi":"दक्षिण चीन सागर"},{"id":"C","en":"Bay of Bengal","hi":"बंगाल की खाड़ी"},{"id":"D","en":"Red Sea","hi":"लाल सागर"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":28,"verificationStatus":"verified","issues":[]},
-    {"id":"Q036","originalQuestionNumber":"36","subject":null,"question":{"en":"The India-Pakistan signed a treaty in the year 1960. The name of that treaty was","hi":"भारत-पाकिस्तान ने वर्ष 1960 में एक संधि पर हस्ताक्षर किए थे। उस संधि का नाम था"},"options":[{"id":"A","en":"Ganga waters treaty","hi":"गंगा जल संधि"},{"id":"B","en":"Brahmaputra waters treaty","hi":"ब्रह्मपुत्र जल संधि"},{"id":"C","en":"Yamuna waters treaty","hi":"यमुना जल संधि"},{"id":"D","en":"Indus waters treaty","hi":"सिंधु जल संधि"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":28,"verificationStatus":"verified","issues":[]},
-    {"id":"Q037","originalQuestionNumber":"37","subject":null,"question":{"en":"Which of the following acts as a vehicle for mobilising and transferring the economy's surplus to the ultimate users ?","hi":"अर्थव्यवस्था के अधिशेष को अंतिम उपयोगकर्ताओं तक पहुँचाने और स्थानांतरित करने के लिए निम्नलिखित में से कौन-सा माध्यम कार्य करता है ?"},"options":[{"id":"A","en":"Financial Institutions","hi":"वित्तीय संस्थान"},{"id":"B","en":"Commercial centers","hi":"वाणिज्यिक केंद्रा"},{"id":"C","en":"Government policy","hi":"सरकारी नीति"},{"id":"D","en":"Man power","hi":"मानव शक्ति"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":28,"verificationStatus":"verified","issues":[]},
-    {"id":"Q038","originalQuestionNumber":"38","subject":null,"question":{"en":"The camel stores fat in its","hi":"ऊँट अपने ___ में वसा जमा करता है।"},"options":[{"id":"A","en":"Legs","hi":"पैर"},{"id":"B","en":"Hump","hi":"हम्प"},{"id":"C","en":"Stomach","hi":"पेट"},{"id":"D","en":"Feet","hi":"पाद"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":29,"verificationStatus":"verified","issues":[]},
-    {"id":"Q039","originalQuestionNumber":"39","subject":null,"question":{"en":"The flower of the Hibiscus plant","hi":"गुड़हल के पौधे का फूल है"},"options":[{"id":"A","en":"bisexual","hi":"उभयलिंगी"},{"id":"B","en":"very small","hi":"बहुत छोटा"},{"id":"C","en":"unisexual","hi":"एकलिंगी"},{"id":"D","en":"neuter","hi":"नपुसक"},{"id":"E","en":"none of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":29,"verificationStatus":"verified","issues":[]},
-    {"id":"Q040","originalQuestionNumber":"40","subject":null,"question":{"en":"The Adi Purana, is the hagiography of which Tirthankara ?","hi":"आदि पुराण किस तीर्थंकर की संतचरित संग्रह है ?"},"options":[{"id":"A","en":"Neminatha","hi":"नेमिनाथ"},{"id":"B","en":"Adinatha","hi":"आदिनाथ"},{"id":"C","en":"Parshvanatha","hi":"पार्श्वनाथ"},{"id":"D","en":"Mahavira","hi":"महावीर"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":29,"verificationStatus":"verified","issues":[]},
-    {"id":"Q041","originalQuestionNumber":"41","subject":null,"question":{"en":"In a class of 45 students, the rank of Ayush is 15 from the top, then rank of Ayush from the bottom is","hi":"45 छात्रों की कक्षा में आयुष का रैंक ऊपर से 15 है, तो नीचे से आयुष का रैंक क्या है ?"},"options":[{"id":"A","en":"30","hi":"30"},{"id":"B","en":"35","hi":"35"},{"id":"C","en":"32","hi":"32"},{"id":"D","en":"31","hi":"31"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":29,"verificationStatus":"verified","issues":[]},
-    {"id":"Q042","originalQuestionNumber":"42","subject":null,"question":{"en":"The longest river in the world is","hi":"विश्व की सबसे लंबी नदी कौन-सी है ?"},"options":[{"id":"A","en":"Amazon","hi":"अमेज़न"},{"id":"B","en":"Nile","hi":"नाइल"},{"id":"C","en":"Mississippi","hi":"मिसिसिपी"},{"id":"D","en":"Yangtze","hi":"यांग्त्ज़ी"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":29,"verificationStatus":"verified","issues":[]},
-    {"id":"Q043","originalQuestionNumber":"43","subject":null,"question":{"en":"World Consumer Rights Day is observed on","hi":"विश्व उपभोक्ता अधिकार दिवस कब मनाया जाता है ?"},"options":[{"id":"A","en":"March 21","hi":"21 मार्च"},{"id":"B","en":"March 15","hi":"15 मार्च"},{"id":"C","en":"April 8","hi":"8 अप्रैल"},{"id":"D","en":"October 11","hi":"11 अक्टूबर"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":29,"verificationStatus":"verified","issues":[]},
-    {"id":"Q044","originalQuestionNumber":"44","subject":null,"question":{"en":"The Constitution of india was first drafted by ___ In 1928","hi":"भारत का संविधान पहली बार 1928 में ___ द्वारा तैयार किया गया था ।"},"options":[{"id":"A","en":"Mahatma Gandhi","hi":"महात्मा गांधी"},{"id":"B","en":"Rajendra Prasad","hi":"राजेंद्र प्रसाद"},{"id":"C","en":"Motilal Nehru","hi":"मोतीलाल नेहरू"},{"id":"D","en":"V.V. Giri","hi":"वि. वि. गिरि"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":29,"verificationStatus":"verified","issues":[]},
-    {"id":"Q045","originalQuestionNumber":"45","subject":null,"question":{"en":"If the number of wheel chairs manufactured in June is 5/8th of the number of wheel chairs manufactured in March and the ratio of the number of office chairs manufactured in March and June is 5: 3, then find the total number of chairs manufactured in June.","hi":"यदि जून में निर्मित व्हील कुर्सियों की संख्या, मार्च में निर्मित व्हील कुर्सियों की संख्या का 5/8 है और मार्च और जून में निर्मित ऑफीस कुर्सियों की संख्या का अनुपात 5: 3 है, तो जून में निर्मित कुर्सियों की कुल संख्या ज्ञात करें ।"},"options":[{"id":"A","en":"740","hi":"740"},{"id":"B","en":"670","hi":"670"},{"id":"C","en":"550","hi":"550"},{"id":"D","en":"480","hi":"480"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":30,"verificationStatus":"verified","issues":[]},
-    {"id":"Q046","originalQuestionNumber":"46","subject":null,"question":{"en":"Find the difference between the number of wheel chairs manufactured in February and the number of wheel chairs manufactured in April.","hi":"फरवरी में निर्मित व्हील कुर्सियों की संख्या और अप्रैल में निर्मित व्हील कुर्सियों की संख्या के बीच अंतर ज्ञात करें ।"},"options":[{"id":"A","en":"550","hi":"550"},{"id":"B","en":"600","hi":"600"},{"id":"C","en":"320","hi":"320"},{"id":"D","en":"450","hi":"450"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":30,"verificationStatus":"verified","issues":[]},
-    {"id":"Q047","originalQuestionNumber":"47","subject":null,"question":{"en":"Find the ratio of the number of wheel chairs manufactured in May to the number of office chairs manufactured in January.","hi":"मई में निर्मित व्हील कुर्सियों की संख्या और जनवरी में निर्मित ऑफीस कुर्सियों की संख्या का अनुपात ज्ञात कीजिए ।"},"options":[{"id":"A","en":"5:3","hi":"5:3"},{"id":"B","en":"7:8","hi":"7:8"},{"id":"C","en":"2:1","hi":"2:1"},{"id":"D","en":"8:9","hi":"8:9"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":31,"verificationStatus":"verified","issues":[]},
-    {"id":"Q048","originalQuestionNumber":"48","subject":null,"question":{"en":"The number of office chairs manufactured in April is what percentage of the difference between the total number of chairs manufactured in February and April ?","hi":"अप्रैल में निर्मित ऑफीस कुर्सियों की संख्या फरवरी और अप्रैल में निर्मित कुर्सियों की कुल संख्या के बीच अंतर का कितना प्रतिशत है ?"},"options":[{"id":"A","en":"40%","hi":"40%"},{"id":"B","en":"50%","hi":"50%"},{"id":"C","en":"70%","hi":"70%"},{"id":"D","en":"30%","hi":"30%"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":31,"verificationStatus":"verified","issues":[]},
-    {"id":"Q049","originalQuestionNumber":"49","subject":null,"question":{"en":"Out of the total number of chairs manufactured in January, 20% of the chairs are unsold. If the ratio of the number of office chairs to wheel chairs unsold in January is 5: 4, then find the number of wheel chairs sold in January.","hi":"जनवरी में निर्मित कुल कुर्सियों में से 20% कुर्सियाँ नहीं बिकीं । यदि जनवरी में नहीं बिकीं गई ऑफीस कुर्सियों की संख्या और व्हील कुर्सियों की संख्या का अनुपात 5:4 है, तो जनवरी में बेची गई व्हील कुर्सियों की संख्या ज्ञात कीजिए ।"},"options":[{"id":"A","en":"820","hi":"820"},{"id":"B","en":"780","hi":"780"},{"id":"C","en":"690","hi":"690"},{"id":"D","en":"510","hi":"510"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":31,"verificationStatus":"verified","issues":[]},
-    {"id":"Q050","originalQuestionNumber":"50","subject":null,"question":{"en":"Who announced the British Government's acceptance of the partition of India?","hi":"भारत विभाजन को ब्रिटिश सरकार द्वारा स्वीकार किए जाने की घोषणा किसने की थी ?"},"options":[{"id":"A","en":"Linlithgow","hi":"लिनलिथगो"},{"id":"B","en":"Hardinge","hi":"हार्डिंग"},{"id":"C","en":"Lord Mountbatten","hi":"लॉर्ड माउंटबैटन"},{"id":"D","en":"Rajagopalachari","hi":"राजगोपालाचारी"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":31,"verificationStatus":"verified","issues":[]},
-    {"id":"Q051","originalQuestionNumber":"51","subject":null,"question":{"en":"Former U.S. President Jimmy Carter passed away at the age of 100 on which date ?","hi":"पूर्व अमेरिकी राष्ट्रपति जिमी कार्टर का 100 वर्ष की आयु में किस तिथि को निधन हो गया ?"},"options":[{"id":"A","en":"January 15, 2025","hi":"15 जनवरी, 2025"},{"id":"B","en":"November 30, 2024","hi":"30 नवंबर, 2024"},{"id":"C","en":"December 25, 2024","hi":"25 दिसंबर, 2024"},{"id":"D","en":"December 29, 2024","hi":"29 दिसंबर, 2024"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":32,"verificationStatus":"verified","issues":[]},
-    {"id":"Q052","originalQuestionNumber":"52","subject":null,"question":{"en":"The Bengal British India Society was established on","hi":"बंगाल ब्रिटिश इंडिया सोसाइटी की स्थापना कब हुई थी ?"},"options":[{"id":"A","en":"20 April, 1844","hi":"20 अप्रैल, 1844"},{"id":"B","en":"20 April, 1843","hi":"20 अप्रैल, 1843"},{"id":"C","en":"20 April, 1834","hi":"20 अप्रैल, 1834"},{"id":"D","en":"21 April, 1843","hi":"21 अप्रैल, 1843"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":32,"verificationStatus":"verified","issues":[]},
-    {"id":"Q053","originalQuestionNumber":"53","subject":null,"question":{"en":"Kangto is one of the highest peaks of India is located in which State ?","hi":"कांगटो भारत की सबसे ऊंची चोटियों में से एक है जो किस राज्य में स्थित है ?"},"options":[{"id":"A","en":"Arunachal Pradesh","hi":"अरुणाचल प्रदेश"},{"id":"B","en":"Manipur","hi":"मणिपुर"},{"id":"C","en":"Himachal Pradesh","hi":"हिमाचल प्रदेश"},{"id":"D","en":"Nagaland","hi":"नागालैंड"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":32,"verificationStatus":"verified","issues":[]},
-    {"id":"Q054","originalQuestionNumber":"54","subject":null,"question":{"en":"___ is applicable during external as well as internal emergency.","hi":"___ बाह्य एवं आंतरिक आपातकाल के दौरान लागू होता है ।"},"options":[{"id":"A","en":"Article 358","hi":"अनुच्छेद 358"},{"id":"B","en":"Article 338","hi":"अनुच्छेद 338"},{"id":"C","en":"Article 359","hi":"अनुच्छेद 359"},{"id":"D","en":"Article 348","hi":"अनुच्छेद 348"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":32,"verificationStatus":"verified","issues":[]},
-    {"id":"Q055","originalQuestionNumber":"55","subject":null,"question":{"en":"Which Industrial Policy Resolution gave the public sector a strategic role in the Indian economy ?","hi":"किस औद्योगिक नीति प्रस्ताव ने सार्वजनिक क्षेत्र को भारतीय अर्थव्यवस्था में एक रणनीतिक भूमिका प्रदान की ?"},"options":[{"id":"A","en":"Industrial Policy Resolution 1948","hi":"औद्योगिक नीति प्रस्ताव 1948"},{"id":"B","en":"Industrial Policy Resolution 1956","hi":"औद्योगिक नीति प्रस्ताव 1956"},{"id":"C","en":"Industrial Policy Resolution 1950","hi":"औद्योगिक नीति प्रस्ताव 1950"},{"id":"D","en":"Industrial Policy Resolution 1952","hi":"औद्योगिक नीति प्रस्ताव 1952"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":33,"verificationStatus":"verified","issues":[]},
-    {"id":"Q056","originalQuestionNumber":"56","subject":null,"question":{"en":"Mahavira attained moksha (became a Siddha) at which of the following places ?","hi":"महावीर ने निम्नलिखित में से किस स्थान पर मोक्ष प्राप्त किया (सिद्ध बने) ?"},"options":[{"id":"A","en":"Kapilavastu","hi":"कपिलवस्तु"},{"id":"B","en":"Purushapura","hi":"पुरुषपुरा"},{"id":"C","en":"Rajagriha","hi":"राजगृह"},{"id":"D","en":"Pavapuri","hi":"पावापुरी"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":33,"verificationStatus":"verified","issues":[]},
-    {"id":"Q057","originalQuestionNumber":"57","subject":null,"question":{"en":"Introducing a man, a woman said \"His mother is the only daughter of my father\". How is the man related to the woman?","hi":"एक पुरुष का परिचय देते हुए, एक महिला ने कहा \"उसकी माँ मेरे पिता की इकलौती बेटी है ।\" पुरुष का महिला से क्या संबंध है ?"},"options":[{"id":"A","en":"Son","hi":"बेटा"},{"id":"B","en":"Uncle","hi":"चाचा"},{"id":"C","en":"Father","hi":"पिता"},{"id":"D","en":"Brother","hi":"भाई"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":33,"verificationStatus":"verified","issues":[]},
-    {"id":"Q058","originalQuestionNumber":"58","subject":null,"question":{"en":"A social phenomenon in which a section of the society is unable to fulfill even its basic necessities of life is called as","hi":"एक सामाजिक घटना जिसमें समाज का एक वर्ग अपने जीवन की मूलभूत आवश्यकताओं को भी पूरा करने में असमर्थ होता है, उसे ___ कहा जाता है।"},"options":[{"id":"A","en":"Poverty","hi":"गरीबी"},{"id":"B","en":"Inequality","hi":"असमानता"},{"id":"C","en":"Unemployment","hi":"बेरोजगारी"},{"id":"D","en":"Illiteracy","hi":"निरक्षरता"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":33,"verificationStatus":"verified","issues":[]},
-    {"id":"Q059","originalQuestionNumber":"59","subject":null,"question":{"en":"If 1st January, 2001 was Monday, then what day of the week was it on 31st December, 2001 ?","hi":"यदि 1 जनवरी, 2001 को सोमवार था, तो 31 दिसंबर, 2001 को सप्ताह का कौन-सा दिन था ?"},"options":[{"id":"A","en":"Wednesday","hi":"बुधवार"},{"id":"B","en":"Saturday","hi":"शनिवार"},{"id":"C","en":"Friday","hi":"शुक्रवार"},{"id":"D","en":"Monday","hi":"सोमवार"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":34,"verificationStatus":"verified","issues":[]},
-    {"id":"Q060","originalQuestionNumber":"60","subject":null,"question":{"en":"The Purusha Sukta, which explains the origin of the four Varnas, is found in which Vedic text?","hi":"पुरुष सूक्त, जो चार वर्णों की उत्पत्ति की व्याख्या करता है, किस वैदिक ग्रंथ में पाया जाता है ?"},"options":[{"id":"A","en":"Samaveda","hi":"सामवेद"},{"id":"B","en":"Rig Veda","hi":"ऋग्वेद"},{"id":"C","en":"Yajur Veda","hi":"यजुर्वेद"},{"id":"D","en":"Atharva Veda","hi":"अथर्ववेद"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":34,"verificationStatus":"verified","issues":[]},
-    {"id":"Q061","originalQuestionNumber":"61","subject":null,"question":{"en":"When did the Biological Diversity (Amendment) Act, 2023 come into force ?","hi":"जैविक विविधता (संशोधन) अधिनियम, 2023 कब लागू हुआ ?"},"options":[{"id":"A","en":"1 January, 2024","hi":"1 जनवरी, 2024"},{"id":"B","en":"5 June, 2024","hi":"5 जून, 2024"},{"id":"C","en":"1 February, 2024","hi":"1 फरवरी, 2024"},{"id":"D","en":"1 April, 2024","hi":"1 अप्रैल, 2024"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":34,"verificationStatus":"verified","issues":[]},
-    {"id":"Q062","originalQuestionNumber":"62","subject":null,"question":{"en":"Which acidic gas from the air dissolves in rainwater to form carbonic acid $(H_2CO_3)$?","hi":"हवा से कौन-सी अम्लीय गैस वर्षा के पानी में घुलकर कार्बोनिक एसिड $(H_2CO_3)$ बनाती है ?"},"options":[{"id":"A","en":"Oxygen $(O_2)$","hi":"ऑक्सीजन $(O_2)$"},{"id":"B","en":"Sulfur dioxide $(SO_2)$","hi":"सल्फर डाइऑक्साइड $(SO_2)$"},{"id":"C","en":"Nitrogen $(N_2)$","hi":"नाइट्रोजन $(N_2)$"},{"id":"D","en":"Carbon dioxide $(CO_2)$","hi":"कार्बन डाइऑक्साइड $(CO_2)$"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":34,"verificationStatus":"verified","issues":[]},
-    {"id":"Q063","originalQuestionNumber":"63","subject":null,"question":{"en":"What is the capital of Libya ?","hi":"लीबिया की राजधानी क्या है ?"},"options":[{"id":"A","en":"Luxembourg","hi":"लक्जमबर्ग"},{"id":"B","en":"Amsterdam","hi":"एम्स्टर्डम"},{"id":"C","en":"Port Louis","hi":"पोर्ट लुइस"},{"id":"D","en":"Tripoli","hi":"त्रिपोली"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":36,"verificationStatus":"verified","issues":[]},
-    {"id":"Q064","originalQuestionNumber":"64","subject":null,"question":{"en":"Mukesh is taller than Suresh but shorter than Rakesh. Rakesh is taller than Harish but shorter than Amar. Who among them is the shortest ?","hi":"मुकेश सुरेश से लंबा है लेकिन राकेश से छोटा है । राकेश हरीश से लंबा है लेकिन अमर से छोटा है। उनमें से सबसे छोटा कौन है ?"},"options":[{"id":"A","en":"Mukesh","hi":"मुकेश"},{"id":"B","en":"Cannot be determined","hi":"निर्धारित नहीं किया जा सकता"},{"id":"C","en":"Suresh","hi":"सुरेश"},{"id":"D","en":"Harish","hi":"हरीश"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":36,"verificationStatus":"verified","issues":[]},
-    {"id":"Q065","originalQuestionNumber":"65","subject":null,"question":{"en":"___ question is one to which a member desire an oral answer in the house and which is distinguished by an asterisk mark.","hi":"___ प्रश्न वह है जिसका कोई सदस्य सदन में मौखिक उत्तर चाहता है और जिसे तारांकित चिह्न द्वारा पहचाना जाता है ।"},"options":[{"id":"A","en":"Starred","hi":"तारांकित"},{"id":"B","en":"Long notice","hi":"लंबी सूचना"},{"id":"C","en":"Short notice","hi":"अल्प अवधि सूचना"},{"id":"D","en":"Unstarred","hi":"अतारांकित"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":36,"verificationStatus":"verified","issues":[]},
-    {"id":"Q066","originalQuestionNumber":"66","subject":null,"question":{"en":"The Harappan Civilization belongs to which age ?","hi":"हड़प्पा सभ्यता किस युग से संबंधित है ?"},"options":[{"id":"A","en":"Stone Age","hi":"पाषाण युग"},{"id":"B","en":"Paleolithic Age","hi":"पुरापाषाण युग"},{"id":"C","en":"Iron Age","hi":"लौह युग"},{"id":"D","en":"Bronze Age","hi":"कांस्य युग"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":36,"verificationStatus":"verified","issues":[]},
-    {"id":"Q067","originalQuestionNumber":"67","subject":null,"question":{"en":"Which type of rock formation is most commonly associated with low groundwater storage?","hi":"निम्न भूजल भंडारण से किस प्रकार की चट्टान संरचना सबसे अधिक जुड़ी हुई है ?"},"options":[{"id":"A","en":"Alluvial deposits","hi":"जलोढ़ निक्षेप"},{"id":"B","en":"Limestone formations","hi":"चूना पत्थर संरचनाएँ"},{"id":"C","en":"Sedimentary rocks","hi":"अवसादी चट्टानें"},{"id":"D","en":"Igneous and metamorphic rocks","hi":"आग्नेय और कायांतरित चट्टानें"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":35,"verificationStatus":"verified","issues":[]},
-    {"id":"Q068","originalQuestionNumber":"68","subject":null,"question":{"en":"Asian Games are held once in how many years?","hi":"एशियाई खेल कितने वर्षों में एक बार आयोजित होते हैं ?"},"options":[{"id":"A","en":"2 years","hi":"2 वर्ष"},{"id":"B","en":"5 years","hi":"5 वर्ष"},{"id":"C","en":"3 years","hi":"3 वर्ष"},{"id":"D","en":"4 years","hi":"4 वर्ष"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":35,"verificationStatus":"verified","issues":[]},
-    {"id":"Q069","originalQuestionNumber":"69","subject":null,"question":{"en":"Who was conferred the Honorary Citizen Award of Singapore by President Tharman Shanmugaratnam during a ceremony in New Delhi on January 15, 2025?","hi":"15 जनवरी, 2025 को नई दिल्ली में आयोजित एक समारोह में राष्ट्रपति थर्मन षणमुगरत्नम द्वारा सिंगापुर के मानद नागरिक पुरस्कार से किसे सम्मानित किया गया ?"},"options":[{"id":"A","en":"Ratan Tata","hi":"रतन टाटा"},{"id":"B","en":"Uday Kotak","hi":"उदय कोटक"},{"id":"C","en":"N. Chandrashekaran","hi":"एन. चंद्रशेखरन"},{"id":"D","en":"Tarun Das","hi":"तरुण दास"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":35,"verificationStatus":"verified","issues":[]},
-    {"id":"Q070","originalQuestionNumber":"70","subject":null,"question":{"en":"At what age did the Buddha attain Parinibbana (final liberation)?","hi":"बुद्ध ने किस उम्र में परिनिब्बाण (अंतिम मुक्ति) प्राप्त की ?"},"options":[{"id":"A","en":"60 years","hi":"60 वर्ष"},{"id":"B","en":"80 years","hi":"80 वर्ष"},{"id":"C","en":"75 years","hi":"75 वर्ष"},{"id":"D","en":"55 years","hi":"55 वर्ष"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":35,"verificationStatus":"verified","issues":[]},
-    {"id":"Q071","originalQuestionNumber":"71","subject":null,"question":{"en":"Find the odd one out from the following.","hi":"निम्नलिखित में से सर्वथा भिन्न ज्ञात कीजिए ।"},"options":[{"id":"A","en":"Iron","hi":"लोहा"},{"id":"B","en":"Gold","hi":"सोना"},{"id":"C","en":"Mercury","hi":"पारा"},{"id":"D","en":"Silver","hi":"चांदी"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":35,"verificationStatus":"verified","issues":[]},
-    {"id":"Q072","originalQuestionNumber":"72","subject":null,"question":{"en":"Protection and improvement of environment and safeguarding of forests and wildlife of the country comes under","hi":"देश के पर्यावरण का संरक्षण और सुधार तथा वनों और वन्य जीवन की सुरक्षा, ___ के अंतर्गत आती है।"},"options":[{"id":"A","en":"Article 43A","hi":"अनुच्छेद 43A"},{"id":"B","en":"Article 48A","hi":"अनुच्छेद 48A"},{"id":"C","en":"Article 44A","hi":"अनुच्छेद 44A"},{"id":"D","en":"Article 46A","hi":"अनुच्छेद 46A"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":35,"verificationStatus":"verified","issues":[]},
-    {"id":"Q073","originalQuestionNumber":"73","subject":null,"question":{"en":"Fill in the blank with the correct option.\nWhat ___ for breakfast?","hi":null},"options":[{"id":"A","en":"do you usually have","hi":null},{"id":"B","en":"do usually you have","hi":null},{"id":"C","en":"are you usually having","hi":null},{"id":"D","en":"have you usually","hi":null},{"id":"E","en":"None of the above","hi":null}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":37,"verificationStatus":"verified","issues":[]},
-    {"id":"Q074","originalQuestionNumber":"74","subject":null,"question":{"en":"Choose the one word substitution from the five options given below.\nA group of persons working on a ship or aircraft","hi":null},"options":[{"id":"A","en":"Scar","hi":null},{"id":"B","en":"Staff","hi":null},{"id":"C","en":"Crew","hi":null},{"id":"D","en":"Concert","hi":null},{"id":"E","en":"None of the above","hi":null}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":37,"verificationStatus":"verified","issues":[]},
-    {"id":"Q075","originalQuestionNumber":"75","subject":null,"question":{"en":"Choose the right answer from the five options given below to frame meaningful sentence.\nRama/garden/in/ the / be/ may","hi":null},"options":[{"id":"A","en":"May be Rama in the garden.","hi":null},{"id":"B","en":"Rama may be in the garden.","hi":null},{"id":"C","en":"In the garden may be Rama.","hi":null},{"id":"D","en":"In the garden Rama may be.","hi":null},{"id":"E","en":"None of the above","hi":null}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":37,"verificationStatus":"verified","issues":[]},
-    {"id":"Q076","originalQuestionNumber":"76","subject":null,"question":{"en":"According to the passage, how can individuals start improving time management?","hi":null},"options":[{"id":"A","en":"By working faster without rest","hi":null},{"id":"B","en":"By comparing themselves to others","hi":null},{"id":"C","en":"By watching motivational videos","hi":null},{"id":"D","en":"By creating to-do lists and avoiding distractions","hi":null},{"id":"E","en":"None of the above","hi":null}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":37,"verificationStatus":"verified","issues":[]},
-    {"id":"Q077","originalQuestionNumber":"77","subject":null,"question":{"en":"What is the main purpose of the passage?","hi":null},"options":[{"id":"A","en":"To explain the causes of stress","hi":null},{"id":"B","en":"To promote the use of digital planners","hi":null},{"id":"C","en":"To highlight the importance of time management","hi":null},{"id":"D","en":"To discuss different professions","hi":null},{"id":"E","en":"None of the above","hi":null}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":37,"verificationStatus":"verified","issues":[]},
-    {"id":"Q078","originalQuestionNumber":"78","subject":null,"question":{"en":"Who won the Men's Singles title at the India Open Badminton 2025 held in New Delhi ?","hi":"नई दिल्ली में आयोजित इंडिया ओपन बैडमिंटन 2025 में पुरुष एकल का खिताब किसने जीता ?"},"options":[{"id":"A","en":"Lee Cheuk Yiu","hi":"ली चेउक यिउ"},{"id":"B","en":"Kento Momota","hi":"केंटो मोमोटा"},{"id":"C","en":"Viktor Axelsen","hi":"विक्टर एक्सेलसेन"},{"id":"D","en":"Lakshya Sen","hi":"लक्ष्य सेन"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":38,"verificationStatus":"verified","issues":[]},
-    {"id":"Q079","originalQuestionNumber":"79","subject":null,"question":{"en":"Acids are stored in containers made of which materials?","hi":"एसिड को किस पदार्थ से बने बर्तनों में संग्रहित किया जाता है ?"},"options":[{"id":"A","en":"Metals and plastic","hi":"धातु और प्लास्टिक"},{"id":"B","en":"Rubber and cardboard","hi":"रबर और कार्डबोर्ड"},{"id":"C","en":"Wood and paper","hi":"लकड़ी और कागज"},{"id":"D","en":"Glass and ceramics","hi":"कांच और सिरैमिक"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":38,"verificationStatus":"verified","issues":[]},
-    {"id":"Q080","originalQuestionNumber":"80","subject":null,"question":{"en":"East Indian Association in London was founded by","hi":"लंदन में ईस्ट इंडियन एसोसिएशन की स्थापना किसके द्वारा की गई थी ?"},"options":[{"id":"A","en":"Dadabhai Naoroji","hi":"दादाभाई नौरोजी"},{"id":"B","en":"Bal Gangadhar Tilak","hi":"बाल गंगाधर तिलक"},{"id":"C","en":"Gopala Krishna Gokhale","hi":"गोपाल कृष्ण गोखले"},{"id":"D","en":"Madan Mohan Malavia","hi":"मदन मोहन मालवीय"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":38,"verificationStatus":"verified","issues":[]},
-    {"id":"Q081","originalQuestionNumber":"81","subject":null,"question":{"en":"What was the theme of the Entrepreneurship Development Conclave 2025 held in Pune ?","hi":"पुणे में आयोजित उद्यमिता विकास सम्मेलन 2025 का विषय क्या था ?"},"options":[{"id":"A","en":"Strengthening Rural Startups through Innovation","hi":"नवाचार के माध्यम से ग्रामीण स्टार्टअप को सशक्त बनाना"},{"id":"B","en":"Livestock Entrepreneurship for a Self-Reliant India","hi":"आत्मनिर्भर भारत के लिए पशुधन उद्यमिता"},{"id":"C","en":"Empowering Entrepreneurs Transforming Livestock Economics","hi":"उद्यमियों को सशक्त बनाना पशुधन अर्थशास्त्र में बदलाव लाना"},{"id":"D","en":"Building Future Leaders in Agri-tech","hi":"कृषि-तकनीक में भावी नेताओं का निर्माण"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":38,"verificationStatus":"verified","issues":[]},
-    {"id":"Q082","originalQuestionNumber":"82","subject":null,"question":{"en":"___ of India is Ex-officio Chairperson of Rajya Sabha.","hi":"भारत के ___ राज्यसभा के पदेन अध्यक्ष हैं ।"},"options":[{"id":"A","en":"President","hi":"राष्ट्रपति"},{"id":"B","en":"Governor","hi":"राज्यपाल"},{"id":"C","en":"Vice-President","hi":"उपराष्ट्रपति"},{"id":"D","en":"Prime Minister","hi":"प्रधानमन्त्री"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":38,"verificationStatus":"verified","issues":[]},
-    {"id":"Q083","originalQuestionNumber":"83","subject":null,"question":{"en":"What is the average number of female employees in Finance department in all the companies together?","hi":"सभी कंपनियों में फाइनैन्स विभाग में महिला कर्मचारियों की औसत संख्या क्या है ?"},"options":[{"id":"A","en":"440","hi":"440"},{"id":"B","en":"480","hi":"480"},{"id":"C","en":"470","hi":"470"},{"id":"D","en":"460","hi":"460"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":39,"verificationStatus":"verified","issues":[]},
-    {"id":"Q084","originalQuestionNumber":"84","subject":null,"question":{"en":"What is the difference between the male and female employees in Marketing department in all the companies together?","hi":"सभी कंपनियों में मार्केटिंग विभाग में पुरुष और महिला कर्मचारियों के बीच क्या अंतर है ?"},"options":[{"id":"A","en":"1460","hi":"1460"},{"id":"B","en":"Cannot be determined","hi":"निर्धारित नहीं किया जा सकता"},{"id":"C","en":"1680","hi":"1680"},{"id":"D","en":"1720","hi":"1720"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":39,"verificationStatus":"verified","issues":[]},
-    {"id":"Q085","originalQuestionNumber":"85","subject":null,"question":{"en":"The number of male employees in Finance department in C is approximately what percent of the total number of employees in Marketing department in D?","hi":"C में फाइनैन्स विभाग में पुरुष कर्मचारियों की संख्या D में मार्केटिंग विभाग के कर्मचारियों की कुल संख्या का लगभग कितना प्रतिशत है ?"},"options":[{"id":"A","en":"43%","hi":"43%"},{"id":"B","en":"77%","hi":"77%"},{"id":"C","en":"50%","hi":"50%"},{"id":"D","en":"53%","hi":"53%"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":39,"verificationStatus":"verified","issues":[]},
-    {"id":"Q086","originalQuestionNumber":"86","subject":null,"question":{"en":"What is the ratio of the total number of male to female in Marketing department employees in D?","hi":"D में मार्केटिंग विभाग के कर्मचारियों में पुरुष और महिला की कुल संख्या का अनुपात क्या है ?"},"options":[{"id":"A","en":"4:3","hi":"4:3"},{"id":"B","en":"8:3","hi":"8:3"},{"id":"C","en":"6:1","hi":"6:1"},{"id":"D","en":"7:2","hi":"7:2"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":39,"verificationStatus":"verified","issues":[]},
-    {"id":"Q087","originalQuestionNumber":"87","subject":null,"question":{"en":"What is the average number of male employees in all the companies together?","hi":"सभी कंपनियों में पुरुष कर्मचारियों की औसत संख्या क्या है ?"},"options":[{"id":"A","en":"1200","hi":"1200"},{"id":"B","en":"1300","hi":"1300"},{"id":"C","en":"1400","hi":"1400"},{"id":"D","en":"1500","hi":"1500"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":40,"verificationStatus":"verified","issues":[]},
-    {"id":"Q088","originalQuestionNumber":"88","subject":null,"question":{"en":"Where was the Future Minerals Forum (FMF) 2025 held?","hi":"फ्यूचर मिनरल्स फोरम (FMF) 2025 कहाँ आयोजित किया गया था ?"},"options":[{"id":"A","en":"Abu Dhabi, UAE","hi":"अबू धाबी, यू.ए.ई."},{"id":"B","en":"Riyadh, Saudi Arabia","hi":"रियाद, सऊदी अरब"},{"id":"C","en":"Doha, Qatar","hi":"दोहा, कतर"},{"id":"D","en":"Muscat, Oman","hi":"मस्कट, ओमान"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":40,"verificationStatus":"verified","issues":[]},
-    {"id":"Q089","originalQuestionNumber":"89","subject":null,"question":{"en":"The ratio of speed of light in vacuum to the speed of light in a medium is called the ___ of the medium.","hi":"निर्वात में प्रकाश की गति और माध्यम में प्रकाश की गति के अनुपात को माध्यम का ___ कहा जाता है ।"},"options":[{"id":"A","en":"Wavelength","hi":"तरंगदैर्ध्य"},{"id":"B","en":"Amplitude","hi":"आयाम"},{"id":"C","en":"Frequency","hi":"आवृत्ति"},{"id":"D","en":"Refractive index","hi":"अपवर्तनांक"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":40,"verificationStatus":"verified","issues":[]},
-    {"id":"Q090","originalQuestionNumber":"90","subject":null,"question":{"en":"Chandrayaan-3 was launched in which year?","hi":"चंद्रयान-3 किस वर्ष प्रक्षेपित किया गया था ?"},"options":[{"id":"A","en":"2019","hi":"2019"},{"id":"B","en":"2023","hi":"2023"},{"id":"C","en":"2021","hi":"2021"},{"id":"D","en":"2022","hi":"2022"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":40,"verificationStatus":"verified","issues":[]},
-    {"id":"Q091","originalQuestionNumber":"91","subject":null,"question":{"en":"The Parliament of Religions held at Chicago in which year?","hi":"शिकागो में धर्म संसद का आयोजन किस वर्ष हुआ ?"},"options":[{"id":"A","en":"1893","hi":"1893"},{"id":"B","en":"1983","hi":"1983"},{"id":"C","en":"1894","hi":"1894"},{"id":"D","en":"1839","hi":"1839"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":40,"verificationStatus":"verified","issues":[]},
-    {"id":"Q092","originalQuestionNumber":"92","subject":null,"question":{"en":"As per which Article of the Indian Constitution, the executive power of Union shall be vested in the President?","hi":"भारतीय संविधान के किस अनुच्छेद के अनुसार, संघ की कार्यकारी शक्ति राष्ट्रपति में निहित होगी ?"},"options":[{"id":"A","en":"Article 21","hi":"अनुच्छेद 21"},{"id":"B","en":"Article 53","hi":"अनुच्छेद 53"},{"id":"C","en":"Article 46","hi":"अनुच्छेद 46"},{"id":"D","en":"Article 57","hi":"अनुच्छेद 57"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":40,"verificationStatus":"verified","issues":[]},
-    {"id":"Q093","originalQuestionNumber":"93","subject":null,"question":{"en":"If a convex lens of power +4 D and a concave lens of power -10 D are placed in contact with each other, what will be the resultant power?","hi":"यदि +4 D शक्ति का एक उत्तल लेंस और - 10 D शक्ति का एक अवतल लेंस एक दूसरे के संपर्क में रखा जाता है, परिणामी शक्ति क्या होगी ?"},"options":[{"id":"A","en":"+14 D","hi":"+14 D"},{"id":"B","en":"-14 D","hi":"-14 D"},{"id":"C","en":"-6 D","hi":"-6 D"},{"id":"D","en":"+6 D","hi":"+6 D"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":40,"verificationStatus":"verified","issues":[]},
-    {"id":"Q094","originalQuestionNumber":"94","subject":null,"question":{"en":"Which country officially became the 10th full member of the BRICS group in January 2025?","hi":"जनवरी 2025 में कौन-सा देश अधिकारिक तौर पर ब्रिक्स समूह का 10 वाँ पूर्ण सदस्य बना ?"},"options":[{"id":"A","en":"Turkey","hi":"तुर्की"},{"id":"B","en":"Egypt","hi":"मिस्र"},{"id":"C","en":"Saudi Arabia","hi":"सऊदी अरब"},{"id":"D","en":"Indonesia","hi":"इंडोनेशिया"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":41,"verificationStatus":"verified","issues":[]},
-    {"id":"Q095","originalQuestionNumber":"95","subject":null,"question":{"en":"The headquarter of Anushilan Samiti is at","hi":"अनुशीलन समिति का मुख्यालय कहाँ है ?"},"options":[{"id":"A","en":"Calcutta","hi":"कलकत्ता"},{"id":"B","en":"Poona","hi":"पूना"},{"id":"C","en":"Bombay","hi":"बम्बई"},{"id":"D","en":"Madras","hi":"मद्रास"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":41,"verificationStatus":"verified","issues":[]},
-    {"id":"Q096","originalQuestionNumber":"96","subject":null,"question":{"en":"Find the difference between the average of Rye produced to that of Oats produced by all the given farmers together.","hi":"सभी दिए गए किसानों द्वारा उत्पादित राई और जई के औसत के बीच अंतर ज्ञात करें ।"},"options":[{"id":"A","en":"234","hi":"234"},{"id":"B","en":"192","hi":"192"},{"id":"C","en":"156","hi":"156"},{"id":"D","en":"118","hi":"118"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"B","answerSource":"provided_key","explanation":null,"sourcePage":41,"verificationStatus":"verified","issues":[]},
-    {"id":"Q097","originalQuestionNumber":"97","subject":null,"question":{"en":"The total crops produced by Roshan is approximately what percentage of total crops produced by Bhargav ?","hi":"रोशन द्वारा उत्पादित कुल फसलें, भार्गव द्वारा उत्पादित कुल फसलों का लगभग कितना प्रतिशत है ?"},"options":[{"id":"A","en":"85%","hi":"85%"},{"id":"B","en":"58%","hi":"58%"},{"id":"C","en":"72%","hi":"72%"},{"id":"D","en":"97%","hi":"97%"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"D","answerSource":"provided_key","explanation":null,"sourcePage":42,"verificationStatus":"verified","issues":[]},
-    {"id":"Q098","originalQuestionNumber":"98","subject":null,"question":{"en":"Which farmer produced third lowest number of crops ?","hi":"किस किसान ने तीसरी सबसे कम फसलें उगाई ?"},"options":[{"id":"A","en":"Theja","hi":"तेजा"},{"id":"B","en":"Bhargav","hi":"भार्गव"},{"id":"C","en":"Prabhakar","hi":"प्रभाकर"},{"id":"D","en":"Roshan","hi":"रोशन"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":42,"verificationStatus":"verified","issues":[]},
-    {"id":"Q099","originalQuestionNumber":"99","subject":null,"question":{"en":"Find the average crops produced by Theja.","hi":"तेजा द्वारा उत्पादित औसत फसलें ज्ञात करें ।"},"options":[{"id":"A","en":"574","hi":"574"},{"id":"B","en":"738","hi":"738"},{"id":"C","en":"612","hi":"612"},{"id":"D","en":"656","hi":"656"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"A","answerSource":"provided_key","explanation":null,"sourcePage":42,"verificationStatus":"verified","issues":[]},
-    {"id":"Q100","originalQuestionNumber":"100","subject":null,"question":{"en":"Find the ratio between total Mustard produced to that of total Wheat produced by all the farmers.","hi":"सभी किसानों द्वारा उत्पादित कुल सरसों और कुल गेहूँ के बीच अनुपात ज्ञात करें ।"},"options":[{"id":"A","en":"185 : 113","hi":"185 : 113"},{"id":"B","en":"52 : 17","hi":"52 : 17"},{"id":"C","en":"397 : 284","hi":"397 : 284"},{"id":"D","en":"229 : 175","hi":"229 : 175"},{"id":"E","en":"None of the above","hi":"उपर्युक्त में से कोई नहीं"}],"correctAnswer":"C","answerSource":"provided_key","explanation":null,"sourcePage":42,"verificationStatus":"verified","issues":[]}
+    {
+      "id": "Q001",
+      "originalQuestionNumber": "1",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "कालिदास ने क्या कहा था ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "सब पुराने अच्छे ही नहीं होते, सब नये खराब ही नहीं होते ।"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "पुराने का मोह सब समय वाञ्छनीय ही नहीं होता ।"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "उलझनों की मात्रा बहुत बढ़ गई है ।"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "हमारी परंपरा महिमान्या, उत्तराधिकार विपुल और संस्कार उज्ज्वल है ।"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 19,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q002",
+      "originalQuestionNumber": "2",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "लेखकजी कभी-कभी क्या सोचने लगते हैं ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "अंग्रेजों की अनुवर्तिता करने के बाद भी भारतवर्ष 'इण्डिपेण्डेन्स' को अनधीनता क्यों नहीं कह सका ?"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "यह हमारी पशुता के अवशेष है ।"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "पशुता या मनुष्यता की ओर ।"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "ये हमारी पशुता की निशानी है।"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 19,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q003",
+      "originalQuestionNumber": "3",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "लेखकजी को प्राणि-विज्ञानियों की कौन-सी बात याद आती है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "हम कोई नौसिखुए नहीं है ।"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "नाना भावों और नाना पहलुओं से विचारा गया है"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "नाखून बढ़ना उनमें से एक हो सकता है।"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "सहजात वृत्ति अनजानी स्मृतियों का ही नाम है"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 19,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q004",
+      "originalQuestionNumber": "4",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "मरे बच्चे को गोद में दबाये रहनेवाली ___ मनुष्य का आदर्श नहीं बन सकती ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "बाघिन"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "बंदरिया"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "भेडिया"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "सुअर"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 21,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q005",
+      "originalQuestionNumber": "5",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "मनुष्य ने अपनी आजादी के जितने भी नामकरण किये स्वतंत्रता, स्वराज्य, स्वाधीनता-उन सब में ___ का बंधन अवश्य रखा ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "पर"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "ओर"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "स्व"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "श्वर"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 21,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q006",
+      "originalQuestionNumber": "6",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "आनंद की श्रेणी में ऐसा कोई शुद्ध मनोविकार नहीं है जो पात्र की हानि की उत्तेजना करे, पर दुःख की श्रेणी में ऐसा मनोविकार है जो पात्र की ___ की उत्तेजना करता है।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "भावना"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "बुराई"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "भलाई"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "सच्चाई"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 21,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q007",
+      "originalQuestionNumber": "7",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "दुःख की श्रेणी में प्रवृत्ति के विचार से करुणा का उल्टा क्या हो सकता है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "दुःख"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "क्रोध"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "श्रद्धा"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "भाव"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 21,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q008",
+      "originalQuestionNumber": "8",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "किसी पर प्रसन्न होकर भी लोग उसकी भलाई करते हैं । इस प्रकार पात्र की भलाई की उत्तेजना किन श्रेणियों में रखी जाती है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "दुःख और आनन्द दोनों की"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "प्रेम और द्वेष दोनों की"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "क्रोध और करुणा दोनों की"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "श्रद्धा और भक्ति दोनों की"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 22,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q009",
+      "originalQuestionNumber": "9",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "किसकी प्राप्ति के लिए पात्र में दुःख के अतिरिक्त और किसी विशेषता की अपेक्षा नहीं होती है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "क्रोध"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "उत्तेजना"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "उत्साह"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "करुणा"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 22,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q010",
+      "originalQuestionNumber": "10",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "करुणा जिसके प्रति उत्पन्न होती है, उसके लिए क्या किया जाता है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "उसकी हानि की चेष्टा की जाती है ।"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "क्रोध उसके प्रति उत्पन्न हो जाता है ।"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "उसकी भलाई का उद्योग किया जाता है।"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "चंचल हो जाते हैं।"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 22,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q011",
+      "originalQuestionNumber": "11",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "'चैत' तद्भव शब्द है, उसका तत्सम शब्द ___ है।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "चंद्र"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "चैत्र"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "चित्त"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "चित्र"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 22,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q012",
+      "originalQuestionNumber": "12",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "'आदान' का विलोम शब्द ___ है।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "अनुग्रह"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "आचार"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "अभिमान"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "प्रदान"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 22,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q013",
+      "originalQuestionNumber": "13",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "'समय की पहचान' सियारामशरण गुप्त जी की कविता है, जिसमें वे ___ के महत्व के बारे में बताते हैं ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "समय"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "विश्वास"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "परिश्रम"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "धन"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 22,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q014",
+      "originalQuestionNumber": "14",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "'आँखें दिखाना' मुहावरे का सही अर्थ है"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "गुस्से में देखना"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "अपनी हानि स्वयं करना"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "अनदेखा करना"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "धोखा देना"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 22,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q015",
+      "originalQuestionNumber": "15",
+      "subject": null,
+      "question": {
+        "en": null,
+        "hi": "जो विशेषण अपने विशेष्य की मात्रा या परिमाण के विषय में ज्ञान कराएँ, उसे ___ विशेषण कहते हैं ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": null,
+          "hi": "गुणवाचक"
+        },
+        {
+          "id": "B",
+          "en": null,
+          "hi": "सार्वनामिक"
+        },
+        {
+          "id": "C",
+          "en": null,
+          "hi": "परिमाणवाचक"
+        },
+        {
+          "id": "D",
+          "en": null,
+          "hi": "संख्यावाचक"
+        },
+        {
+          "id": "E",
+          "en": null,
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 22,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q016",
+      "originalQuestionNumber": "16",
+      "subject": null,
+      "question": {
+        "en": "The difference between the largest 3 digit number and smallest 2 digit number is",
+        "hi": "सबसे बड़ी 3 अंकों की संख्या और सबसे छोटी 2 अंकों की संख्या के बीच का अंतर क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "980",
+          "hi": "980"
+        },
+        {
+          "id": "B",
+          "en": "990",
+          "hi": "990"
+        },
+        {
+          "id": "C",
+          "en": "989",
+          "hi": "989"
+        },
+        {
+          "id": "D",
+          "en": "998",
+          "hi": "998"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 22,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q017",
+      "originalQuestionNumber": "17",
+      "subject": null,
+      "question": {
+        "en": "Dekhni is a traditional dance form of which Indian State ?",
+        "hi": "देखनी किस भारतीय राज्य का पारंपरिक नृत्य है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Kerala",
+          "hi": "केरल"
+        },
+        {
+          "id": "B",
+          "en": "Odisha",
+          "hi": "ओडिशा"
+        },
+        {
+          "id": "C",
+          "en": "Goa",
+          "hi": "गोवा"
+        },
+        {
+          "id": "D",
+          "en": "Madhya Pradesh",
+          "hi": "मध्य प्रदेश"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 23,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q018",
+      "originalQuestionNumber": "18",
+      "subject": null,
+      "question": {
+        "en": "The food for work programme was restructured and renamed as ___ from October, 1980.",
+        "hi": "काम के बदले अनाज कार्यक्रम का पुनर्गठन किया गया और अक्टूबर 1980 से इसका नाम बदलकर ___ कर दिया गया ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "National Rural Employment Programme",
+          "hi": "राष्ट्रीय ग्रामीण रोज़गार कार्यक्रम"
+        },
+        {
+          "id": "B",
+          "en": "Employment Generated Programme",
+          "hi": "रोज़गार सृजन कार्यक्रम"
+        },
+        {
+          "id": "C",
+          "en": "Rural Employment Guarantee Programme",
+          "hi": "ग्रामीण रोज़गार गारंटी कार्यक्रम"
+        },
+        {
+          "id": "D",
+          "en": "Integrated Rural Development Programme",
+          "hi": "एकीकृत ग्रामीण विकास कार्यक्रम"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 23,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q019",
+      "originalQuestionNumber": "19",
+      "subject": null,
+      "question": {
+        "en": "In December 2024, which organization released the report titled \"S.A.F.E. (Secure, Affordable, Flexible and Efficient) Accommodation: Worker Housing for Manufacturing Growth\"?",
+        "hi": "दिसंबर 2024 में, किस संगठन ने \"S.A.F.E. (सिक्यूर, एफोर्डेबल, फ्लेक्सिबल एण्ड एफिशिएंट) एकोमोडेशन : विनिर्माण विकास के लिए श्रमिक आवास\" शीर्षक से रिपोर्ट जारी की ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Ministry of Housing and Urban Affairs",
+          "hi": "आवास और शहरी मामलों का मंत्रालय"
+        },
+        {
+          "id": "B",
+          "en": "National Institution for Transforming India (NITI) Aayog",
+          "hi": "नैशनल इन्स्टिट्यूशन फॉर ट्रैन्सफॉर्मिंग इंडिया (NITI) आयोग"
+        },
+        {
+          "id": "C",
+          "en": "Ministry of Labour and Employment",
+          "hi": "श्रम और रोजगार मंत्रालय"
+        },
+        {
+          "id": "D",
+          "en": "Confederation of Indian Industry (CII)",
+          "hi": "भारतीय उद्योग परिसंघ (CII)"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 23,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q020",
+      "originalQuestionNumber": "20",
+      "subject": null,
+      "question": {
+        "en": "If x and y are co-primes, then their LCM is",
+        "hi": "यदि x और y सह-अभाज्य हैं, तो उनका LCM क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "1",
+          "hi": "1"
+        },
+        {
+          "id": "B",
+          "en": "x + y",
+          "hi": "x + y"
+        },
+        {
+          "id": "C",
+          "en": "x / y",
+          "hi": "x / y"
+        },
+        {
+          "id": "D",
+          "en": "xy",
+          "hi": "xy"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 23,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q021",
+      "originalQuestionNumber": "21",
+      "subject": null,
+      "question": {
+        "en": "Vijay Stambh is situated in",
+        "hi": "विजय स्तम्भ कहाँ स्थित है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Jaipur",
+          "hi": "जयपुर"
+        },
+        {
+          "id": "B",
+          "en": "Chittorgarh",
+          "hi": "चित्तौड़गढ़"
+        },
+        {
+          "id": "C",
+          "en": "Udaipur",
+          "hi": "उदयपुर"
+        },
+        {
+          "id": "D",
+          "en": "Jodhpur",
+          "hi": "जोधपुर"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 24,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q022",
+      "originalQuestionNumber": "22",
+      "subject": null,
+      "question": {
+        "en": "Meaning of the underdeveloped economy was",
+        "hi": "अविकसित अर्थव्यवस्था का अर्थ था"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Countries in which per capita real income is low",
+          "hi": "वे देश जहाँ प्रति व्यक्ति वास्तविक आय कम है"
+        },
+        {
+          "id": "B",
+          "en": "Countries in which mass poverty is observed",
+          "hi": "वे देश जिनमें अधिक गरीबी देखी जाती है"
+        },
+        {
+          "id": "C",
+          "en": "Countries in which per capita real income is balanced",
+          "hi": "वे देश जिनमें प्रति व्यक्ति वास्तविक आय संतुलित है"
+        },
+        {
+          "id": "D",
+          "en": "Countries in which per capita real income is high",
+          "hi": "वे देश जिनमें प्रति व्यक्ति वास्तविक आय अधिक है"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 24,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q023",
+      "originalQuestionNumber": "23",
+      "subject": null,
+      "question": {
+        "en": "Where was the 8th edition of Indusfood Asia's premier Food and Beverage (F and B) Trade Show 2025 organized ?",
+        "hi": "आशिया का प्रीमियर खाद्य एवं पेय (एफ एण्ड बी) व्यापार प्रदर्शन इंडसफूड 2025 का 8 वाँ संस्करण कहाँ आयोजित किया गया था ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Pragati Maidan, New Delhi",
+          "hi": "प्रगति मैदान, नई दिल्ली"
+        },
+        {
+          "id": "B",
+          "en": "Mahatma Mandir, Gandhinagar",
+          "hi": "महात्मा मंदिर, गांधीनगर"
+        },
+        {
+          "id": "C",
+          "en": "India Habitat Centre, New Delhi",
+          "hi": "इंडिया हैबिटेट सेंटर, नई दिल्ली"
+        },
+        {
+          "id": "D",
+          "en": "India Exposition Mart Ltd., Greater Noida",
+          "hi": "इंडिया एक्सपोज़िशन मार्ट लिमिटेड, ग्रेटर नोएडा"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 24,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q024",
+      "originalQuestionNumber": "24",
+      "subject": null,
+      "question": {
+        "en": "If 2994 / 14.5 = 172, then 29.94 / 1.45 =",
+        "hi": "यदि 2994 / 14.5 = 172 है, तो 29.94 / 1.45 ="
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "0.172",
+          "hi": "0.172"
+        },
+        {
+          "id": "B",
+          "en": "172",
+          "hi": "172"
+        },
+        {
+          "id": "C",
+          "en": "1.72",
+          "hi": "1.72"
+        },
+        {
+          "id": "D",
+          "en": "17.2",
+          "hi": "17.2"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 24,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q025",
+      "originalQuestionNumber": "25",
+      "subject": null,
+      "question": {
+        "en": "Where is the headquarters of the International Labour Organization (ILO) located?",
+        "hi": "अंतर्राष्ट्रीय श्रम संगठन (ILO) का मुख्यालय कहाँ स्थित है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "New York",
+          "hi": "न्यूयॉर्क"
+        },
+        {
+          "id": "B",
+          "en": "The Hague",
+          "hi": "द हेग"
+        },
+        {
+          "id": "C",
+          "en": "Geneva",
+          "hi": "जिनेवा"
+        },
+        {
+          "id": "D",
+          "en": "Paris",
+          "hi": "पेरिस"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 26,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q026",
+      "originalQuestionNumber": "26",
+      "subject": null,
+      "question": {
+        "en": "Which stage of the DTM sees the fastest population growth?",
+        "hi": "DTM के किस चरण में सबसे तेज़ जनसंख्या वृद्धि देखी जाती है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Stage 1",
+          "hi": "चरण 1"
+        },
+        {
+          "id": "B",
+          "en": "Stage 5",
+          "hi": "चरण 5"
+        },
+        {
+          "id": "C",
+          "en": "Stage 2",
+          "hi": "चरण 2"
+        },
+        {
+          "id": "D",
+          "en": "Stage 3",
+          "hi": "चरण 3"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 26,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q027",
+      "originalQuestionNumber": "27",
+      "subject": null,
+      "question": {
+        "en": "2/5 in percent form is",
+        "hi": "2/5 प्रतिशत रूप में क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "20%",
+          "hi": "20%"
+        },
+        {
+          "id": "B",
+          "en": "80%",
+          "hi": "80%"
+        },
+        {
+          "id": "C",
+          "en": "40%",
+          "hi": "40%"
+        },
+        {
+          "id": "D",
+          "en": "25%",
+          "hi": "25%"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 26,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q028",
+      "originalQuestionNumber": "28",
+      "subject": null,
+      "question": {
+        "en": "If the marked price of the computer is 20% more than its cost price and the shopkeeper offers a discount of 15% on the marked price of the computer, then find the profit percentage of the computer.",
+        "hi": "यदि कंप्यूटर का अंकित मूल्य उसके क्रय मूल्य से 20% अधिक है और दुकानदार कंप्यूटर के अंकित मूल्य पर 15% की छूट देता है, तो कंप्यूटर का लाभ प्रतिशत ज्ञात कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "1%",
+          "hi": "1%"
+        },
+        {
+          "id": "B",
+          "en": "2%",
+          "hi": "2%"
+        },
+        {
+          "id": "C",
+          "en": "5%",
+          "hi": "5%"
+        },
+        {
+          "id": "D",
+          "en": "3%",
+          "hi": "3%"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 26,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q029",
+      "originalQuestionNumber": "29",
+      "subject": null,
+      "question": {
+        "en": "The selling price of smart watch and book rack is in the ratio of 4: 5 and the cost price of the smart watch is Rs. 4,800. If the shopkeeper gets the profit of the smart watch is 10% of its marked price, then find the discount offered by the shopkeeper on a book rack.",
+        "hi": "स्मार्ट वॉच और बुक रैक का विक्रय मूल्य 4: 5 के अनुपात में है और स्मार्ट वॉच का क्रय मूल्य 4,800 रुपये है। यदि दुकानदार को स्मार्ट वॉच पर उसके अंकित मूल्य का 10% लाभ मिलता है, तो दुकानदार द्वारा बुक रैक पर दी जाने वाली छूट ज्ञात कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Rs. 100",
+          "hi": "100 रुपये"
+        },
+        {
+          "id": "B",
+          "en": "Rs. 250",
+          "hi": "250 रुपये"
+        },
+        {
+          "id": "C",
+          "en": "Rs. 150",
+          "hi": "150 रुपये"
+        },
+        {
+          "id": "D",
+          "en": "Rs. 200",
+          "hi": "200 रुपये"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 27,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q030",
+      "originalQuestionNumber": "30",
+      "subject": null,
+      "question": {
+        "en": "Find the average of the marked price of dining table and book rack.",
+        "hi": "डाइनिंग टेबल और बुक रैक के अंकित मूल्य का औसत ज्ञात कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Rs. 8,000",
+          "hi": "8,000 रुपये"
+        },
+        {
+          "id": "B",
+          "en": "Rs. 7,500",
+          "hi": "7,500 रुपये"
+        },
+        {
+          "id": "C",
+          "en": "Rs. 8,500",
+          "hi": "8,500 रुपये"
+        },
+        {
+          "id": "D",
+          "en": "Rs. 9,000",
+          "hi": "9,000 रुपये"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 27,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q031",
+      "originalQuestionNumber": "31",
+      "subject": null,
+      "question": {
+        "en": "If the ratio of the cost price and marked price of the cell phone is 3: 4 and the profit earned by the shopkeeper is Rs. 1,200, then find the discount offered by the shopkeeper.",
+        "hi": "यदि सेल फोन के क्रय मूल्य और अंकित मूल्य का अनुपात 3:4 है और दुकानदार द्वारा अर्जित लाभ 1,200 रुपये है, तो दुकानदार द्वारा दी जाने वाली छूट ज्ञात कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Rs. 800",
+          "hi": "800 रुपये"
+        },
+        {
+          "id": "B",
+          "en": "Rs. 600",
+          "hi": "600 रुपये"
+        },
+        {
+          "id": "C",
+          "en": "Rs. 1,000",
+          "hi": "1,000 रुपये"
+        },
+        {
+          "id": "D",
+          "en": "Rs. 900",
+          "hi": "900 रुपये"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 27,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q032",
+      "originalQuestionNumber": "32",
+      "subject": null,
+      "question": {
+        "en": "The selling price and marked price of the dining table is 4: 5. If the shopkeeper gets the profit of 25%, then find the cost price of the dining table.",
+        "hi": "डाइनिंग टेबल का विक्रय मूल्य और अंकित मूल्य 4:5 है । यदि दुकानदार को 25% का लाभ मिलता है, तो डाइनिंग टेबल का क्रय मूल्य ज्ञात कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Rs. 6,000",
+          "hi": "6,000 रुपये"
+        },
+        {
+          "id": "B",
+          "en": "Rs. 6,500",
+          "hi": "6,500 रुपये"
+        },
+        {
+          "id": "C",
+          "en": "Rs. 6,200",
+          "hi": "6,200 रुपये"
+        },
+        {
+          "id": "D",
+          "en": "Rs. 6,400",
+          "hi": "6,400 रुपये"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 27,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q033",
+      "originalQuestionNumber": "33",
+      "subject": null,
+      "question": {
+        "en": "On January 5, 2025, two indigenously designed and constructed Fast Patrol Vessels (FPVs) - Amulya and Akshay - were launched for the Indian Coast Guard by which of the following Shipyards?",
+        "hi": "5 जनवरी, 2025 को, भारतीय तट रक्षक बल के लिए निम्नलिखित में से किस शिपयार्ड द्वारा दो स्वदेशी रूप से डिज़ाइन और निर्मित तीव्र गश्ती पोत (FPV)-अमूल्य और अक्षय-लॉन्च किए गए ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Mazagon Dock Shipbuilders Limited",
+          "hi": "मझगांव डॉक शिपबिल्डर्स लिमिटेड"
+        },
+        {
+          "id": "B",
+          "en": "Goa Shipyard Limited",
+          "hi": "गोवा शिपयार्ड लिमिटेड"
+        },
+        {
+          "id": "C",
+          "en": "Garden Reach Shipbuilders and Engineers",
+          "hi": "गार्डन रीच शिपबिल्डर्स एंड इंजीनियर्स"
+        },
+        {
+          "id": "D",
+          "en": "Cochin Shipyard Limited",
+          "hi": "कोचीन शिपयार्ड लिमिटेड"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 28,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q034",
+      "originalQuestionNumber": "34",
+      "subject": null,
+      "question": {
+        "en": "Which is greater : $\\sqrt{45}$ or $\\sqrt{49}-1$?",
+        "hi": "कौन-सा बड़ा है : $\\sqrt{45}$ या $\\sqrt{49}-1$?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "$\\sqrt{45}$",
+          "hi": "$\\sqrt{45}$"
+        },
+        {
+          "id": "B",
+          "en": "$\\sqrt{49}-1$",
+          "hi": "$\\sqrt{49}-1$"
+        },
+        {
+          "id": "C",
+          "en": "Both are equal",
+          "hi": "दोनों बराबर हैं"
+        },
+        {
+          "id": "D",
+          "en": "Cannot be determined",
+          "hi": "निर्धारित नहीं किया जा सकता"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 28,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q035",
+      "originalQuestionNumber": "35",
+      "subject": null,
+      "question": {
+        "en": "Which sea lies to the west of India?",
+        "hi": "भारत के पश्चिम में कौन-सा सागर स्थित है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Arabian Sea",
+          "hi": "अरब सागर"
+        },
+        {
+          "id": "B",
+          "en": "South China Sea",
+          "hi": "दक्षिण चीन सागर"
+        },
+        {
+          "id": "C",
+          "en": "Bay of Bengal",
+          "hi": "बंगाल की खाड़ी"
+        },
+        {
+          "id": "D",
+          "en": "Red Sea",
+          "hi": "लाल सागर"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 28,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q036",
+      "originalQuestionNumber": "36",
+      "subject": null,
+      "question": {
+        "en": "The India-Pakistan signed a treaty in the year 1960. The name of that treaty was",
+        "hi": "भारत-पाकिस्तान ने वर्ष 1960 में एक संधि पर हस्ताक्षर किए थे। उस संधि का नाम था"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Ganga waters treaty",
+          "hi": "गंगा जल संधि"
+        },
+        {
+          "id": "B",
+          "en": "Brahmaputra waters treaty",
+          "hi": "ब्रह्मपुत्र जल संधि"
+        },
+        {
+          "id": "C",
+          "en": "Yamuna waters treaty",
+          "hi": "यमुना जल संधि"
+        },
+        {
+          "id": "D",
+          "en": "Indus waters treaty",
+          "hi": "सिंधु जल संधि"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 28,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q037",
+      "originalQuestionNumber": "37",
+      "subject": null,
+      "question": {
+        "en": "Which of the following acts as a vehicle for mobilising and transferring the economy's surplus to the ultimate users ?",
+        "hi": "अर्थव्यवस्था के अधिशेष को अंतिम उपयोगकर्ताओं तक पहुँचाने और स्थानांतरित करने के लिए निम्नलिखित में से कौन-सा माध्यम कार्य करता है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Financial Institutions",
+          "hi": "वित्तीय संस्थान"
+        },
+        {
+          "id": "B",
+          "en": "Commercial centers",
+          "hi": "वाणिज्यिक केंद्रा"
+        },
+        {
+          "id": "C",
+          "en": "Government policy",
+          "hi": "सरकारी नीति"
+        },
+        {
+          "id": "D",
+          "en": "Man power",
+          "hi": "मानव शक्ति"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 28,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q038",
+      "originalQuestionNumber": "38",
+      "subject": null,
+      "question": {
+        "en": "The camel stores fat in its",
+        "hi": "ऊँट अपने ___ में वसा जमा करता है।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Legs",
+          "hi": "पैर"
+        },
+        {
+          "id": "B",
+          "en": "Hump",
+          "hi": "हम्प"
+        },
+        {
+          "id": "C",
+          "en": "Stomach",
+          "hi": "पेट"
+        },
+        {
+          "id": "D",
+          "en": "Feet",
+          "hi": "पाद"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 29,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q039",
+      "originalQuestionNumber": "39",
+      "subject": null,
+      "question": {
+        "en": "The flower of the Hibiscus plant",
+        "hi": "गुड़हल के पौधे का फूल है"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "bisexual",
+          "hi": "उभयलिंगी"
+        },
+        {
+          "id": "B",
+          "en": "very small",
+          "hi": "बहुत छोटा"
+        },
+        {
+          "id": "C",
+          "en": "unisexual",
+          "hi": "एकलिंगी"
+        },
+        {
+          "id": "D",
+          "en": "neuter",
+          "hi": "नपुसक"
+        },
+        {
+          "id": "E",
+          "en": "none of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 29,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q040",
+      "originalQuestionNumber": "40",
+      "subject": null,
+      "question": {
+        "en": "The Adi Purana, is the hagiography of which Tirthankara ?",
+        "hi": "आदि पुराण किस तीर्थंकर की संतचरित संग्रह है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Neminatha",
+          "hi": "नेमिनाथ"
+        },
+        {
+          "id": "B",
+          "en": "Adinatha",
+          "hi": "आदिनाथ"
+        },
+        {
+          "id": "C",
+          "en": "Parshvanatha",
+          "hi": "पार्श्वनाथ"
+        },
+        {
+          "id": "D",
+          "en": "Mahavira",
+          "hi": "महावीर"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 29,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q041",
+      "originalQuestionNumber": "41",
+      "subject": null,
+      "question": {
+        "en": "In a class of 45 students, the rank of Ayush is 15 from the top, then rank of Ayush from the bottom is",
+        "hi": "45 छात्रों की कक्षा में आयुष का रैंक ऊपर से 15 है, तो नीचे से आयुष का रैंक क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "30",
+          "hi": "30"
+        },
+        {
+          "id": "B",
+          "en": "35",
+          "hi": "35"
+        },
+        {
+          "id": "C",
+          "en": "32",
+          "hi": "32"
+        },
+        {
+          "id": "D",
+          "en": "31",
+          "hi": "31"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 29,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q042",
+      "originalQuestionNumber": "42",
+      "subject": null,
+      "question": {
+        "en": "The longest river in the world is",
+        "hi": "विश्व की सबसे लंबी नदी कौन-सी है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Amazon",
+          "hi": "अमेज़न"
+        },
+        {
+          "id": "B",
+          "en": "Nile",
+          "hi": "नाइल"
+        },
+        {
+          "id": "C",
+          "en": "Mississippi",
+          "hi": "मिसिसिपी"
+        },
+        {
+          "id": "D",
+          "en": "Yangtze",
+          "hi": "यांग्त्ज़ी"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 29,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q043",
+      "originalQuestionNumber": "43",
+      "subject": null,
+      "question": {
+        "en": "World Consumer Rights Day is observed on",
+        "hi": "विश्व उपभोक्ता अधिकार दिवस कब मनाया जाता है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "March 21",
+          "hi": "21 मार्च"
+        },
+        {
+          "id": "B",
+          "en": "March 15",
+          "hi": "15 मार्च"
+        },
+        {
+          "id": "C",
+          "en": "April 8",
+          "hi": "8 अप्रैल"
+        },
+        {
+          "id": "D",
+          "en": "October 11",
+          "hi": "11 अक्टूबर"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 29,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q044",
+      "originalQuestionNumber": "44",
+      "subject": null,
+      "question": {
+        "en": "The Constitution of india was first drafted by ___ In 1928",
+        "hi": "भारत का संविधान पहली बार 1928 में ___ द्वारा तैयार किया गया था ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Mahatma Gandhi",
+          "hi": "महात्मा गांधी"
+        },
+        {
+          "id": "B",
+          "en": "Rajendra Prasad",
+          "hi": "राजेंद्र प्रसाद"
+        },
+        {
+          "id": "C",
+          "en": "Motilal Nehru",
+          "hi": "मोतीलाल नेहरू"
+        },
+        {
+          "id": "D",
+          "en": "V.V. Giri",
+          "hi": "वि. वि. गिरि"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 29,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q045",
+      "originalQuestionNumber": "45",
+      "subject": null,
+      "question": {
+        "en": "If the number of wheel chairs manufactured in June is 5/8th of the number of wheel chairs manufactured in March and the ratio of the number of office chairs manufactured in March and June is 5: 3, then find the total number of chairs manufactured in June.",
+        "hi": "यदि जून में निर्मित व्हील कुर्सियों की संख्या, मार्च में निर्मित व्हील कुर्सियों की संख्या का 5/8 है और मार्च और जून में निर्मित ऑफीस कुर्सियों की संख्या का अनुपात 5: 3 है, तो जून में निर्मित कुर्सियों की कुल संख्या ज्ञात करें ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "740",
+          "hi": "740"
+        },
+        {
+          "id": "B",
+          "en": "670",
+          "hi": "670"
+        },
+        {
+          "id": "C",
+          "en": "550",
+          "hi": "550"
+        },
+        {
+          "id": "D",
+          "en": "480",
+          "hi": "480"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 30,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q046",
+      "originalQuestionNumber": "46",
+      "subject": null,
+      "question": {
+        "en": "Find the difference between the number of wheel chairs manufactured in February and the number of wheel chairs manufactured in April.",
+        "hi": "फरवरी में निर्मित व्हील कुर्सियों की संख्या और अप्रैल में निर्मित व्हील कुर्सियों की संख्या के बीच अंतर ज्ञात करें ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "550",
+          "hi": "550"
+        },
+        {
+          "id": "B",
+          "en": "600",
+          "hi": "600"
+        },
+        {
+          "id": "C",
+          "en": "320",
+          "hi": "320"
+        },
+        {
+          "id": "D",
+          "en": "450",
+          "hi": "450"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 30,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q047",
+      "originalQuestionNumber": "47",
+      "subject": null,
+      "question": {
+        "en": "Find the ratio of the number of wheel chairs manufactured in May to the number of office chairs manufactured in January.",
+        "hi": "मई में निर्मित व्हील कुर्सियों की संख्या और जनवरी में निर्मित ऑफीस कुर्सियों की संख्या का अनुपात ज्ञात कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "5:3",
+          "hi": "5:3"
+        },
+        {
+          "id": "B",
+          "en": "7:8",
+          "hi": "7:8"
+        },
+        {
+          "id": "C",
+          "en": "2:1",
+          "hi": "2:1"
+        },
+        {
+          "id": "D",
+          "en": "8:9",
+          "hi": "8:9"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 31,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q048",
+      "originalQuestionNumber": "48",
+      "subject": null,
+      "question": {
+        "en": "The number of office chairs manufactured in April is what percentage of the difference between the total number of chairs manufactured in February and April ?",
+        "hi": "अप्रैल में निर्मित ऑफीस कुर्सियों की संख्या फरवरी और अप्रैल में निर्मित कुर्सियों की कुल संख्या के बीच अंतर का कितना प्रतिशत है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "40%",
+          "hi": "40%"
+        },
+        {
+          "id": "B",
+          "en": "50%",
+          "hi": "50%"
+        },
+        {
+          "id": "C",
+          "en": "70%",
+          "hi": "70%"
+        },
+        {
+          "id": "D",
+          "en": "30%",
+          "hi": "30%"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 31,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q049",
+      "originalQuestionNumber": "49",
+      "subject": null,
+      "question": {
+        "en": "Out of the total number of chairs manufactured in January, 20% of the chairs are unsold. If the ratio of the number of office chairs to wheel chairs unsold in January is 5: 4, then find the number of wheel chairs sold in January.",
+        "hi": "जनवरी में निर्मित कुल कुर्सियों में से 20% कुर्सियाँ नहीं बिकीं । यदि जनवरी में नहीं बिकीं गई ऑफीस कुर्सियों की संख्या और व्हील कुर्सियों की संख्या का अनुपात 5:4 है, तो जनवरी में बेची गई व्हील कुर्सियों की संख्या ज्ञात कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "820",
+          "hi": "820"
+        },
+        {
+          "id": "B",
+          "en": "780",
+          "hi": "780"
+        },
+        {
+          "id": "C",
+          "en": "690",
+          "hi": "690"
+        },
+        {
+          "id": "D",
+          "en": "510",
+          "hi": "510"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 31,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q050",
+      "originalQuestionNumber": "50",
+      "subject": null,
+      "question": {
+        "en": "Who announced the British Government's acceptance of the partition of India?",
+        "hi": "भारत विभाजन को ब्रिटिश सरकार द्वारा स्वीकार किए जाने की घोषणा किसने की थी ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Linlithgow",
+          "hi": "लिनलिथगो"
+        },
+        {
+          "id": "B",
+          "en": "Hardinge",
+          "hi": "हार्डिंग"
+        },
+        {
+          "id": "C",
+          "en": "Lord Mountbatten",
+          "hi": "लॉर्ड माउंटबैटन"
+        },
+        {
+          "id": "D",
+          "en": "Rajagopalachari",
+          "hi": "राजगोपालाचारी"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 31,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q051",
+      "originalQuestionNumber": "51",
+      "subject": null,
+      "question": {
+        "en": "Former U.S. President Jimmy Carter passed away at the age of 100 on which date ?",
+        "hi": "पूर्व अमेरिकी राष्ट्रपति जिमी कार्टर का 100 वर्ष की आयु में किस तिथि को निधन हो गया ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "January 15, 2025",
+          "hi": "15 जनवरी, 2025"
+        },
+        {
+          "id": "B",
+          "en": "November 30, 2024",
+          "hi": "30 नवंबर, 2024"
+        },
+        {
+          "id": "C",
+          "en": "December 25, 2024",
+          "hi": "25 दिसंबर, 2024"
+        },
+        {
+          "id": "D",
+          "en": "December 29, 2024",
+          "hi": "29 दिसंबर, 2024"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 32,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q052",
+      "originalQuestionNumber": "52",
+      "subject": null,
+      "question": {
+        "en": "The Bengal British India Society was established on",
+        "hi": "बंगाल ब्रिटिश इंडिया सोसाइटी की स्थापना कब हुई थी ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "20 April, 1844",
+          "hi": "20 अप्रैल, 1844"
+        },
+        {
+          "id": "B",
+          "en": "20 April, 1843",
+          "hi": "20 अप्रैल, 1843"
+        },
+        {
+          "id": "C",
+          "en": "20 April, 1834",
+          "hi": "20 अप्रैल, 1834"
+        },
+        {
+          "id": "D",
+          "en": "21 April, 1843",
+          "hi": "21 अप्रैल, 1843"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 32,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q053",
+      "originalQuestionNumber": "53",
+      "subject": null,
+      "question": {
+        "en": "Kangto is one of the highest peaks of India is located in which State ?",
+        "hi": "कांगटो भारत की सबसे ऊंची चोटियों में से एक है जो किस राज्य में स्थित है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Arunachal Pradesh",
+          "hi": "अरुणाचल प्रदेश"
+        },
+        {
+          "id": "B",
+          "en": "Manipur",
+          "hi": "मणिपुर"
+        },
+        {
+          "id": "C",
+          "en": "Himachal Pradesh",
+          "hi": "हिमाचल प्रदेश"
+        },
+        {
+          "id": "D",
+          "en": "Nagaland",
+          "hi": "नागालैंड"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 32,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q054",
+      "originalQuestionNumber": "54",
+      "subject": null,
+      "question": {
+        "en": "___ is applicable during external as well as internal emergency.",
+        "hi": "___ बाह्य एवं आंतरिक आपातकाल के दौरान लागू होता है ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Article 358",
+          "hi": "अनुच्छेद 358"
+        },
+        {
+          "id": "B",
+          "en": "Article 338",
+          "hi": "अनुच्छेद 338"
+        },
+        {
+          "id": "C",
+          "en": "Article 359",
+          "hi": "अनुच्छेद 359"
+        },
+        {
+          "id": "D",
+          "en": "Article 348",
+          "hi": "अनुच्छेद 348"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 32,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q055",
+      "originalQuestionNumber": "55",
+      "subject": null,
+      "question": {
+        "en": "Which Industrial Policy Resolution gave the public sector a strategic role in the Indian economy ?",
+        "hi": "किस औद्योगिक नीति प्रस्ताव ने सार्वजनिक क्षेत्र को भारतीय अर्थव्यवस्था में एक रणनीतिक भूमिका प्रदान की ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Industrial Policy Resolution 1948",
+          "hi": "औद्योगिक नीति प्रस्ताव 1948"
+        },
+        {
+          "id": "B",
+          "en": "Industrial Policy Resolution 1956",
+          "hi": "औद्योगिक नीति प्रस्ताव 1956"
+        },
+        {
+          "id": "C",
+          "en": "Industrial Policy Resolution 1950",
+          "hi": "औद्योगिक नीति प्रस्ताव 1950"
+        },
+        {
+          "id": "D",
+          "en": "Industrial Policy Resolution 1952",
+          "hi": "औद्योगिक नीति प्रस्ताव 1952"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 33,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q056",
+      "originalQuestionNumber": "56",
+      "subject": null,
+      "question": {
+        "en": "Mahavira attained moksha (became a Siddha) at which of the following places ?",
+        "hi": "महावीर ने निम्नलिखित में से किस स्थान पर मोक्ष प्राप्त किया (सिद्ध बने) ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Kapilavastu",
+          "hi": "कपिलवस्तु"
+        },
+        {
+          "id": "B",
+          "en": "Purushapura",
+          "hi": "पुरुषपुरा"
+        },
+        {
+          "id": "C",
+          "en": "Rajagriha",
+          "hi": "राजगृह"
+        },
+        {
+          "id": "D",
+          "en": "Pavapuri",
+          "hi": "पावापुरी"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 33,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q057",
+      "originalQuestionNumber": "57",
+      "subject": null,
+      "question": {
+        "en": "Introducing a man, a woman said \"His mother is the only daughter of my father\". How is the man related to the woman?",
+        "hi": "एक पुरुष का परिचय देते हुए, एक महिला ने कहा \"उसकी माँ मेरे पिता की इकलौती बेटी है ।\" पुरुष का महिला से क्या संबंध है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Son",
+          "hi": "बेटा"
+        },
+        {
+          "id": "B",
+          "en": "Uncle",
+          "hi": "चाचा"
+        },
+        {
+          "id": "C",
+          "en": "Father",
+          "hi": "पिता"
+        },
+        {
+          "id": "D",
+          "en": "Brother",
+          "hi": "भाई"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 33,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q058",
+      "originalQuestionNumber": "58",
+      "subject": null,
+      "question": {
+        "en": "A social phenomenon in which a section of the society is unable to fulfill even its basic necessities of life is called as",
+        "hi": "एक सामाजिक घटना जिसमें समाज का एक वर्ग अपने जीवन की मूलभूत आवश्यकताओं को भी पूरा करने में असमर्थ होता है, उसे ___ कहा जाता है।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Poverty",
+          "hi": "गरीबी"
+        },
+        {
+          "id": "B",
+          "en": "Inequality",
+          "hi": "असमानता"
+        },
+        {
+          "id": "C",
+          "en": "Unemployment",
+          "hi": "बेरोजगारी"
+        },
+        {
+          "id": "D",
+          "en": "Illiteracy",
+          "hi": "निरक्षरता"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 33,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q059",
+      "originalQuestionNumber": "59",
+      "subject": null,
+      "question": {
+        "en": "If 1st January, 2001 was Monday, then what day of the week was it on 31st December, 2001 ?",
+        "hi": "यदि 1 जनवरी, 2001 को सोमवार था, तो 31 दिसंबर, 2001 को सप्ताह का कौन-सा दिन था ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Wednesday",
+          "hi": "बुधवार"
+        },
+        {
+          "id": "B",
+          "en": "Saturday",
+          "hi": "शनिवार"
+        },
+        {
+          "id": "C",
+          "en": "Friday",
+          "hi": "शुक्रवार"
+        },
+        {
+          "id": "D",
+          "en": "Monday",
+          "hi": "सोमवार"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 34,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q060",
+      "originalQuestionNumber": "60",
+      "subject": null,
+      "question": {
+        "en": "The Purusha Sukta, which explains the origin of the four Varnas, is found in which Vedic text?",
+        "hi": "पुरुष सूक्त, जो चार वर्णों की उत्पत्ति की व्याख्या करता है, किस वैदिक ग्रंथ में पाया जाता है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Samaveda",
+          "hi": "सामवेद"
+        },
+        {
+          "id": "B",
+          "en": "Rig Veda",
+          "hi": "ऋग्वेद"
+        },
+        {
+          "id": "C",
+          "en": "Yajur Veda",
+          "hi": "यजुर्वेद"
+        },
+        {
+          "id": "D",
+          "en": "Atharva Veda",
+          "hi": "अथर्ववेद"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 34,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q061",
+      "originalQuestionNumber": "61",
+      "subject": null,
+      "question": {
+        "en": "When did the Biological Diversity (Amendment) Act, 2023 come into force ?",
+        "hi": "जैविक विविधता (संशोधन) अधिनियम, 2023 कब लागू हुआ ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "1 January, 2024",
+          "hi": "1 जनवरी, 2024"
+        },
+        {
+          "id": "B",
+          "en": "5 June, 2024",
+          "hi": "5 जून, 2024"
+        },
+        {
+          "id": "C",
+          "en": "1 February, 2024",
+          "hi": "1 फरवरी, 2024"
+        },
+        {
+          "id": "D",
+          "en": "1 April, 2024",
+          "hi": "1 अप्रैल, 2024"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 34,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q062",
+      "originalQuestionNumber": "62",
+      "subject": null,
+      "question": {
+        "en": "Which acidic gas from the air dissolves in rainwater to form carbonic acid $(H_2CO_3)$?",
+        "hi": "हवा से कौन-सी अम्लीय गैस वर्षा के पानी में घुलकर कार्बोनिक एसिड $(H_2CO_3)$ बनाती है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Oxygen $(O_2)$",
+          "hi": "ऑक्सीजन $(O_2)$"
+        },
+        {
+          "id": "B",
+          "en": "Sulfur dioxide $(SO_2)$",
+          "hi": "सल्फर डाइऑक्साइड $(SO_2)$"
+        },
+        {
+          "id": "C",
+          "en": "Nitrogen $(N_2)$",
+          "hi": "नाइट्रोजन $(N_2)$"
+        },
+        {
+          "id": "D",
+          "en": "Carbon dioxide $(CO_2)$",
+          "hi": "कार्बन डाइऑक्साइड $(CO_2)$"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 34,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q063",
+      "originalQuestionNumber": "63",
+      "subject": null,
+      "question": {
+        "en": "What is the capital of Libya ?",
+        "hi": "लीबिया की राजधानी क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Luxembourg",
+          "hi": "लक्जमबर्ग"
+        },
+        {
+          "id": "B",
+          "en": "Amsterdam",
+          "hi": "एम्स्टर्डम"
+        },
+        {
+          "id": "C",
+          "en": "Port Louis",
+          "hi": "पोर्ट लुइस"
+        },
+        {
+          "id": "D",
+          "en": "Tripoli",
+          "hi": "त्रिपोली"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 36,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q064",
+      "originalQuestionNumber": "64",
+      "subject": null,
+      "question": {
+        "en": "Mukesh is taller than Suresh but shorter than Rakesh. Rakesh is taller than Harish but shorter than Amar. Who among them is the shortest ?",
+        "hi": "मुकेश सुरेश से लंबा है लेकिन राकेश से छोटा है । राकेश हरीश से लंबा है लेकिन अमर से छोटा है। उनमें से सबसे छोटा कौन है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Mukesh",
+          "hi": "मुकेश"
+        },
+        {
+          "id": "B",
+          "en": "Cannot be determined",
+          "hi": "निर्धारित नहीं किया जा सकता"
+        },
+        {
+          "id": "C",
+          "en": "Suresh",
+          "hi": "सुरेश"
+        },
+        {
+          "id": "D",
+          "en": "Harish",
+          "hi": "हरीश"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 36,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q065",
+      "originalQuestionNumber": "65",
+      "subject": null,
+      "question": {
+        "en": "___ question is one to which a member desire an oral answer in the house and which is distinguished by an asterisk mark.",
+        "hi": "___ प्रश्न वह है जिसका कोई सदस्य सदन में मौखिक उत्तर चाहता है और जिसे तारांकित चिह्न द्वारा पहचाना जाता है ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Starred",
+          "hi": "तारांकित"
+        },
+        {
+          "id": "B",
+          "en": "Long notice",
+          "hi": "लंबी सूचना"
+        },
+        {
+          "id": "C",
+          "en": "Short notice",
+          "hi": "अल्प अवधि सूचना"
+        },
+        {
+          "id": "D",
+          "en": "Unstarred",
+          "hi": "अतारांकित"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 36,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q066",
+      "originalQuestionNumber": "66",
+      "subject": null,
+      "question": {
+        "en": "The Harappan Civilization belongs to which age ?",
+        "hi": "हड़प्पा सभ्यता किस युग से संबंधित है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Stone Age",
+          "hi": "पाषाण युग"
+        },
+        {
+          "id": "B",
+          "en": "Paleolithic Age",
+          "hi": "पुरापाषाण युग"
+        },
+        {
+          "id": "C",
+          "en": "Iron Age",
+          "hi": "लौह युग"
+        },
+        {
+          "id": "D",
+          "en": "Bronze Age",
+          "hi": "कांस्य युग"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 36,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q067",
+      "originalQuestionNumber": "67",
+      "subject": null,
+      "question": {
+        "en": "Which type of rock formation is most commonly associated with low groundwater storage?",
+        "hi": "निम्न भूजल भंडारण से किस प्रकार की चट्टान संरचना सबसे अधिक जुड़ी हुई है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Alluvial deposits",
+          "hi": "जलोढ़ निक्षेप"
+        },
+        {
+          "id": "B",
+          "en": "Limestone formations",
+          "hi": "चूना पत्थर संरचनाएँ"
+        },
+        {
+          "id": "C",
+          "en": "Sedimentary rocks",
+          "hi": "अवसादी चट्टानें"
+        },
+        {
+          "id": "D",
+          "en": "Igneous and metamorphic rocks",
+          "hi": "आग्नेय और कायांतरित चट्टानें"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 35,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q068",
+      "originalQuestionNumber": "68",
+      "subject": null,
+      "question": {
+        "en": "Asian Games are held once in how many years?",
+        "hi": "एशियाई खेल कितने वर्षों में एक बार आयोजित होते हैं ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "2 years",
+          "hi": "2 वर्ष"
+        },
+        {
+          "id": "B",
+          "en": "5 years",
+          "hi": "5 वर्ष"
+        },
+        {
+          "id": "C",
+          "en": "3 years",
+          "hi": "3 वर्ष"
+        },
+        {
+          "id": "D",
+          "en": "4 years",
+          "hi": "4 वर्ष"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 35,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q069",
+      "originalQuestionNumber": "69",
+      "subject": null,
+      "question": {
+        "en": "Who was conferred the Honorary Citizen Award of Singapore by President Tharman Shanmugaratnam during a ceremony in New Delhi on January 15, 2025?",
+        "hi": "15 जनवरी, 2025 को नई दिल्ली में आयोजित एक समारोह में राष्ट्रपति थर्मन षणमुगरत्नम द्वारा सिंगापुर के मानद नागरिक पुरस्कार से किसे सम्मानित किया गया ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Ratan Tata",
+          "hi": "रतन टाटा"
+        },
+        {
+          "id": "B",
+          "en": "Uday Kotak",
+          "hi": "उदय कोटक"
+        },
+        {
+          "id": "C",
+          "en": "N. Chandrashekaran",
+          "hi": "एन. चंद्रशेखरन"
+        },
+        {
+          "id": "D",
+          "en": "Tarun Das",
+          "hi": "तरुण दास"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 35,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q070",
+      "originalQuestionNumber": "70",
+      "subject": null,
+      "question": {
+        "en": "At what age did the Buddha attain Parinibbana (final liberation)?",
+        "hi": "बुद्ध ने किस उम्र में परिनिब्बाण (अंतिम मुक्ति) प्राप्त की ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "60 years",
+          "hi": "60 वर्ष"
+        },
+        {
+          "id": "B",
+          "en": "80 years",
+          "hi": "80 वर्ष"
+        },
+        {
+          "id": "C",
+          "en": "75 years",
+          "hi": "75 वर्ष"
+        },
+        {
+          "id": "D",
+          "en": "55 years",
+          "hi": "55 वर्ष"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 35,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q071",
+      "originalQuestionNumber": "71",
+      "subject": null,
+      "question": {
+        "en": "Find the odd one out from the following.",
+        "hi": "निम्नलिखित में से सर्वथा भिन्न ज्ञात कीजिए ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Iron",
+          "hi": "लोहा"
+        },
+        {
+          "id": "B",
+          "en": "Gold",
+          "hi": "सोना"
+        },
+        {
+          "id": "C",
+          "en": "Mercury",
+          "hi": "पारा"
+        },
+        {
+          "id": "D",
+          "en": "Silver",
+          "hi": "चांदी"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 35,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q072",
+      "originalQuestionNumber": "72",
+      "subject": null,
+      "question": {
+        "en": "Protection and improvement of environment and safeguarding of forests and wildlife of the country comes under",
+        "hi": "देश के पर्यावरण का संरक्षण और सुधार तथा वनों और वन्य जीवन की सुरक्षा, ___ के अंतर्गत आती है।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Article 43A",
+          "hi": "अनुच्छेद 43A"
+        },
+        {
+          "id": "B",
+          "en": "Article 48A",
+          "hi": "अनुच्छेद 48A"
+        },
+        {
+          "id": "C",
+          "en": "Article 44A",
+          "hi": "अनुच्छेद 44A"
+        },
+        {
+          "id": "D",
+          "en": "Article 46A",
+          "hi": "अनुच्छेद 46A"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 35,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q073",
+      "originalQuestionNumber": "73",
+      "subject": null,
+      "question": {
+        "en": "Fill in the blank with the correct option.\nWhat ___ for breakfast?",
+        "hi": null
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "do you usually have",
+          "hi": null
+        },
+        {
+          "id": "B",
+          "en": "do usually you have",
+          "hi": null
+        },
+        {
+          "id": "C",
+          "en": "are you usually having",
+          "hi": null
+        },
+        {
+          "id": "D",
+          "en": "have you usually",
+          "hi": null
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": null
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 37,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q074",
+      "originalQuestionNumber": "74",
+      "subject": null,
+      "question": {
+        "en": "Choose the one word substitution from the five options given below.\nA group of persons working on a ship or aircraft",
+        "hi": null
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Scar",
+          "hi": null
+        },
+        {
+          "id": "B",
+          "en": "Staff",
+          "hi": null
+        },
+        {
+          "id": "C",
+          "en": "Crew",
+          "hi": null
+        },
+        {
+          "id": "D",
+          "en": "Concert",
+          "hi": null
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": null
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 37,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q075",
+      "originalQuestionNumber": "75",
+      "subject": null,
+      "question": {
+        "en": "Choose the right answer from the five options given below to frame meaningful sentence.\nRama/garden/in/ the / be/ may",
+        "hi": null
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "May be Rama in the garden.",
+          "hi": null
+        },
+        {
+          "id": "B",
+          "en": "Rama may be in the garden.",
+          "hi": null
+        },
+        {
+          "id": "C",
+          "en": "In the garden may be Rama.",
+          "hi": null
+        },
+        {
+          "id": "D",
+          "en": "In the garden Rama may be.",
+          "hi": null
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": null
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 37,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q076",
+      "originalQuestionNumber": "76",
+      "subject": null,
+      "question": {
+        "en": "According to the passage, how can individuals start improving time management?",
+        "hi": null
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "By working faster without rest",
+          "hi": null
+        },
+        {
+          "id": "B",
+          "en": "By comparing themselves to others",
+          "hi": null
+        },
+        {
+          "id": "C",
+          "en": "By watching motivational videos",
+          "hi": null
+        },
+        {
+          "id": "D",
+          "en": "By creating to-do lists and avoiding distractions",
+          "hi": null
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": null
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 37,
+      "verificationStatus": "verified",
+      "issues": [],
+      "contextId": "CTX-76-77"
+    },
+    {
+      "id": "Q077",
+      "originalQuestionNumber": "77",
+      "subject": null,
+      "question": {
+        "en": "What is the main purpose of the passage?",
+        "hi": null
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "To explain the causes of stress",
+          "hi": null
+        },
+        {
+          "id": "B",
+          "en": "To promote the use of digital planners",
+          "hi": null
+        },
+        {
+          "id": "C",
+          "en": "To highlight the importance of time management",
+          "hi": null
+        },
+        {
+          "id": "D",
+          "en": "To discuss different professions",
+          "hi": null
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": null
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 37,
+      "verificationStatus": "verified",
+      "issues": [],
+      "contextId": "CTX-76-77"
+    },
+    {
+      "id": "Q078",
+      "originalQuestionNumber": "78",
+      "subject": null,
+      "question": {
+        "en": "Who won the Men's Singles title at the India Open Badminton 2025 held in New Delhi ?",
+        "hi": "नई दिल्ली में आयोजित इंडिया ओपन बैडमिंटन 2025 में पुरुष एकल का खिताब किसने जीता ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Lee Cheuk Yiu",
+          "hi": "ली चेउक यिउ"
+        },
+        {
+          "id": "B",
+          "en": "Kento Momota",
+          "hi": "केंटो मोमोटा"
+        },
+        {
+          "id": "C",
+          "en": "Viktor Axelsen",
+          "hi": "विक्टर एक्सेलसेन"
+        },
+        {
+          "id": "D",
+          "en": "Lakshya Sen",
+          "hi": "लक्ष्य सेन"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 38,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q079",
+      "originalQuestionNumber": "79",
+      "subject": null,
+      "question": {
+        "en": "Acids are stored in containers made of which materials?",
+        "hi": "एसिड को किस पदार्थ से बने बर्तनों में संग्रहित किया जाता है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Metals and plastic",
+          "hi": "धातु और प्लास्टिक"
+        },
+        {
+          "id": "B",
+          "en": "Rubber and cardboard",
+          "hi": "रबर और कार्डबोर्ड"
+        },
+        {
+          "id": "C",
+          "en": "Wood and paper",
+          "hi": "लकड़ी और कागज"
+        },
+        {
+          "id": "D",
+          "en": "Glass and ceramics",
+          "hi": "कांच और सिरैमिक"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 38,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q080",
+      "originalQuestionNumber": "80",
+      "subject": null,
+      "question": {
+        "en": "East Indian Association in London was founded by",
+        "hi": "लंदन में ईस्ट इंडियन एसोसिएशन की स्थापना किसके द्वारा की गई थी ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Dadabhai Naoroji",
+          "hi": "दादाभाई नौरोजी"
+        },
+        {
+          "id": "B",
+          "en": "Bal Gangadhar Tilak",
+          "hi": "बाल गंगाधर तिलक"
+        },
+        {
+          "id": "C",
+          "en": "Gopala Krishna Gokhale",
+          "hi": "गोपाल कृष्ण गोखले"
+        },
+        {
+          "id": "D",
+          "en": "Madan Mohan Malavia",
+          "hi": "मदन मोहन मालवीय"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 38,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q081",
+      "originalQuestionNumber": "81",
+      "subject": null,
+      "question": {
+        "en": "What was the theme of the Entrepreneurship Development Conclave 2025 held in Pune ?",
+        "hi": "पुणे में आयोजित उद्यमिता विकास सम्मेलन 2025 का विषय क्या था ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Strengthening Rural Startups through Innovation",
+          "hi": "नवाचार के माध्यम से ग्रामीण स्टार्टअप को सशक्त बनाना"
+        },
+        {
+          "id": "B",
+          "en": "Livestock Entrepreneurship for a Self-Reliant India",
+          "hi": "आत्मनिर्भर भारत के लिए पशुधन उद्यमिता"
+        },
+        {
+          "id": "C",
+          "en": "Empowering Entrepreneurs Transforming Livestock Economics",
+          "hi": "उद्यमियों को सशक्त बनाना पशुधन अर्थशास्त्र में बदलाव लाना"
+        },
+        {
+          "id": "D",
+          "en": "Building Future Leaders in Agri-tech",
+          "hi": "कृषि-तकनीक में भावी नेताओं का निर्माण"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 38,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q082",
+      "originalQuestionNumber": "82",
+      "subject": null,
+      "question": {
+        "en": "___ of India is Ex-officio Chairperson of Rajya Sabha.",
+        "hi": "भारत के ___ राज्यसभा के पदेन अध्यक्ष हैं ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "President",
+          "hi": "राष्ट्रपति"
+        },
+        {
+          "id": "B",
+          "en": "Governor",
+          "hi": "राज्यपाल"
+        },
+        {
+          "id": "C",
+          "en": "Vice-President",
+          "hi": "उपराष्ट्रपति"
+        },
+        {
+          "id": "D",
+          "en": "Prime Minister",
+          "hi": "प्रधानमन्त्री"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 38,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q083",
+      "originalQuestionNumber": "83",
+      "subject": null,
+      "question": {
+        "en": "What is the average number of female employees in Finance department in all the companies together?",
+        "hi": "सभी कंपनियों में फाइनैन्स विभाग में महिला कर्मचारियों की औसत संख्या क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "440",
+          "hi": "440"
+        },
+        {
+          "id": "B",
+          "en": "480",
+          "hi": "480"
+        },
+        {
+          "id": "C",
+          "en": "470",
+          "hi": "470"
+        },
+        {
+          "id": "D",
+          "en": "460",
+          "hi": "460"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 39,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q084",
+      "originalQuestionNumber": "84",
+      "subject": null,
+      "question": {
+        "en": "What is the difference between the male and female employees in Marketing department in all the companies together?",
+        "hi": "सभी कंपनियों में मार्केटिंग विभाग में पुरुष और महिला कर्मचारियों के बीच क्या अंतर है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "1460",
+          "hi": "1460"
+        },
+        {
+          "id": "B",
+          "en": "Cannot be determined",
+          "hi": "निर्धारित नहीं किया जा सकता"
+        },
+        {
+          "id": "C",
+          "en": "1680",
+          "hi": "1680"
+        },
+        {
+          "id": "D",
+          "en": "1720",
+          "hi": "1720"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 39,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q085",
+      "originalQuestionNumber": "85",
+      "subject": null,
+      "question": {
+        "en": "The number of male employees in Finance department in C is approximately what percent of the total number of employees in Marketing department in D?",
+        "hi": "C में फाइनैन्स विभाग में पुरुष कर्मचारियों की संख्या D में मार्केटिंग विभाग के कर्मचारियों की कुल संख्या का लगभग कितना प्रतिशत है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "43%",
+          "hi": "43%"
+        },
+        {
+          "id": "B",
+          "en": "77%",
+          "hi": "77%"
+        },
+        {
+          "id": "C",
+          "en": "50%",
+          "hi": "50%"
+        },
+        {
+          "id": "D",
+          "en": "53%",
+          "hi": "53%"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 39,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q086",
+      "originalQuestionNumber": "86",
+      "subject": null,
+      "question": {
+        "en": "What is the ratio of the total number of male to female in Marketing department employees in D?",
+        "hi": "D में मार्केटिंग विभाग के कर्मचारियों में पुरुष और महिला की कुल संख्या का अनुपात क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "4:3",
+          "hi": "4:3"
+        },
+        {
+          "id": "B",
+          "en": "8:3",
+          "hi": "8:3"
+        },
+        {
+          "id": "C",
+          "en": "6:1",
+          "hi": "6:1"
+        },
+        {
+          "id": "D",
+          "en": "7:2",
+          "hi": "7:2"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 39,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q087",
+      "originalQuestionNumber": "87",
+      "subject": null,
+      "question": {
+        "en": "What is the average number of male employees in all the companies together?",
+        "hi": "सभी कंपनियों में पुरुष कर्मचारियों की औसत संख्या क्या है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "1200",
+          "hi": "1200"
+        },
+        {
+          "id": "B",
+          "en": "1300",
+          "hi": "1300"
+        },
+        {
+          "id": "C",
+          "en": "1400",
+          "hi": "1400"
+        },
+        {
+          "id": "D",
+          "en": "1500",
+          "hi": "1500"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 40,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q088",
+      "originalQuestionNumber": "88",
+      "subject": null,
+      "question": {
+        "en": "Where was the Future Minerals Forum (FMF) 2025 held?",
+        "hi": "फ्यूचर मिनरल्स फोरम (FMF) 2025 कहाँ आयोजित किया गया था ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Abu Dhabi, UAE",
+          "hi": "अबू धाबी, यू.ए.ई."
+        },
+        {
+          "id": "B",
+          "en": "Riyadh, Saudi Arabia",
+          "hi": "रियाद, सऊदी अरब"
+        },
+        {
+          "id": "C",
+          "en": "Doha, Qatar",
+          "hi": "दोहा, कतर"
+        },
+        {
+          "id": "D",
+          "en": "Muscat, Oman",
+          "hi": "मस्कट, ओमान"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 40,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q089",
+      "originalQuestionNumber": "89",
+      "subject": null,
+      "question": {
+        "en": "The ratio of speed of light in vacuum to the speed of light in a medium is called the ___ of the medium.",
+        "hi": "निर्वात में प्रकाश की गति और माध्यम में प्रकाश की गति के अनुपात को माध्यम का ___ कहा जाता है ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Wavelength",
+          "hi": "तरंगदैर्ध्य"
+        },
+        {
+          "id": "B",
+          "en": "Amplitude",
+          "hi": "आयाम"
+        },
+        {
+          "id": "C",
+          "en": "Frequency",
+          "hi": "आवृत्ति"
+        },
+        {
+          "id": "D",
+          "en": "Refractive index",
+          "hi": "अपवर्तनांक"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 40,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q090",
+      "originalQuestionNumber": "90",
+      "subject": null,
+      "question": {
+        "en": "Chandrayaan-3 was launched in which year?",
+        "hi": "चंद्रयान-3 किस वर्ष प्रक्षेपित किया गया था ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "2019",
+          "hi": "2019"
+        },
+        {
+          "id": "B",
+          "en": "2023",
+          "hi": "2023"
+        },
+        {
+          "id": "C",
+          "en": "2021",
+          "hi": "2021"
+        },
+        {
+          "id": "D",
+          "en": "2022",
+          "hi": "2022"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 40,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q091",
+      "originalQuestionNumber": "91",
+      "subject": null,
+      "question": {
+        "en": "The Parliament of Religions held at Chicago in which year?",
+        "hi": "शिकागो में धर्म संसद का आयोजन किस वर्ष हुआ ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "1893",
+          "hi": "1893"
+        },
+        {
+          "id": "B",
+          "en": "1983",
+          "hi": "1983"
+        },
+        {
+          "id": "C",
+          "en": "1894",
+          "hi": "1894"
+        },
+        {
+          "id": "D",
+          "en": "1839",
+          "hi": "1839"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 40,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q092",
+      "originalQuestionNumber": "92",
+      "subject": null,
+      "question": {
+        "en": "As per which Article of the Indian Constitution, the executive power of Union shall be vested in the President?",
+        "hi": "भारतीय संविधान के किस अनुच्छेद के अनुसार, संघ की कार्यकारी शक्ति राष्ट्रपति में निहित होगी ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Article 21",
+          "hi": "अनुच्छेद 21"
+        },
+        {
+          "id": "B",
+          "en": "Article 53",
+          "hi": "अनुच्छेद 53"
+        },
+        {
+          "id": "C",
+          "en": "Article 46",
+          "hi": "अनुच्छेद 46"
+        },
+        {
+          "id": "D",
+          "en": "Article 57",
+          "hi": "अनुच्छेद 57"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 40,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q093",
+      "originalQuestionNumber": "93",
+      "subject": null,
+      "question": {
+        "en": "If a convex lens of power +4 D and a concave lens of power -10 D are placed in contact with each other, what will be the resultant power?",
+        "hi": "यदि +4 D शक्ति का एक उत्तल लेंस और - 10 D शक्ति का एक अवतल लेंस एक दूसरे के संपर्क में रखा जाता है, परिणामी शक्ति क्या होगी ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "+14 D",
+          "hi": "+14 D"
+        },
+        {
+          "id": "B",
+          "en": "-14 D",
+          "hi": "-14 D"
+        },
+        {
+          "id": "C",
+          "en": "-6 D",
+          "hi": "-6 D"
+        },
+        {
+          "id": "D",
+          "en": "+6 D",
+          "hi": "+6 D"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 40,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q094",
+      "originalQuestionNumber": "94",
+      "subject": null,
+      "question": {
+        "en": "Which country officially became the 10th full member of the BRICS group in January 2025?",
+        "hi": "जनवरी 2025 में कौन-सा देश अधिकारिक तौर पर ब्रिक्स समूह का 10 वाँ पूर्ण सदस्य बना ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Turkey",
+          "hi": "तुर्की"
+        },
+        {
+          "id": "B",
+          "en": "Egypt",
+          "hi": "मिस्र"
+        },
+        {
+          "id": "C",
+          "en": "Saudi Arabia",
+          "hi": "सऊदी अरब"
+        },
+        {
+          "id": "D",
+          "en": "Indonesia",
+          "hi": "इंडोनेशिया"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 41,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q095",
+      "originalQuestionNumber": "95",
+      "subject": null,
+      "question": {
+        "en": "The headquarter of Anushilan Samiti is at",
+        "hi": "अनुशीलन समिति का मुख्यालय कहाँ है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Calcutta",
+          "hi": "कलकत्ता"
+        },
+        {
+          "id": "B",
+          "en": "Poona",
+          "hi": "पूना"
+        },
+        {
+          "id": "C",
+          "en": "Bombay",
+          "hi": "बम्बई"
+        },
+        {
+          "id": "D",
+          "en": "Madras",
+          "hi": "मद्रास"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 41,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q096",
+      "originalQuestionNumber": "96",
+      "subject": null,
+      "question": {
+        "en": "Find the difference between the average of Rye produced to that of Oats produced by all the given farmers together.",
+        "hi": "सभी दिए गए किसानों द्वारा उत्पादित राई और जई के औसत के बीच अंतर ज्ञात करें ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "234",
+          "hi": "234"
+        },
+        {
+          "id": "B",
+          "en": "192",
+          "hi": "192"
+        },
+        {
+          "id": "C",
+          "en": "156",
+          "hi": "156"
+        },
+        {
+          "id": "D",
+          "en": "118",
+          "hi": "118"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "B",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 41,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q097",
+      "originalQuestionNumber": "97",
+      "subject": null,
+      "question": {
+        "en": "The total crops produced by Roshan is approximately what percentage of total crops produced by Bhargav ?",
+        "hi": "रोशन द्वारा उत्पादित कुल फसलें, भार्गव द्वारा उत्पादित कुल फसलों का लगभग कितना प्रतिशत है ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "85%",
+          "hi": "85%"
+        },
+        {
+          "id": "B",
+          "en": "58%",
+          "hi": "58%"
+        },
+        {
+          "id": "C",
+          "en": "72%",
+          "hi": "72%"
+        },
+        {
+          "id": "D",
+          "en": "97%",
+          "hi": "97%"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "D",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 42,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q098",
+      "originalQuestionNumber": "98",
+      "subject": null,
+      "question": {
+        "en": "Which farmer produced third lowest number of crops ?",
+        "hi": "किस किसान ने तीसरी सबसे कम फसलें उगाई ?"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "Theja",
+          "hi": "तेजा"
+        },
+        {
+          "id": "B",
+          "en": "Bhargav",
+          "hi": "भार्गव"
+        },
+        {
+          "id": "C",
+          "en": "Prabhakar",
+          "hi": "प्रभाकर"
+        },
+        {
+          "id": "D",
+          "en": "Roshan",
+          "hi": "रोशन"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 42,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q099",
+      "originalQuestionNumber": "99",
+      "subject": null,
+      "question": {
+        "en": "Find the average crops produced by Theja.",
+        "hi": "तेजा द्वारा उत्पादित औसत फसलें ज्ञात करें ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "574",
+          "hi": "574"
+        },
+        {
+          "id": "B",
+          "en": "738",
+          "hi": "738"
+        },
+        {
+          "id": "C",
+          "en": "612",
+          "hi": "612"
+        },
+        {
+          "id": "D",
+          "en": "656",
+          "hi": "656"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "A",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 42,
+      "verificationStatus": "verified",
+      "issues": []
+    },
+    {
+      "id": "Q100",
+      "originalQuestionNumber": "100",
+      "subject": null,
+      "question": {
+        "en": "Find the ratio between total Mustard produced to that of total Wheat produced by all the farmers.",
+        "hi": "सभी किसानों द्वारा उत्पादित कुल सरसों और कुल गेहूँ के बीच अनुपात ज्ञात करें ।"
+      },
+      "options": [
+        {
+          "id": "A",
+          "en": "185 : 113",
+          "hi": "185 : 113"
+        },
+        {
+          "id": "B",
+          "en": "52 : 17",
+          "hi": "52 : 17"
+        },
+        {
+          "id": "C",
+          "en": "397 : 284",
+          "hi": "397 : 284"
+        },
+        {
+          "id": "D",
+          "en": "229 : 175",
+          "hi": "229 : 175"
+        },
+        {
+          "id": "E",
+          "en": "None of the above",
+          "hi": "उपर्युक्त में से कोई नहीं"
+        }
+      ],
+      "correctAnswer": "C",
+      "answerSource": "provided_key",
+      "explanation": null,
+      "sourcePage": 42,
+      "verificationStatus": "verified",
+      "issues": []
+    }
+  ],
+  "contexts": [
+    {
+      "id": "CTX-76-77",
+      "type": "passage",
+      "questionRange": [
+        76,
+        77
+      ],
+      "sourcePages": [
+        37
+      ],
+      "directions": {
+        "en": "Direction (Q. No. 76 and Q. No. 77): Read the following passage and answer the questions by choosing the right option."
+      },
+      "title": {
+        "en": "Time Management"
+      },
+      "passage": {
+        "en": "Time is one of the most valuable resources we have, yet many people struggle to manage it effectively. In today's fast-paced world, students, professionals and even homemakers face numerous tasks every day. Proper time management helps individuals prioritize their activities, meet deadlines and reduce stress.\n\nOne of the key benefits of managing time wisely is improved productivity. When people plan their day and allocate specific time slots for each task, they tend to achieve more in less time. It also creates a sense of discipline and responsibility.\n\nMoreover, effective time management leads to better work-life balance. When tasks are completed on time, individuals can make space for leisure, hobbies and family. This not only boosts happiness but also improves mental well-being.\n\nHowever, poor time management can result in procrastination, missed deadlines and increased anxiety. Developing time management skills requires practice and consistency. Simple habits like creating to-do lists, setting goals, and avoiding distractions can go a long way in making each day more efficient and meaningful."
+      }
+    }
   ]
 }

@@ -21,10 +21,11 @@ export function AppHeader({
         <NavLink to="/manage">Manage exams</NavLink>
         <button
           type="button"
-          className="ghost"
+          className={`ghost theme-toggle ${prefs.theme === "dark" ? "is-dark" : "is-light"}`}
           onClick={() => onPrefs({ ...prefs, theme: prefs.theme === "dark" ? "light" : "dark" })}
+          aria-label={prefs.theme === "dark" ? "Switch to light theme" : "Switch to dark theme"}
         >
-          {prefs.theme === "dark" ? "Light theme" : "Dark theme"}
+          {prefs.theme === "dark" ? "☀️ Light mode" : "🌙 Dark mode"}
         </button>
       </nav>
     </header>

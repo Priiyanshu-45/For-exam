@@ -87,6 +87,19 @@ a { color: var(--accent); }
   color: var(--text);
   cursor: pointer;
 }
+.theme-toggle {
+  border-color: var(--accent);
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 18%, var(--elevated)), var(--elevated));
+  color: var(--text);
+  font-weight: 700;
+}
+.theme-toggle.is-light {
+  background: linear-gradient(135deg, rgba(124, 156, 255, 0.18), var(--elevated));
+}
+.theme-toggle.is-dark {
+  background: linear-gradient(135deg, rgba(255, 193, 7, 0.18), var(--elevated));
+}
+.primary:disabled { opacity: 0.55; cursor: not-allowed; }
 .nav a.active, .primary {
   background: var(--accent);
   color: #101216;
@@ -307,7 +320,7 @@ a { color: var(--accent); }
 .exam-body.palette-collapsed { grid-template-columns: minmax(0, 1fr); }
 .exam-body.palette-collapsed .palette-pane { display: none; }
 .check-control { display: inline-flex; align-items: center; gap: 8px; }
-.check-control input { min-width: auto; }
+.check-control input { min-width: auto; accent-color: var(--accent); cursor: pointer; }
 
 .context {
   background: var(--elevated);

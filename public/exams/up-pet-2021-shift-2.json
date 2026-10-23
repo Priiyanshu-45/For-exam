@@ -12,6 +12,20 @@
     "marksPerIncorrect": -0.25,
     "marksPerUnattempted": 0.0
   },
+  "contexts": [
+    {
+      "id": "CTX-41-43",
+      "type": "passage",
+      "questionRange": [41, 43],
+      "sourcePages": [7],
+      "directions": {
+        "en": "Directions: Read the passage carefully and answer the corresponding questions: (41-43)"
+      },
+      "passage": {
+        "en": "I climbed into bed and rolled myself in my blankets, first extinguishing the light that burned steadily near the door. I lay still trying to get to sleep but my fear made that impossible and soon I sat up in bed peering into the darkness and occasionally glancing at the round window in the side of the ship which seemed like a plate suspended in the darkness. For an hour I must have sat like this, and then I was suddenly roused, by a draught of cold air. I jumped out of bed; not having allowed for the motion of the ship, I was instantly thrown violently across the room."
+      }
+    }
+  ],
   "questions": [
     {
       "id": "Q001",
@@ -867,8 +881,9 @@
       "id": "Q041",
       "originalQuestionNumber": "41",
       "subject": "General English",
+      "contextId": "CTX-41-43",
       "question": {
-        "en": "Directions: Read the passage carefully and answer the corresponding questions: (41-43)\nI climbed into bed and rolled myself in my blankets, first extinguishing the light that burned steadily near the door. I lay still trying to get to sleep but my fear made that impossible and soon I sat up in bed peering into the darkness and occasionally glancing at the round window in the side of the ship which seemed like a plate suspended in the darkness. For an hour I must have sat like this, and then I was suddenly roused, by a drought of cold air. I jumped out of bed; not having allowed for the motion of the ship, I was instantly thrown violently across the room.\n\nThe author sat peering into the darkness because",
+        "en": "The author sat peering into the darkness because",
         "hi": null
       },
       "options": [
@@ -888,6 +903,7 @@
       "id": "Q042",
       "originalQuestionNumber": "42",
       "subject": "General English",
+      "contextId": "CTX-41-43",
       "question": {
         "en": "The author jumped out of bed because",
         "hi": null
@@ -909,6 +925,7 @@
       "id": "Q043",
       "originalQuestionNumber": "43",
       "subject": "General English",
+      "contextId": "CTX-41-43",
       "question": {
         "en": "Which one of the following did the author do first?",
         "hi": null
