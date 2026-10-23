@@ -427,6 +427,48 @@ a { color: var(--accent); }
   .option { padding: 14px 12px; }
 }
 
+@media (max-width: 640px) {
+  .app-header {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px;
+  }
+  .nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .nav > * { min-width: 0; text-align: center; }
+  .nav .theme-toggle { white-space: nowrap; }
+  .exam-grid { grid-template-columns: minmax(0, 1fr); }
+  .toolbar { align-items: stretch; }
+  .toolbar > label { min-width: 0; max-width: 100%; }
+  .toolbar input, .toolbar select { width: 100%; min-width: 0; }
+  .toolbar .search { flex-basis: 100%; }
+  .exam-top { flex-wrap: wrap; align-items: center; }
+  .exam-top > div { min-width: 0; flex: 1 1 auto; }
+  .exam-top h1, .q-text { overflow-wrap: anywhere; }
+  .question-pane { min-width: 0; overscroll-behavior: contain; }
+  .option { grid-template-columns: 36px minmax(0, 1fr); min-height: 44px; }
+  .option > span:last-child { min-width: 0; overflow-wrap: anywhere; }
+  .context { min-width: 0; overflow: hidden; overflow-wrap: anywhere; }
+  .context .chart { max-width: 100%; overflow-x: auto; }
+  .exam-controls {
+    position: sticky;
+    bottom: 0;
+    z-index: 7;
+    gap: 6px;
+    padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
+  }
+  .exam-controls button { min-height: 44px; }
+  .exam-controls .spacer { display: none; }
+  .exam-controls .primary { flex: 1 1 auto; }
+  .overlay { padding: 12px; }
+  .dialog { max-height: calc(100dvh - 24px); overflow-y: auto; }
+  .drawer { padding-bottom: calc(16px + env(safe-area-inset-bottom)); }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
