@@ -6,7 +6,8 @@ import type {
 } from "../types/exam";
 
 const PREFS_KEY = "up-pet:prefs";
-const ACTIVE_KEY = "up-pet:active-attempt";
+const ACTIVE_PREFIX = "up-pet:active-attempt:";
+const LEGACY_ACTIVE_KEY = "up-pet:active-attempt";
 const HISTORY_KEY = "up-pet:history";
 const RESULT_PREFIX = "up-pet:result:";
 
@@ -34,18 +35,53 @@ export function savePreferences(prefs: UserPreferences): void {
   localStorage.setItem(PREFS_KEY, JSON.stringify(prefs));
 }
 
-export function loadActiveAttempt(): ActiveAttempt | null {
-  const attempt = readJson<ActiveAttempt | null>(ACTIVE_KEY, null);
-  if (!attempt || attempt.submitted) return null;
-  return attempt;
+function readActiveAttempt(key: string): ActiveAttempt | null {
+  const attempt = readJson<ActiveAttempt | null>(key, null);
+  return attempt && !attempt.submitted ? attempt : null;
+}
+
+export function loadActiveAttempt(examId?: string): ActiveAttempt | null {
+  if (examId) {
+    const key = ACTIVE_PREFIX + examId;
+    const raw = localStorage.getItem(key);
+    if (raw !== null) {
+      const stored = readActiveAttempt(key);
+      return stored?.examId === examId ? stored : null;
+    }
+    const legacy = readActiveAttempt(LEGACY_ACTIVE_KEY);
+    return legacy?.examId === examId ? legacy : null;
+  }
+  return Object.values(listActiveAttempts()).sort((a, b) => b.startedAt - a.startedAt)[0] ?? null;
+}
+
+export function listActiveAttempts(): Record<string, ActiveAttempt> {
+  const attempts: Record<string, ActiveAttempt> = {};
+  for (const key of Object.keys(localStorage)) {
+    if (key !== LEGACY_ACTIVE_KEY && !key.startsWith(ACTIVE_PREFIX)) continue;
+    const attempt = readActiveAttempt(key);
+    if (attempt && (!attempts[attempt.examId] || attempts[attempt.examId].startedAt < attempt.startedAt)) {
+      attempts[attempt.examId] = attempt;
+    }
+  }
+  return attempts;
 }
 
 export function saveActiveAttempt(attempt: ActiveAttempt): void {
-  localStorage.setItem(ACTIVE_KEY, JSON.stringify(attempt));
+  const serialized = JSON.stringify(attempt);
+  localStorage.setItem(ACTIVE_PREFIX + attempt.examId, serialized);
+  localStorage.setItem(LEGACY_ACTIVE_KEY, serialized);
 }
 
-export function clearActiveAttempt(): void {
-  localStorage.removeItem(ACTIVE_KEY);
+export function clearActiveAttempt(examId?: string): void {
+  if (examId) {
+    localStorage.removeItem(ACTIVE_PREFIX + examId);
+    const legacy = readJson<ActiveAttempt | null>(LEGACY_ACTIVE_KEY, null);
+    if (legacy?.examId === examId) localStorage.removeItem(LEGACY_ACTIVE_KEY);
+    return;
+  }
+  for (const key of Object.keys(localStorage)) {
+    if (key === LEGACY_ACTIVE_KEY || key.startsWith(ACTIVE_PREFIX)) localStorage.removeItem(key);
+  }
 }
 
 export function loadHistory(): ResultSummary[] {
@@ -77,6 +113,11 @@ export function appendResult(result: AttemptResult): void {
 
 export function loadResult(attemptId: string): AttemptResult | null {
   return readJson<AttemptResult | null>(RESULT_PREFIX + attemptId, null);
+}
+
+export function deleteAttemptResult(attemptId: string): void {
+  localStorage.removeItem(RESULT_PREFIX + attemptId);
+  saveHistory(loadHistory().filter((item) => item.attemptId !== attemptId));
 }
 
 export function deleteHistoryForExam(examId: string): void {

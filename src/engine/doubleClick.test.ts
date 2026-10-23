@@ -26,4 +26,15 @@ describe("option click rules", () => {
     });
     expect(second.selectedOptionId).toBe("B");
   });
+
+  it("keeps the same selection when the second click is later than 350 ms", () => {
+    const first = applyOptionClick({ selectedOptionId: null, optionId: "A", now: 1_000, lastClick: null });
+    const second = applyOptionClick({
+      selectedOptionId: first.selectedOptionId,
+      optionId: "A",
+      now: 1_351,
+      lastClick: first.lastClick,
+    });
+    expect(second.selectedOptionId).toBe("A");
+  });
 });

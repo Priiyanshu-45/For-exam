@@ -8,14 +8,16 @@ import { loadLibrary, loadResolvedExam } from "../data/examLibrary";
 import {
   clearActiveAttempt,
   loadActiveAttempt,
+  loadPreferences,
   saveActiveAttempt,
+  savePreferences,
   appendResult,
 } from "../data/persistence";
 import { addTimeSpent, attemptCounts, clearOption, isAttemptExpired, selectOption, toggleMark, visitQuestion } from "../engine/attempt";
 import { applyOptionClick, type ClickMemory } from "../engine/optionClick";
 import { scoreAttempt } from "../engine/scoring";
 import { formatDuration, remainingMs, timerUrgency } from "../engine/timer";
-import type { ActiveAttempt, LanguageMode, ResolvedExam } from "../types/exam";
+import type { ActiveAttempt, LanguageMode, QuestionState, ResolvedExam } from "../types/exam";
 
 export function ExamPage() {
   const { examId = "" } = useParams();
@@ -26,8 +28,10 @@ export function ExamPage() {
   const [remaining, setRemaining] = useState(0);
   const [confirm, setConfirm] = useState(false);
   const [paletteOpen, setPaletteOpen] = useState(false);
+  const [desktopPaletteCollapsed, setDesktopPaletteCollapsed] = useState(false);
   const lastClick = useRef<ClickMemory | null>(null);
   const lastTick = useRef(Date.now());
+  const lastPersist = useRef(Date.now());
   const submitting = useRef(false);
   const attemptRef = useRef<ActiveAttempt | null>(null);
 
@@ -40,7 +44,7 @@ export function ExamPage() {
         const library = await loadLibrary();
         const resolved = await loadResolvedExam(examId, library.defaults);
         if (cancelled) return;
-        const stored = loadActiveAttempt();
+        const stored = loadActiveAttempt(examId);
         if (!stored || stored.examId !== examId) {
           setError("No active attempt. Open the instructions screen to start the timer.");
           return;
@@ -63,8 +67,19 @@ export function ExamPage() {
   }, [examId, navigate]);
 
   const persist = useCallback((next: ActiveAttempt) => {
-    setAttempt(next);
-    saveActiveAttempt(next);
+    const states = { ...next.states };
+    const previous = attemptRef.current;
+    if (previous) {
+      for (const [id, state] of Object.entries(previous.states)) {
+        const incoming = states[id];
+        if (incoming) states[id] = { ...incoming, timeSpentMs: Math.max(incoming.timeSpentMs, state.timeSpentMs) };
+      }
+    }
+    const synchronized = { ...next, states };
+    attemptRef.current = synchronized;
+    setAttempt(synchronized);
+    saveActiveAttempt(synchronized);
+    lastPersist.current = Date.now();
   }, []);
 
   const finalize = useCallback((resolved: ResolvedExam, current: ActiveAttempt, autoSubmitted: boolean) => {
@@ -81,7 +96,7 @@ export function ExamPage() {
       autoSubmitted,
     });
     appendResult(result);
-    clearActiveAttempt();
+    clearActiveAttempt(resolved.registry.id);
     navigate(`/results/${result.attemptId}`, { replace: true });
   }, [navigate]);
 
@@ -91,31 +106,57 @@ export function ExamPage() {
       const now = Date.now();
       const current = attemptRef.current;
       if (!current || current.submitted) return;
-      const question = exam.questions[current.currentIndex];
-      if (question) {
-        const state = addTimeSpent(current.states[question.id], now - lastTick.current);
-        const next = { ...current, states: { ...current.states, [question.id]: state } };
-        attemptRef.current = next;
-        saveActiveAttempt(next);
-      }
+      const delta = now - lastTick.current;
       lastTick.current = now;
+      let next = current;
+      const question = exam.questions[current.currentIndex];
+      if (question && document.visibilityState === "visible" && delta > 0 && delta < 5_000) {
+        const state = addTimeSpent(current.states[question.id], delta);
+        next = { ...current, states: { ...current.states, [question.id]: state } };
+        attemptRef.current = next;
+      }
       const left = remainingMs(current.deadlineAt, now);
       setRemaining(left);
-      if (left <= 0) finalize(exam, attemptRef.current ?? current, true);
+      if (left <= 0) {
+        finalize(exam, next, true);
+      } else if (now - lastPersist.current >= 5_000) {
+        saveActiveAttempt(next);
+        lastPersist.current = now;
+      }
     };
     tick();
     const id = window.setInterval(tick, 250);
-    const onVis = () => { lastTick.current = Date.now(); tick(); };
+    const saveNow = () => {
+      const current = attemptRef.current;
+      if (current && !current.submitted) {
+        saveActiveAttempt(current);
+        lastPersist.current = Date.now();
+      }
+    };
+    const onVis = () => { saveNow(); tick(); };
     document.addEventListener("visibilitychange", onVis);
-    window.addEventListener("focus", onVis);
+    window.addEventListener("blur", saveNow);
+    window.addEventListener("beforeunload", saveNow);
     return () => {
       window.clearInterval(id);
       document.removeEventListener("visibilitychange", onVis);
-      window.removeEventListener("focus", onVis);
+      window.removeEventListener("blur", saveNow);
+      window.removeEventListener("beforeunload", saveNow);
     };
   }, [attempt?.attemptId, exam, finalize]);
 
   const questionIds = useMemo(() => exam?.questions.map((question) => question.id) ?? [], [exam]);
+  const sections = useMemo(() => {
+    if (!exam) return [];
+    const map = new Map<string, { name: string; firstIndex: number; questionIds: string[] }>();
+    exam.questions.forEach((item, index) => {
+      const name = item.subject?.trim() || "General";
+      const section = map.get(name);
+      if (section) section.questionIds.push(item.id);
+      else map.set(name, { name, firstIndex: index, questionIds: [item.id] });
+    });
+    return [...map.values()];
+  }, [exam]);
   const question = exam && attempt ? exam.questions[attempt.currentIndex] : null;
   const context = exam && question?.contextId ? exam.contexts.find((item) => item.id === question.contextId) : undefined;
   const counts = attempt ? attemptCounts(attempt, questionIds) : null;
@@ -137,28 +178,43 @@ export function ExamPage() {
     setPaletteOpen(false);
   };
 
-  const updateCurrent = (mutator: (state: typeof attempt.states[string]) => typeof attempt.states[string]) => {
-    const nextState = mutator(attempt.states[question.id]);
-    persist({ ...attempt, states: { ...attempt.states, [question.id]: nextState } });
+  const updateCurrent = (mutator: (state: QuestionState) => QuestionState) => {
+    const currentAttempt = attempt;
+    if (!currentAttempt) return;
+    const nextState = mutator(currentAttempt.states[question.id]);
+    persist({ ...currentAttempt, states: { ...currentAttempt.states, [question.id]: nextState } });
     return nextState;
   };
 
   const onOption = (optionId: string) => {
+    const currentAttempt = attempt;
+    if (!currentAttempt) return;
     const result = applyOptionClick({
-      selectedOptionId: attempt.states[question.id]?.selectedOptionId ?? null,
+      selectedOptionId: currentAttempt.states[question.id]?.selectedOptionId ?? null,
       optionId,
       now: Date.now(),
       lastClick: lastClick.current,
     });
     lastClick.current = result.lastClick;
     const nextState = result.selectedOptionId
-      ? selectOption(attempt.states[question.id], result.selectedOptionId)
-      : clearOption(attempt.states[question.id]);
-    const nextAttempt = { ...attempt, states: { ...attempt.states, [question.id]: nextState } };
+      ? selectOption(currentAttempt.states[question.id], result.selectedOptionId)
+      : clearOption(currentAttempt.states[question.id]);
+    const nextIndex = result.selectedOptionId && currentAttempt.autoAdvance && currentAttempt.currentIndex < exam.questions.length - 1
+      ? currentAttempt.currentIndex + 1
+      : currentAttempt.currentIndex;
+    const nextQuestionId = exam.questions[nextIndex]?.id;
+    const nextAttempt = {
+      ...currentAttempt,
+      currentIndex: nextIndex,
+      states: {
+        ...currentAttempt.states,
+        [question.id]: nextState,
+        ...(nextIndex !== currentAttempt.currentIndex && nextQuestionId
+          ? { [nextQuestionId]: visitQuestion(currentAttempt.states[nextQuestionId]) }
+          : {}),
+      },
+    };
     persist(nextAttempt);
-    if (result.selectedOptionId && attempt.autoAdvance && attempt.currentIndex < exam.questions.length - 1) {
-      goTo(attempt.currentIndex + 1);
-    }
   };
 
   const isLast = attempt.currentIndex === exam.questions.length - 1;
@@ -175,21 +231,64 @@ export function ExamPage() {
         <div className={`timer ${urgency}`} aria-live="polite" aria-label="Time remaining">
           {formatDuration(remaining / 1000)}
         </div>
+        <button
+          type="button"
+          className="ghost palette-toggle-desktop"
+          aria-expanded={!desktopPaletteCollapsed}
+          onClick={() => setDesktopPaletteCollapsed((collapsed) => !collapsed)}
+        >
+          {desktopPaletteCollapsed ? "Show palette" : "Hide palette"}
+        </button>
       </header>
-      <div className="exam-body">
+      <div className={`exam-body ${desktopPaletteCollapsed ? "palette-collapsed" : ""}`}>
         <main id="main" className="question-pane">
+          {sections.length > 1 ? (
+            <nav className="section-tabs" aria-label="Exam sections">
+              {sections.map((section) => {
+                const answeredInSec = section.questionIds.filter((id) => Boolean(attempt.states[id]?.selectedOptionId)).length;
+                const active = section.questionIds.includes(question.id);
+                return (
+                  <button
+                    type="button"
+                    key={section.name}
+                    className={`section-tab ${active ? "active" : ""}`}
+                    aria-current={active ? "page" : undefined}
+                    onClick={() => goTo(section.firstIndex)}
+                  >
+                    {section.name} ({answeredInSec}/{section.questionIds.length})
+                  </button>
+                );
+              })}
+            </nav>
+          ) : null}
           <div className="toolbar">
             <label>
               Language{" "}
               <select
                 value={mode}
-                onChange={(event) => persist({ ...attempt, languageMode: event.target.value as LanguageMode })}
+                onChange={(event) => {
+                  const languageMode = event.target.value as LanguageMode;
+                  savePreferences({ ...loadPreferences(), languageMode });
+                  persist({ ...attempt, languageMode });
+                }}
                 aria-label="Question language"
               >
                 <option value="bilingual">Bilingual</option>
                 <option value="hi">Hindi</option>
                 <option value="en">English</option>
               </select>
+            </label>
+            <label className="check-control">
+              <input
+                type="checkbox"
+                checked={attempt.autoAdvance}
+                onChange={(event) => {
+                  const autoAdvance = event.target.checked;
+                  savePreferences({ ...loadPreferences(), autoAdvance });
+                  persist({ ...attempt, autoAdvance });
+                }}
+              />
+              Auto-advance
             </label>
           </div>
           {context ? <ContextBlock context={context} mode={mode} /> : null}
@@ -243,7 +342,7 @@ export function ExamPage() {
         <button type="button" className="ghost" onClick={() => updateCurrent(toggleMark)}>
           {attempt.states[question.id]?.marked ? "Unmark review" : "Mark for review"}
         </button>
-        <button type="button" className="ghost palette-toggle" onClick={() => setPaletteOpen(true)}>Question palette</button>
+        <button type="button" className="ghost palette-toggle palette-toggle-mobile" onClick={() => setPaletteOpen(true)}>Question palette</button>
         <span className="spacer" />
         {isLast ? (
           <button type="button" className="primary" onClick={() => setConfirm(true)}>Submit exam</button>

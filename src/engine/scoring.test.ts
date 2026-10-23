@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { createAttempt, selectOption } from "./attempt";
-import { scoreAttempt, buildAnswerKey } from "./scoring";
+import { scoreAttempt, buildAnswerKey, stripAnswerKey } from "./scoring";
 import type { ExamQuestion, MarkingScheme } from "../types/exam";
 
 const scheme: MarkingScheme = {
@@ -27,6 +27,22 @@ function q(id: string, answer: string | null, extra?: Partial<ExamQuestion>): Ex
 }
 
 describe("scoreAttempt", () => {
+  it("strips all answer-key material from active examination questions", () => {
+    const question = q("Q1", "A", {
+      correctAnswerText: { en: "Answer" },
+      explanation: "Explanation",
+      answerSource: "Official key",
+      issues: ["Review note"],
+    });
+    const [sanitized] = stripAnswerKey([question]);
+    expect(sanitized).not.toHaveProperty("correctAnswer");
+    expect(sanitized).not.toHaveProperty("correctAnswerText");
+    expect(sanitized).not.toHaveProperty("explanation");
+    expect(sanitized).not.toHaveProperty("answerSource");
+    expect(sanitized).not.toHaveProperty("issues");
+    expect(sanitized).toHaveProperty("id", "Q1");
+  });
+
   it("applies correct, incorrect, and unanswered marks", () => {
     const questions = [q("Q1", "A"), q("Q2", "B"), q("Q3", "C")];
     const attempt = createAttempt({

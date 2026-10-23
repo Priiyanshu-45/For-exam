@@ -59,7 +59,7 @@ export async function loadRegistry(): Promise<{
   };
 }
 
-async function peekPaperMeta(exam: RegistryExam): Promise<Pick<LibraryExam, "questionCount" | "durationMinutes" | "markingScheme" | "validationOk" | "validationIssues">> {
+async function peekPaperMeta(exam: RegistryExam, defaults: RegistryDefaults): Promise<Pick<LibraryExam, "questionCount" | "maxMarks" | "subjects" | "durationMinutes" | "durationSource" | "markingScheme" | "markingSource" | "validationOk" | "validationIssues">> {
   try {
     const response = await fetch(exam.dataPath, { cache: "no-store" });
     if (!response.ok) {
@@ -74,10 +74,19 @@ async function peekPaperMeta(exam: RegistryExam): Promise<Pick<LibraryExam, "que
       return { validationOk: false, validationIssues: issues };
     }
     const validation = validateExamPaper(paper);
+    const duration = resolveDuration(paper, exam, defaults);
+    const marking = resolveMarkingScheme(paper, exam, defaults);
+    const evaluableCount = Math.max(0, paper.questions.length - validation.unresolvedQuestionIds.length);
+    const maxMarks = Math.round(evaluableCount * marking.scheme.marksPerCorrect * 100) / 100;
+    const subjects = [...new Set(paper.questions.map((question) => question.subject?.trim()).filter((subject): subject is string => Boolean(subject)))];
     return {
       questionCount: paper.questions.length,
-      durationMinutes: paper.durationMinutes ?? exam.durationMinutes,
-      markingScheme: paper.markingScheme ?? exam.markingScheme,
+      maxMarks,
+      subjects,
+      durationMinutes: duration.minutes,
+      durationSource: duration.source,
+      markingScheme: marking.scheme,
+      markingSource: marking.source,
       validationOk: validation.ok,
       validationIssues: [...issues, ...validation.issues],
     };
@@ -93,18 +102,25 @@ export async function loadLibrary(): Promise<LibrarySnapshot> {
   const registry = await loadRegistry();
   const bundled = await Promise.all(
     registry.exams.map(async (exam) => {
-      const meta = await peekPaperMeta(exam);
+      const meta = await peekPaperMeta(exam, registry.defaults);
       return { ...exam, ...meta, source: "bundled" as const };
     }),
   );
   const importedRecords = await listImportedExams();
   const imported: LibraryExam[] = importedRecords.map((record) => {
     const validation = validateExamPaper(record.paper);
+    const duration = resolveDuration(record.paper, record.meta, registry.defaults);
+    const marking = resolveMarkingScheme(record.paper, record.meta, registry.defaults);
+    const evaluableCount = Math.max(0, record.paper.questions.length - validation.unresolvedQuestionIds.length);
     return {
       ...record.meta,
       questionCount: record.paper.questions.length,
-      durationMinutes: record.paper.durationMinutes ?? record.meta.durationMinutes,
-      markingScheme: record.paper.markingScheme ?? record.meta.markingScheme,
+      maxMarks: Math.round(evaluableCount * marking.scheme.marksPerCorrect * 100) / 100,
+      subjects: [...new Set(record.paper.questions.map((question) => question.subject?.trim()).filter((subject): subject is string => Boolean(subject)))],
+      durationMinutes: duration.minutes,
+      durationSource: duration.source,
+      markingScheme: marking.scheme,
+      markingSource: marking.source,
       validationOk: validation.ok,
       validationIssues: validation.issues,
       source: "imported",
@@ -177,7 +193,20 @@ export function examToRegistryExport(snapshot: LibrarySnapshot): ExamRegistry {
   return {
     schemaVersion: "1.0",
     defaults: snapshot.defaults,
-    exams: snapshot.bundled.map(({ questionCount: _q, validationOk: _ok, validationIssues: _issues, source: _source, ...exam }) => exam),
+    exams: snapshot.bundled.map((exam) => {
+      const {
+        questionCount: _questionCount,
+        maxMarks: _maxMarks,
+        subjects: _subjects,
+        durationSource: _durationSource,
+        markingSource: _markingSource,
+        validationOk: _validationOk,
+        validationIssues: _validationIssues,
+        source: _source,
+        ...registryExam
+      } = exam;
+      return registryExam;
+    }),
   };
 }
 

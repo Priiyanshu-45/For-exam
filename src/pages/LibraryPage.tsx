@@ -1,22 +1,27 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import type { LibrarySnapshot } from "../data/examLibrary";
-import { examHistory, loadActiveAttempt, loadHistory } from "../data/persistence";
+import { examHistory, listActiveAttempts, loadHistory } from "../data/persistence";
+import { isAttemptExpired } from "../engine/attempt";
 import type { LibraryExam } from "../types/exam";
 
 export function LibraryPage({ library }: { library: LibrarySnapshot }) {
   const history = loadHistory();
-  const active = loadActiveAttempt();
+  const activeAttempts = listActiveAttempts();
   const [query, setQuery] = useState("");
   const [year, setYear] = useState("all");
   const [shift, setShift] = useState("all");
   const [category, setCategory] = useState("all");
+  const [subject, setSubject] = useState("all");
   const [status, setStatus] = useState("all");
   const [sort, setSort] = useState("newest");
 
-  const years = [...new Set(library.exams.map((exam) => exam.year).filter(Boolean))] as number[];
-  const shifts = [...new Set(library.exams.map((exam) => exam.shift).filter(Boolean))] as string[];
-  const categories = [...new Set(library.exams.map((exam) => exam.category))];
+  const validExams = library.exams.filter((exam) => exam.validationOk !== false);
+  const invalidExams = library.exams.filter((exam) => exam.validationOk === false);
+  const years = [...new Set(validExams.map((exam) => exam.year).filter(Boolean))] as number[];
+  const shifts = [...new Set(validExams.map((exam) => exam.shift).filter(Boolean))] as string[];
+  const categories = [...new Set(validExams.map((exam) => exam.category))];
+  const subjects = [...new Set(validExams.flatMap((exam) => exam.subjects ?? []))].sort();
 
   const completed = history.length;
   const latest = history[0];
@@ -27,9 +32,9 @@ export function LibraryPage({ library }: { library: LibrarySnapshot }) {
 
   const exams = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    let rows = library.exams.filter((exam) => {
+    let rows = validExams.filter((exam) => {
       const attempted = examHistory(exam.id).length > 0;
-      const hay = [exam.title, exam.shift, exam.paperSet, exam.year, exam.examDate, exam.category]
+      const hay = [exam.title, exam.shift, exam.paperSet, exam.year, exam.examDate, exam.category, ...(exam.subjects ?? [])]
         .filter(Boolean)
         .join(" ")
         .toLowerCase();
@@ -37,22 +42,19 @@ export function LibraryPage({ library }: { library: LibrarySnapshot }) {
       if (year !== "all" && String(exam.year) !== year) return false;
       if (shift !== "all" && exam.shift !== shift) return false;
       if (category !== "all" && exam.category !== category) return false;
+      if (subject !== "all" && !(exam.subjects ?? []).includes(subject)) return false;
       if (status === "attempted" && !attempted) return false;
       if (status === "not-attempted" && attempted) return false;
-      return exam.validationOk !== false;
+      return true;
     });
     rows = [...rows].sort((a, b) => {
       if (sort === "name") return a.title.localeCompare(b.title);
       if (sort === "oldest") return (a.examDate || String(a.year) || "").localeCompare(b.examDate || String(b.year) || "");
-      if (sort === "score") {
-        const aBest = bestFor(a.id);
-        const bBest = bestFor(b.id);
-        return (bBest ?? -1) - (aBest ?? -1);
-      }
+      if (sort === "score") return (bestFor(b.id) ?? -1) - (bestFor(a.id) ?? -1);
       return (b.examDate || String(b.year) || "").localeCompare(a.examDate || String(a.year) || "");
     });
     return rows;
-  }, [library.exams, query, year, shift, category, status, sort]);
+  }, [validExams, query, year, shift, category, subject, status, sort]);
 
   return (
     <main id="main" className="page">
@@ -62,7 +64,7 @@ export function LibraryPage({ library }: { library: LibrarySnapshot }) {
         entry is enough; the interface does not hard-code individual papers. Browser-imported exams stay on this device only.
       </p>
       <section className="stats" aria-label="Library summary">
-        <article className="stat"><div className="label">Available exams</div><div className="value">{library.exams.length}</div></article>
+        <article className="stat"><div className="label">Available exams</div><div className="value">{validExams.length}</div></article>
         <article className="stat"><div className="label">Completed attempts</div><div className="value">{completed}</div></article>
         <article className="stat"><div className="label">Best score</div><div className="value">{best == null ? "—" : `${best}%`}</div></article>
         <article className="stat"><div className="label">Latest score</div><div className="value">{latest ? `${latest.score}/${latest.maxMarks}` : "—"}</div></article>
@@ -71,6 +73,16 @@ export function LibraryPage({ library }: { library: LibrarySnapshot }) {
         <p className="notice" role="status">
           Registry issues: {library.registryIssues.map((issue) => issue.message).join(" ")}
         </p>
+      ) : null}
+      {invalidExams.length > 0 ? (
+        <div className="notice" role="alert">
+          <strong>Some exams could not be loaded:</strong>
+          <ul>{invalidExams.map((exam) => (
+            <li key={`${exam.source}-${exam.id}`}>
+              {exam.title} ({exam.dataPath}): {(exam.validationIssues ?? []).map((issue) => issue.message).join(" ") || "Validation failed."}
+            </li>
+          ))}</ul>
+        </div>
       ) : null}
       <div className="toolbar">
         <input className="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search title, year, shift, or paper set" aria-label="Search exams" />
@@ -81,6 +93,10 @@ export function LibraryPage({ library }: { library: LibrarySnapshot }) {
         <select value={shift} onChange={(event) => setShift(event.target.value)} aria-label="Filter by shift">
           <option value="all">All shifts</option>
           {shifts.map((item) => <option key={item} value={item}>{item}</option>)}
+        </select>
+        <select value={subject} onChange={(event) => setSubject(event.target.value)} aria-label="Filter by subject">
+          <option value="all">All subjects</option>
+          {subjects.map((item) => <option key={item} value={item}>{item}</option>)}
         </select>
         <select value={category} onChange={(event) => setCategory(event.target.value)} aria-label="Filter by type">
           <option value="all">All types</option>
@@ -100,7 +116,7 @@ export function LibraryPage({ library }: { library: LibrarySnapshot }) {
       </div>
       <div className="exam-grid">
         {exams.map((exam) => (
-          <ExamCard key={`${exam.source}-${exam.id}`} exam={exam} activeId={active?.examId} />
+          <ExamCard key={`${exam.source}-${exam.id}`} exam={exam} active={activeAttempts[exam.id]} />
         ))}
       </div>
       {exams.length === 0 ? <p className="notice">No published exams match the current filters.</p> : null}
@@ -116,13 +132,14 @@ function bestFor(examId: string): number | null {
   }, null);
 }
 
-function ExamCard({ exam, activeId }: { exam: LibraryExam; activeId?: string }) {
+function ExamCard({ exam, active }: { exam: LibraryExam; active?: ReturnType<typeof listActiveAttempts>[string] }) {
   const attempts = examHistory(exam.id);
   const last = attempts[0];
-  const canResume = activeId === exam.id;
+  const best = bestFor(exam.id);
+  const canResume = Boolean(active && !active.submitted && !isAttemptExpired(active));
   const marking = exam.markingScheme;
   const markingText = marking && typeof marking.marksPerCorrect === "number"
-    ? `+${marking.marksPerCorrect} / ${marking.marksPerIncorrect ?? 0} / ${marking.marksPerUnattempted ?? 0}`
+    ? `+${marking.marksPerCorrect} correct / ${marking.marksPerIncorrect ?? 0} incorrect / ${marking.marksPerUnattempted ?? 0} unattempted`
     : "See instructions";
   return (
     <article className="card exam-card">
@@ -134,12 +151,13 @@ function ExamCard({ exam, activeId }: { exam: LibraryExam; activeId?: string }) 
         {exam.paperSet ? <span className="chip">{exam.paperSet}</span> : null}
         <span className="chip">{exam.category}</span>
         {exam.source === "imported" ? <span className="chip warn">Browser import</span> : <span className="chip">Bundled</span>}
-        {attempts.length ? <span className="chip ok">Attempted</span> : <span className="chip">Not attempted</span>}
+        {canResume ? <span className="chip warn">In progress</span> : null}
+        {attempts.length ? <span className="chip ok">Attempted ({attempts.length})</span> : <span className="chip">Not attempted</span>}
       </div>
       <p className="muted">
-        {exam.questionCount ?? "—"} questions · {exam.durationMinutes ?? "—"} min · marking {markingText}
+        {exam.questionCount ?? "—"} questions · {exam.durationMinutes ?? "—"} min · Maximum marks ({exam.maxMarks ?? "—"} max marks) · marking {markingText}
       </p>
-      {last ? <p>Previous score: {last.score}/{last.maxMarks}{last.percentage != null ? ` (${last.percentage}%)` : ""}</p> : null}
+      {last ? <p>Latest score: {last.score}/{last.maxMarks}{last.percentage != null ? ` (${last.percentage}%)` : ""} · Best score: {best == null ? "—" : `${best}%`}</p> : null}
       <div className="actions">
         <Link className="primary" to={`/exam/${encodeURIComponent(exam.id)}/instructions`}>
           {canResume ? "Resume exam" : "Start exam"}

@@ -1,7 +1,8 @@
 import { useState } from "react";
-import type { LibrarySnapshot } from "../data/examLibrary";
+import { Dialog } from "../components/Dialog";
+import { examToRegistryExport, type LibrarySnapshot } from "../data/examLibrary";
 import { parseExamPaper, validateExamPaper } from "../engine/validateExam";
-import { deleteImportedExam, saveImportedExam } from "../data/importedLibrary";
+import { deleteImportedExam, getImportedExam, saveImportedExam } from "../data/importedLibrary";
 import type { ExamPaper, ExamValidation, RegistryExam } from "../types/exam";
 
 export function ManagePage({
@@ -17,6 +18,7 @@ export function ManagePage({
   const [shift, setShift] = useState("");
   const [category, setCategory] = useState("custom");
   const [message, setMessage] = useState<string | null>(null);
+  const [examToRemove, setExamToRemove] = useState<{ id: string; title: string } | null>(null);
 
   const onFile = async (file: File | null) => {
     setMessage(null);
@@ -69,17 +71,42 @@ export function ManagePage({
   };
 
   const exportRegistry = () => {
-    const blob = new Blob([JSON.stringify({
-      schemaVersion: "1.0",
-      defaults: library.defaults,
-      exams: library.bundled,
-    }, null, 2)], { type: "application/json" });
+    const blob = new Blob([JSON.stringify(examToRegistryExport(library), null, 2)], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
     link.download = "registry.json";
     link.click();
     URL.revokeObjectURL(url);
+  };
+
+  const exportPaper = async (examId: string) => {
+    try {
+      const record = await getImportedExam(examId);
+      if (!record) throw new Error(`Imported exam ${examId} was not found in browser storage.`);
+      const blob = new Blob([JSON.stringify(record.paper, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `${examId}.json`;
+      link.click();
+      URL.revokeObjectURL(url);
+      setMessage(`Exported ${record.meta.title} as JSON.`);
+    } catch (err) {
+      setMessage(err instanceof Error ? err.message : "Could not export the imported exam.");
+    }
+  };
+
+  const removeExam = async () => {
+    if (!examToRemove) return;
+    try {
+      await deleteImportedExam(examToRemove.id);
+      setExamToRemove(null);
+      setMessage(`${examToRemove.title} was removed from this browser. Attempt history is kept.`);
+      onChange();
+    } catch (err) {
+      setMessage(err instanceof Error ? err.message : "Could not remove the imported exam.");
+    }
   };
 
   return (
@@ -128,16 +155,21 @@ export function ManagePage({
         {library.imported.map((exam) => (
           <div key={exam.id} className="actions">
             <span>{exam.title} ({exam.questionCount} questions)</span>
-            <button type="button" className="ghost" onClick={async () => {
-              if (confirm(`Remove ${exam.title} from this browser? Attempt history is kept.`)) {
-                await deleteImportedExam(exam.id);
-                onChange();
-              }
-            }}>Remove</button>
+            <button type="button" className="ghost" onClick={() => void exportPaper(exam.id)}>Export JSON</button>
+            <button type="button" className="ghost" onClick={() => setExamToRemove({ id: exam.id, title: exam.title })}>Remove</button>
           </div>
         ))}
         {library.imported.length === 0 ? <p className="muted">No imported exams in this browser.</p> : null}
       </section>
+      {examToRemove ? (
+        <Dialog title="Remove imported exam?" onClose={() => setExamToRemove(null)}>
+          <p>Remove {examToRemove.title} from this browser? Attempt history is kept.</p>
+          <div className="actions">
+            <button type="button" className="ghost" onClick={() => setExamToRemove(null)}>Cancel</button>
+            <button type="button" className="danger" onClick={() => void removeExam()}>Remove exam</button>
+          </div>
+        </Dialog>
+      ) : null}
     </main>
   );
 }

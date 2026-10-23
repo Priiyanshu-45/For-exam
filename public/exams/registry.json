@@ -13,7 +13,7 @@
   "exams": [
     {
       "id": "upsssc-pet-2021-shift-2-gamma21-a",
-      "title": "UP PET 2021 — Shift 2",
+      "title": "UPSSSC Preliminary Eligibility Test (PET) 2021 - Shift 2 (GAMMA21 Series A)",
       "year": 2021,
       "examDate": null,
       "shift": "Shift 2 (द्वितीय पाली)",
@@ -24,13 +24,24 @@
     },
     {
       "id": "PET-2025-06SEP-S1",
-      "title": "UP PET 2025 — Shift 1",
+      "title": "Preliminary Eligibility Test (PET) - 2025",
       "year": 2025,
       "examDate": "2025-09-06",
-      "shift": "Shift 1",
+      "shift": "1",
       "paperSet": "Master Set",
       "category": "previous-year",
       "dataPath": "/exams/up-pet-2025-shift-1.json",
+      "status": "published"
+    },
+    {
+      "id": "upsssc-pet-2025-09-06-shift2-jf4",
+      "title": "UPSSSC Preliminary Eligibility Test (PET) 2025 — Set JF4",
+      "year": 2025,
+      "examDate": "2025-09-06",
+      "shift": "Second (द्वितीय)",
+      "paperSet": "JF4",
+      "category": "previous-year",
+      "dataPath": "/exams/up-pet-2025-shift-2.json",
       "status": "published"
     }
   ]

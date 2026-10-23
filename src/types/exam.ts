@@ -280,8 +280,12 @@ export type UserPreferences = {
 
 export type LibraryExam = RegistryExam & {
   questionCount?: number;
+  maxMarks?: number;
+  subjects?: string[];
   durationMinutes?: number | null;
+  durationSource?: "paper" | "registry" | "defaults";
   markingScheme?: Partial<MarkingScheme> | null;
+  markingSource?: "paper" | "registry" | "defaults";
   validationOk?: boolean;
   validationIssues?: ValidationIssue[];
   source: "bundled" | "imported";

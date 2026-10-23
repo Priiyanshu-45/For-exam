@@ -30,20 +30,31 @@ export function ResultsPage() {
     return <main className="page"><p className="notice">That result was not found in this browser.</p><Link to="/">Library</Link></main>;
   }
 
-  const previous = examHistory(result.examId).filter((item) => item.attemptId !== result.attemptId);
+  const history = examHistory(result.examId);
+  const previous = history.filter((item) => item.attemptId !== result.attemptId);
   const filtered = result.questionResults.filter((item) => {
     if (filter === "incorrect") return item.outcome === "incorrect";
-    if (filter === "unanswered") return !item.selectedOptionId;
+    if (filter === "unanswered") return item.outcome === "unanswered";
     if (filter === "correct") return item.outcome === "correct";
     if (filter === "marked") return item.marked;
     if (filter === "unevaluated") return item.outcome === "unevaluated";
     return true;
   });
-  const current = filtered[Math.min(index, Math.max(0, filtered.length - 1))];
+  const currentIndex = Math.min(index, Math.max(0, filtered.length - 1));
+  const current = filtered[currentIndex];
   const question = exam?.questions.find((item) => item.id === current?.questionId);
+  const answer = exam?.answerKey[question?.id ?? ""];
   const context = exam && question?.contextId ? exam.contexts.find((item) => item.id === question.contextId) : undefined;
   const langs: Array<"en" | "hi"> = mode === "bilingual" ? ["hi", "en"] : [mode];
   const insights = useMemo(() => buildInsights(result, previous), [result, previous]);
+  const unresolved = result.breakdown.unevaluated;
+  const unansweredEvaluable = result.questionResults.filter((item) => item.outcome === "unanswered").length;
+  const timedQuestions = [...result.questionResults]
+    .filter((item) => item.timeSpentMs > 0)
+    .sort((a, b) => b.timeSpentMs - a.timeSpentMs)
+    .slice(0, 5);
+  const maxQuestionTime = Math.max(1, ...timedQuestions.map((item) => item.timeSpentMs));
+  const chronologicalHistory = [...history].sort((a, b) => a.submittedAt - b.submittedAt);
 
   return (
     <main id="main" className="page">
@@ -60,29 +71,67 @@ export function ResultsPage() {
       </section>
       <p className="muted">
         Correct {result.breakdown.correct} · Incorrect {result.breakdown.incorrect} · Unanswered {result.breakdown.unanswered} · Attempted {result.breakdown.attempted}
-        {result.breakdown.unevaluated ? ` · Unevaluated ${result.breakdown.unevaluated}` : ""} · Remaining {formatDuration(result.timeRemainingMs / 1000)} · {result.autoSubmitted ? "Auto-submitted" : "Submitted"}
+        {unresolved ? ` · Unresolved ${unresolved}` : ""} · Remaining {formatDuration(result.timeRemainingMs / 1000)} · {result.autoSubmitted ? "Auto-submitted" : "Submitted"}
       </p>
       <div className="charts-row">
         <article className="card">
           <h2>Outcome mix</h2>
-          <div className="stack-bar" aria-hidden="true">
+          <div className="stack-bar" aria-label={`${result.breakdown.correct} correct, ${result.breakdown.incorrect} incorrect, ${unansweredEvaluable} unanswered, ${unresolved} unresolved`}>
             <i className="seg-c" style={{ width: `${pct(result.breakdown.correct, result.questionResults.length)}%` }} />
             <i className="seg-i" style={{ width: `${pct(result.breakdown.incorrect, result.questionResults.length)}%` }} />
-            <i className="seg-u" style={{ width: `${pct(result.breakdown.unanswered, result.questionResults.length)}%` }} />
+            <i className="seg-u" style={{ width: `${pct(unansweredEvaluable, result.questionResults.length)}%` }} />
+            <i className="seg-x" style={{ width: `${pct(unresolved, result.questionResults.length)}%` }} />
           </div>
-          <p className="muted">Green correct, red incorrect, grey unanswered.</p>
+          <p className="chart-legend">
+            ✓ Correct ({result.breakdown.correct}) · ✗ Incorrect ({result.breakdown.incorrect}) · — Unanswered ({unansweredEvaluable}) · ? Unresolved ({unresolved})
+          </p>
         </article>
         <article className="card">
-          <h2>Subject performance</h2>
-          {result.subjectStats.filter((row) => row.subject !== "Unspecified" || result.subjectStats.length === 1).map((row) => (
-            <p key={row.subject}>{row.subject}: {row.correct} correct / {row.attempted} attempted{row.accuracy != null ? ` (${row.accuracy}%)` : ""}</p>
-          ))}
+          <h2>Subject-wise performance</h2>
+          <div className="bars chart">
+            {result.subjectStats.map((row) => {
+              const total = result.questionResults.filter((item) => item.subject === row.subject).length;
+              const accuracy = row.accuracy ?? 0;
+              return (
+                <div className="bar-row subject-bar-row" key={row.subject}>
+                  <span>{row.subject}</span>
+                  <div className="bar-track"><div className="bar" style={{ width: `${Math.max(0, Math.min(100, accuracy))}%` }} /></div>
+                  <span>{row.correct}/{total} correct ({row.attempted} attempted · {row.accuracy ?? "—"}% accuracy)</span>
+                </div>
+              );
+            })}
+          </div>
         </article>
       </div>
-      {previous.length ? (
+      {timedQuestions.length > 0 ? (
         <article className="card">
-          <h2>Previous attempts</h2>
-          <p>This score {result.breakdown.score} vs last {previous[0].score}. History is kept separately for each attempt.</p>
+          <h2>Time spent per question</h2>
+          <div className="bars chart">
+            {timedQuestions.map((item) => (
+              <div className="bar-row" key={item.questionId}>
+                <span>{item.questionId}</span>
+                <div className="bar-track"><div className="bar" style={{ width: `${(item.timeSpentMs / maxQuestionTime) * 100}%` }} /></div>
+                <span>{formatDuration(item.timeSpentMs / 1000)}</span>
+              </div>
+            ))}
+          </div>
+        </article>
+      ) : null}
+      {history.length > 1 ? (
+        <article className="card">
+          <h2>Score progression</h2>
+          <div className="bars chart">
+            {chronologicalHistory.map((item, attemptNumber) => {
+              const percentage = item.percentage ?? 0;
+              return (
+                <div className="bar-row" key={item.attemptId}>
+                  <span>Attempt {attemptNumber + 1}</span>
+                  <div className="bar-track"><div className="bar" style={{ width: `${Math.max(0, Math.min(100, percentage))}%` }} /></div>
+                  <span>{item.score}/{item.maxMarks} ({item.percentage ?? "—"}%)</span>
+                </div>
+              );
+            })}
+          </div>
         </article>
       ) : null}
       <article className="card">
@@ -101,40 +150,82 @@ export function ResultsPage() {
             <option value="marked">Marked for review</option>
             <option value="unevaluated">Unresolved keys</option>
           </select>
-          <select value={mode} onChange={(event) => setMode(event.target.value as LanguageMode)}>
+          <select value={mode} onChange={(event) => setMode(event.target.value as LanguageMode)} aria-label="Review language">
             <option value="bilingual">Bilingual</option>
             <option value="hi">Hindi</option>
             <option value="en">English</option>
           </select>
         </div>
-        {current && question ? (
+        {filtered.length ? (
           <>
-            <p className="muted">{current.outcome} · your answer {current.selectedOptionId ?? "—"} · key {current.correctAnswer ?? "unavailable"}</p>
-            {context ? <ContextBlock context={context} mode={mode} /> : null}
-            {langs.map((lang) => {
-              const text = pickText(question.question, lang);
-              if (!text) return null;
-              return <p key={lang} className="q-text"><MathText text={text} /></p>;
-            })}
-            {question.options.map((option) => {
-              const chosen = current.selectedOptionId === option.id;
-              const correct = current.correctAnswer === option.id;
-              return (
-                <div key={option.id} className={`option ${correct ? "correct" : ""} ${chosen && !correct ? "incorrect" : ""} ${chosen ? "selected" : ""}`}>
-                  <span className="oid">{option.id}</span>
-                  <span>
-                    <MathText text={pickText(option, mode === "en" ? "en" : "hi") || pickText(option, "en") || pickText(option, "hi")} />
-                    {chosen ? " · Your answer" : ""}{correct ? " · Correct answer" : ""}
-                  </span>
+            <nav className="question-jump-strip" aria-label="Jump to reviewed question">
+              {filtered.map((item, questionIndex) => (
+                <button
+                  type="button"
+                  key={item.questionId}
+                  className={questionIndex === currentIndex ? "active" : ""}
+                  aria-current={questionIndex === currentIndex ? "true" : undefined}
+                  aria-label={`Question ${item.questionId}, ${item.outcome}`}
+                  onClick={() => setIndex(questionIndex)}
+                >
+                  {questionIndex + 1}
+                </button>
+              ))}
+            </nav>
+            {current && question ? (
+              <>
+                <div className="meta">
+                  <span className="chip">Question {question.originalQuestionNumber ?? current.questionId} ({currentIndex + 1} of {filtered.length})</span>
+                  <span className="chip">Subject: {question.subject?.trim() || "General"}</span>
+                  <span className="chip">Outcome: {current.outcome.toUpperCase()}</span>
+                  <span className="chip">Your answer: {current.selectedOptionId ?? "Unanswered"}</span>
+                  <span className="chip">Verified key: {current.correctAnswer ?? "Unavailable"}</span>
+                  <span className="chip">Verification status: {answer?.verificationStatus ?? question.verificationStatus ?? "verified"}</span>
+                  <span className="chip">Time spent: {formatDuration(current.timeSpentMs / 1000)}</span>
+                  {current.marked ? <span className="chip warn">Marked for review</span> : null}
                 </div>
-              );
-            })}
-            {exam?.answerKey[question.id]?.explanation ? <p><strong>Explanation:</strong> {exam.answerKey[question.id].explanation}</p> : null}
-            {current.outcome === "unevaluated" ? <p className="notice">This question was not scored because the answer key is unresolved or incomplete.</p> : null}
-            <div className="actions">
-              <button type="button" className="ghost" disabled={index === 0} onClick={() => setIndex((value) => value - 1)}>Previous</button>
-              <button type="button" className="ghost" disabled={index >= filtered.length - 1} onClick={() => setIndex((value) => value + 1)}>Next</button>
-            </div>
+                {context ? <ContextBlock context={context} mode={mode} /> : null}
+                {langs.map((lang) => {
+                  const text = pickText(question.question, lang);
+                  if (!text) return null;
+                  return (
+                    <div key={lang} className="lang-block">
+                      {mode === "bilingual" ? <div className="lang-label">{lang === "hi" ? "हिन्दी" : "English"}</div> : null}
+                      <p className="q-text"><MathText text={text} /></p>
+                    </div>
+                  );
+                })}
+                {question.options.map((option) => {
+                  const chosen = current.selectedOptionId === option.id;
+                  const correct = current.correctAnswer === option.id;
+                  return (
+                    <div key={option.id} className={`option ${correct ? "correct" : ""} ${chosen && !correct ? "incorrect" : ""} ${chosen ? "selected" : ""}`}>
+                      <span className="oid">{option.id}</span>
+                      <span>
+                        {langs.map((lang) => {
+                          const text = pickText(option, lang);
+                          if (!text) return null;
+                          return (
+                            <div key={lang} className="lang-block">
+                              {mode === "bilingual" ? <div className="lang-label">{lang === "hi" ? "हिन्दी" : "English"}</div> : null}
+                              <MathText text={text} />
+                            </div>
+                          );
+                        })}
+                        {chosen ? " · Your answer" : ""}{correct ? " · Correct answer" : ""}
+                      </span>
+                    </div>
+                  );
+                })}
+                {answer?.explanation ? <p><strong>Explanation:</strong> <MathText text={answer.explanation} /></p> : null}
+                {answer?.issues.length ? <div className="notice"><strong>Answer-key issues:</strong><ul>{answer.issues.map((issue) => <li key={issue}>{issue}</li>)}</ul></div> : null}
+                {current.outcome === "unevaluated" ? <p className="notice">This question was not scored because the answer key is unresolved or incomplete.</p> : null}
+                <div className="actions">
+                  <button type="button" className="ghost" disabled={currentIndex === 0} onClick={() => setIndex((value) => Math.max(0, value - 1))}>Previous</button>
+                  <button type="button" className="ghost" disabled={currentIndex >= filtered.length - 1} onClick={() => setIndex((value) => Math.min(filtered.length - 1, value + 1))}>Next</button>
+                </div>
+              </>
+            ) : null}
           </>
         ) : <p>No questions in this filter.</p>}
       </article>
